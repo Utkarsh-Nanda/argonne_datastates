@@ -1,0 +1,71 @@
+Running with 1 threads
+Testing with 1 threads
+Persistent store throughput (ops/sec):
+  Same key: 1.07917e+06
+  Different keys: 138427
+Ephemeral store throughput (ops/sec):
+  Same key: 1.26073e+06
+  Different keys: 138550
+
+Running with 2 threads
+Testing with 2 threads
+Persistent store throughput (ops/sec):
+  Same key: 405413
+  Different keys: 227017
+Ephemeral store throughput (ops/sec):
+  Same key: 1.45035e+06
+  Different keys: 214526
+
+Running with 4 threads
+Testing with 4 threads
+Persistent store throughput (ops/sec):
+  Same key: 243987
+  Different keys: 336694
+Ephemeral store throughput (ops/sec):
+  Same key: 1.65442e+06
+  Different keys: 291347
+
+Running with 8 threads
+Testing with 8 threads
+Persistent store throughput (ops/sec):
+  Same key: 165656
+  Different keys: 488272
+Ephemeral store throughput (ops/sec):
+  Same key: 1.87161e+06
+  Different keys: 342434
+
+Running with 16 threads
+Testing with 16 threads
+Persistent store throughput (ops/sec):
+  Same key: 115651
+  Different keys: 1.10891e+06
+Ephemeral store throughput (ops/sec):
+  Same key: 2.28144e+06
+  Different keys: 1.01066e+06
+
+Running with 32 threads
+Testing with 32 threads
+Persistent store throughput (ops/sec):
+  Same key: 61999.3
+  Different keys: 910863
+Ephemeral store throughput (ops/sec):
+  Same key: 1.90009e+06
+  Different keys: 1.18755e+06
+
+Running with 64 threads
+Testing with 64 threads
+Persistent store throughput (ops/sec):
+  Same key: 7654.32
+  Different keys: 19465.5
+Ephemeral store throughput (ops/sec):
+  Same key: 1.37048e+06
+  Different keys: 1.19423e+06
+
+Running with 128 threads
+Testing with 128 threads
+Persistent store throughput (ops/sec):
+  Same key: 20570.6
+  Different keys: 339569
+Ephemeral store throughput (ops/sec):
+  Same key: 902055
+  Different keys: 410346

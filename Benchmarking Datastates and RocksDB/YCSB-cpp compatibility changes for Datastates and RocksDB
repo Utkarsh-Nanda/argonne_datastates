@@ -1,0 +1,188 @@
+Changes required to make vordered_kv compatible with YCSB-CPP.
+
+A multi-threaded, multi-versioning KV store with persistency support: 
+https://github.com/DataStates/vordered-kv
+
+Benchmark for KV stores extended with multi-versioning support: 
+https://github.com/bnicolae/YCSB-cpp
+
+Installing vordered_kv (linux) : 
+
+1) libpmemobj-cpp is a required dependency, clone it from "https://github.com/pmem/libpmemobj-cpp"
+
+2) libpmemobj-cpp has a required dependency of a c++ compiler and libpmemobj.
+
+2) How to install libmemobj-cpp from source : 
+
+export PKG_CONFIG_PATH=$HOME/deploy/lib/pkgconfig
+
+Get PMDK:
+wget https://github.com/pmem/pmdk/releases/download/2.1.0/pmdk-2.1.0.tar.gz
+
+Modify src/common.inc: 
+NDCTL_ENABLE ?= n
+
+Modify Makefile:
+BUILD_PACKAGE_CHECK ?= n
+DOC ?= n
+
+Install PMDK:
+PMEMOBJ_IGNORE_DIRTY_SHUTDOWN=y PMEMOBJ_IGNORE_BAD_BLOCKS=y make -j8 install prefix=$HOME/deploy (install dir)
+
+Get libpmemobj-cpp:
+wget https://github.com/pmem/libpmemobj-cpp/archive/refs/tags/1.11.1.tar.gz
+
+Configure it:
+mkdir build; cd build
+cmake -G "Unix Makefiles" -DBUILD_EXAMPLES=OFF -DBUILD_BENCHMARKS=OFF -DBUILD_DOC=OFF -DBUILD_TESTS=OFF -DCMAKE_INSTALL_PREFIX=$HOME/deploy ..
+
+Install it:
+make install
+
+To install it's dependency libpmemobj using apt package installer.
+Run :
+
+sudo apt update
+sudo apt install build-essential
+g++ --version
+
+sudo apt install libpmemobj-cpp-dev
+
+
+3) Build libpmemobj-cpp using cmake : 
+Ensure to add the install location of libpmemobj to variable PKG_CONFIG_PATH and library path of libpmemobj.so to LD_LIBRARY_PATH
+
+export PKG_CONFIG_PATH=$HOME/deploy/lib64/pkgconfig:$PKG_CONFIG_PATH
+export LD_LIBRARY_PATH=/home/utkarshnanda/deploy/lib64:$LD_LIBRARY_PATH
+
+Run :
+
+mkdir build
+cd build
+cmake .. -DCMAKE_BUILD_TYPE=Release -DTESTS_USE_VALGRIND=OFF
+make
+make install
+
+4) Build and install vordered-kv : 
+
+Change the cmake_minimum_required to a VERSION >= 3.5 in CMakeLists.txt
+If working on HPC system, ensure to include
+module load gcc-native # ensure you can access the native gcc compiler and packages
+Run :
+
+mkdir build
+cd build
+
+../configure.sh
+make
+make install
+
+This should create a folder "deploy" in Home directory with all the required header files inside "deploy/include/dstates"
+
+5) Building YCSB-cpp with datastates/vordered_kv support.
+
+Add the location of libpmemobj library to LDFLAGS in YCSB-cpp makefile
+LDFLAGS += -L$(HOME)/deploy/lib64
+
+or to the environment variable : LD_LIBRARY_PATH
+
+run : 
+
+git clone https://github.com/bnicolae/YCSB-cpp.git
+
+As some files have been renamed as well as few varaibles have been changed following changes will have to be made.
+Open file datastates_db.h : 
+Replace - #include "dstates/pskiplist.hpp" with - #include "dstates/vordered_kv.hpp"
+Replace line 23 - typedef pskiplist_t<std::string, std::string> vordered_kv_t;  with - typedef vordered_kv_t<std::string, std::string, pmem_history_t<std::string, std::string>> DataStatesType;
+Replace line 91 - static vordered_kv_t *db_;  with - static DataStatesType *db_;
+
+Open file datastates_db.cc: 
+
+Include this line while including headers : #include "dstates/pmem_history.hpp"
+Replace every occurence of "vordered_kv_t" with DataStatesType
+Replace line 134 and 155 -  if (data == phistory_t<std::string>::low_marker)  with - if (data == marker_t<std::string>::low_marker)
+Boost library is a dependency for YCSB-cpp
+
+sudo apt update
+sudo apt install libboost-all-dev
+
+To install boost library from source : 
+
+Download boost library, and extract it.
+cd path/to/boost_version
+./b2 headers
+./b2 -j2 install # adding j2 flag uses at max 2 threads, so that system doesn't run out of memory while installing.
+
+
+Changes in Makefile : 
+Include the path to the boost library.
+
+EXTRA_CXXFLAGS ?= -I$(DEPS_ROOT)/include -I/usr/include/
+
+In the build config section keep "BIND_DATASTATES ?=1" rest of the binding should be 0.
+
+If compiling with an older version of gcc, which was in my case : 
+key_info.hpp inside the install directory of datastates, in my case : /home/deploy/include/dstates/ needed modification.
+
+Struct info_t needed a simpler implementation.
+
+From :
+struct info_t {
+    int version{0};
+    bool removed{false};
+};
+std::atomic<info_t> info;
+To : 
+struct info_t {
+        std::atomic<int> version{0};
+        std::atomic<bool> removed{false};
+};
+info_t info;
+
+Run: 
+
+make BIND_DATASTATES=1
+./ycsb -load -db datastates -P workloads/workloada -P dstates/datastates.properties -s
+./ycsb -run -db datastates -P workloads/workloada -P dstates/datastates.properties -s
+
+
+Benchmarking rocksDB with YCSB-cpp (Prof. Nicolae Version)
+
+Building RocksDB from source.
+git clone https://github.com/facebook/rocksdb.git
+cd rocksdb
+make shared_lib
+
+
+Do these changes in the Makefile:
+
+EXTRA_CXXFLAGS ?= -I/path/torocksdb_header_files/rocksdb/include -I/path/to/boost/header_files/local/include
+EXTRA_LDFLAGS ?= -Lpath/to/rocksdb_libraries/rocksdb -ldl -L/path/to/boost/libraries/local/lib
+
+update $LD_LIBRARY_PATH with $LD_LIBRARY_PATH:/path/to/boost/libraries/local/lib
+export $LD_LIBRARY_PATH with $LD_LIBRARY_PATH:/path/to/boost/libraries/local/lib
+in my case : LD_LIBRARY_PATH=/home/utkarshnanda/ALCFBeginnersGuide/polaris/argonne/rocksdb $LD_LIBRARY_PATH:/path/to/boost/libraries/local/lib
+
+BIND_LEVELDB ?= 0
+BIND_ROCKSDB ?= 1
+BIND_LMDB ?= 0
+BIND_DATASTATES ?= 0
+
+Do these changes in the rocksdb.properties
+rocksdb.compression=snappy # comment this out, as we didn't use snappy for compression 
+
+Do these changes in the rocksdb_db.cc : 
+Comment out everything inside if (options_file != "") {
+}
+Cause we won't be using options file in any case.
+
+Comment out table_options.block_cache_compressed = rocksdb::NewLRUCache(compressed_cache_size);
+
+update LD_LIBRARY_PATH with $LD_LIBRARY_PATH: librocksdb.so
+For my case : LD_LIBRARY_PATH = /home/utkarshnanda/ALCFBeginnersGuide/polaris/argonne/rocksdb:$LD_LIBRARY_PATH
+
+Run this : 
+make BIND_ROCKSDB=1
+./ycsb -load -db rocksdb -P workloads/workloada -P rocksdb/rocksdb.properties -s
+./ycsb -run -db rocksdb -P workloads/workloada -P rocksdb/rocksdb.properties -s
+
