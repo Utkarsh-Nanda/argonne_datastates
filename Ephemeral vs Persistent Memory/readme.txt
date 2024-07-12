@@ -1,6 +1,8 @@
+Keep all the files in the YCSB-cpp directory.
+
 To run the code first setup the environment by running : 
 
-moudle avail gnu
+module avail gnu
 source ./config.sh
 
 Then setup the python environment by running : 
