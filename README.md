@@ -2,4 +2,4 @@ Benchmarking Datastates and RocksDB - It uses YCSB-cpp to benchmark Datastates a
 
 Ephemeral vs Persistent Memory - It has a custom script to benchmark Datastates under two different memory allocation.
 
-Ephemeral vs Persitent, Same Key vs Diff Key, Datastates vs RocksDB - It builds upon the work done in "Ephemeral vs Persistent Memory" to include RocksDB custom benchmarking script as well as updated custom script for Datastates for randomised keys and updates.
+Datastates vs RocksDB Exact implementation  - It builds upon the work done in "Ephemeral vs Persistent Memory" to include RocksDB custom benchmarking script as well as updated custom script for Datastates for randomised keys and updates. The implementation includes the same functions being called by YCSB to generate the key, the value, serialization and deserialization.
