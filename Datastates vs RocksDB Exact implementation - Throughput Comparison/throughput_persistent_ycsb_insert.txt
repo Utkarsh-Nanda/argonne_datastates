@@ -1,0 +1,578 @@
+
+Runtime of each thread : 
+2024-07-30 15:07:42 [DEBUG 0 sec: 0] [dstates/datastates_db.cc:183:Init] deleting /dev/shm/persistent_db.dat
+0 operations;
+[DEBUG 0] [/home/utkarshnanda/deploy/include/dstates/pmem_history.hpp:43:pmem_history_t] created a new pmembobj pool, path = /dev/shm/persistent_db.dat
+2024-07-30 15:07:52 10 sec: 71275 operations; [INSERT: Count=71275 Max=97430.31 Min=40.10 Avg=61.96]
+2024-07-30 15:07:55 13 sec: 100000 operations; [INSERT: Count=100000 Max=97430.31 Min=40.10 Avg=59.90]
+13.0789 
+Total client threads : 1
+Load runtime(sec): 13.0804
+Load operations(ops): 100000
+Load throughput(ops/sec): 7645.03
+Load throughtput(ops/sec): Only inserts : 1.02206e+09
+Extra runtime(sec): start : 0.000308415 mid : 9.7842e-05 Extra runtime(sec): end : 13.08
+
+DataStates Stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB Stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+
+Runtime of each thread : 
+2024-07-30 15:07:55 0 sec: 0 operations;
+2024-07-30 15:08:05 10 sec: 62266 operations; [INSERT: Count=62266 Max=1258.05 Min=40.88 Avg=82.63]
+2024-07-30 15:08:09 14 sec: 100000 operations; [INSERT: Count=100000 Max=1258.05 Min=40.45 Avg=72.61]
+14.3039 
+Total client threads : 1
+Run runtime(sec): 14.3043
+Run operations(ops): 100000
+Run throughput(ops/sec): 6990.92
+Run throughtput(ops/sec): Only inserts : 5.1602e+08
+Extra runtime(sec): start : 8.2995e-05 mid : 0.000193791 Extra runtime(sec): end : 14.304
+DataStates stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+------------------------------------------------------------------------------------------------------------------------------------------
+2024-07-30 15:08:09 0 sec: 
+Runtime of each thread : 
+[DEBUG 0] [dstates/datastates_db.cc:183:Init] deleting /dev/shm/persistent_db.dat
+0 operations;
+[DEBUG 0] [/home/utkarshnanda/deploy/include/dstates/pmem_history.hpp:43:pmem_history_t] created a new pmembobj pool, path = /dev/shm/persistent_db.dat
+8.42556 2024-07-30 15:08:18 8 sec: 100000 operations; [INSERT: Count=100000 Max=98238.80 Min=41.51 Avg=81.71]
+0.232503 
+Total client threads : 2
+Load runtime(sec): 8.65889
+Load operations(ops): 100000
+Load throughput(ops/sec): 11548.8
+Load throughtput(ops/sec): Only inserts : 3.59507e+08
+Extra runtime(sec): start : 0.00020368 mid : 0.000278159 Extra runtime(sec): end : 8.65841
+
+DataStates Stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB Stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+2024-07-30 15:08:18 0 sec: 0 operations;
+
+Runtime of each thread : 
+7.10564 2024-07-30 15:08:26 7 sec: 100000 operations; [INSERT: Count=100000 Max=2274.06 Min=41.68 Avg=78.94]
+0.729279 
+Total client threads : 2
+Run runtime(sec): 7.83573
+Run operations(ops): 100000
+Run throughput(ops/sec): 12762.1
+Run throughtput(ops/sec): Only inserts : 2.60916e+08
+Extra runtime(sec): start : 0.000277528 mid : 0.000383265 Extra runtime(sec): end : 7.83507
+DataStates stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+------------------------------------------------------------------------------------------------------------------------------------------
+2024-07-30 15:08:26 0 sec: [DEBUG 0] [dstates/datastates_db.cc:183:Init] deleting /dev/shm/persistent_db.dat
+0 operations;
+
+Runtime of each thread : 
+[DEBUG 0] [/home/utkarshnanda/deploy/include/dstates/pmem_history.hpp:43:pmem_history_t] created a new pmembobj pool, path = /dev/shm/persistent_db.dat
+6.50065 2024-07-30 15:08:33 6 sec: 100000 operations; [INSERT: Count=100000 Max=199863.15 Min=44.76 Avg=114.92]
+0.227839 0.000231682 3.1389e-05 
+Total client threads : 4
+Load runtime(sec): 6.7299
+Load operations(ops): 100000
+Load throughput(ops/sec): 14859.1
+Load throughtput(ops/sec): Only inserts : 1.80019e+08
+Extra runtime(sec): start : 0.000261868 mid : 0.000555496 Extra runtime(sec): end : 6.72908
+
+DataStates Stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB Stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+2024-07-30 15:08:33 0 sec: 0 operations;
+
+Runtime of each thread : 
+3.95379 2024-07-30 15:08:38 5 sec: 100000 operations; [INSERT: Count=100000 Max=1572.69 Min=44.47 Avg=92.78]
+1.19191 2.7882e-05 2.8262e-05 
+Total client threads : 4
+Run runtime(sec): 5.14699
+Run operations(ops): 100000
+Run throughput(ops/sec): 19428.8
+Run throughtput(ops/sec): Only inserts : 1.24742e+08
+Extra runtime(sec): start : 0.0002897 mid : 0.000801655 Extra runtime(sec): end : 5.1459
+DataStates stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+------------------------------------------------------------------------------------------------------------------------------------------
+2024-07-30 15:08:38 0 sec: [DEBUG 0] [dstates/datastates_db.cc:183:Init] deleting /dev/shm/persistent_db.dat
+0 operations;
+
+Runtime of each thread : 
+[DEBUG 0] [/home/utkarshnanda/deploy/include/dstates/pmem_history.hpp:43:pmem_history_t] created a new pmembobj pool, path = /dev/shm/persistent_db.dat
+4.16164 0.105764 0.000404364 2.7592e-05 2.642e-05 2024-07-30 15:08:42 4 sec: 0.00293769 2.171e-05 100000 operations; [INSERT: Count=100000 Max=199625.30 Min=45.15 Avg=135.36]
+2.2552e-05 
+Total client threads : 8
+Load runtime(sec): 4.27206
+Load operations(ops): 100000
+Load throughput(ops/sec): 23407.9
+Load throughtput(ops/sec): Only inserts : 1.38749e+08
+Extra runtime(sec): start : 0.000213718 mid : 0.000720724 Extra runtime(sec): end : 4.27112
+
+DataStates Stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB Stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+2024-07-30 15:08:42 0 sec: 0 operations;
+
+Runtime of each thread : 
+2024-07-30 15:08:45 3 sec: 100000 operations; [INSERT: Count=100000 Max=1423.81 Min=53.72 Avg=116.88]
+3.01872 2.7511e-05 2.2802e-05 2.4515e-05 2.3023e-05 2.5147e-05 2.3394e-05 2.4546e-05 
+Total client threads : 8
+Run runtime(sec): 3.02093
+Run operations(ops): 100000
+Run throughput(ops/sec): 33102.4
+Run throughtput(ops/sec): Only inserts : 6.05062e+07
+Extra runtime(sec): start : 0.000257731 mid : 0.00165272 Extra runtime(sec): end : 3.01902
+DataStates stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+------------------------------------------------------------------------------------------------------------------------------------------
+2024-07-30 15:08:46[ DEBUG 0 sec: 0] [dstates/datastates_db.cc:183:Init] deleting /dev/shm/persistent_db.dat
+0 operations;
+
+Runtime of each thread : 
+[DEBUG 0] [/home/utkarshnanda/deploy/include/dstates/pmem_history.hpp:43:pmem_history_t] created a new pmembobj pool, path = /dev/shm/persistent_db.dat
+3.79218 2024-07-30 15:08:49 3 sec: 100000 operations; [INSERT: Count=100000 Max=200290.33 Min=52.55 Avg=313.12]
+0.0200517 2.5667e-05 2.137e-05 2.1169e-05 2.144e-05 2.0158e-05 2.12e-05 2.0789e-05 2.0048e-05 2.0318e-05 2.0618e-05 1.9807e-05 2.1319e-05 2.0007e-05 2.14e-05 
+Total client threads : 16
+Load runtime(sec): 3.81405
+Load operations(ops): 100000
+Load throughput(ops/sec): 26218.8
+Load throughtput(ops/sec): Only inserts : 8.78338e+07
+Extra runtime(sec): start : 0.000208038 mid : 0.00113851 Extra runtime(sec): end : 3.8127
+
+DataStates Stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB Stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+2024-07-30 15:08:49 0 sec: 0 operations;
+
+Runtime of each thread : 
+2.56135 8.3626e-05 0.000225802 0.00692207 4.312e-05 4.6958e-05 4.0776e-05 3.9764e-05 3.5997e-05 5.7528e-05 2024-07-30 15:08:52 2 sec: 100000 operations; [INSERT: Count=100000 Max=49937.89 Min=66.78 Avg=292.26]
+0.381336 0.000242031 4.0656e-05 2.8373e-05 2.5147e-05 2.669e-05 
+Total client threads : 16
+Run runtime(sec): 2.95522
+Run operations(ops): 100000
+Run throughput(ops/sec): 33838.4
+Run throughtput(ops/sec): Only inserts : 2.40456e+07
+Extra runtime(sec): start : 0.000250908 mid : 0.00415876 Extra runtime(sec): end : 2.95081
+DataStates stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+------------------------------------------------------------------------------------------------------------------------------------------
+2024-07-30 15:08:53 0 sec: [DEBUG 0] [dstates/datastates_db.cc:183:Init] deleting /dev/shm/persistent_db.dat
+0 operations;
+
+Runtime of each thread : 
+[DEBUG 0] [/home/utkarshnanda/deploy/include/dstates/pmem_history.hpp:43:pmem_history_t] created a new pmembobj pool, path = /dev/shm/persistent_db.dat
+4.81891 0.0216528 4.5225e-05 3.6538e-05 3.1879e-05 3.2991e-05 3.4574e-05 3.725e-05 0.0678363 3.8902e-05 2.8463e-05 3.2962e-05 2.7882e-05 2.702e-05 2.8282e-05 2.9244e-05 3.3623e-05 2.8533e-05 3.213e-05 3.2671e-05 2.8382e-05 3.0026e-05 2.7271e-05 2.9004e-05 2.8894e-05 3.3051e-05 2.6139e-05 2.8984e-05 2.5808e-05 0.0304119 2024-07-30 15:08:57 4 sec: 3.6589e-05 3.9543e-05 
+Total client threads : 32
+100000 operations; [INSERT: Count=100000 Max=299751.03 Min=62.95 Avg=975.92]
+Load runtime(sec): 4.94432
+Load operations(ops): 100000
+Load throughput(ops/sec): 20225.2
+Load throughtput(ops/sec): Only inserts : 2.651e+07
+Extra runtime(sec): start : 0.000537553 mid : 0.00377217 Extra runtime(sec): end : 4.94
+
+DataStates Stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB Stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+2024-07-30 15:08:58 0 sec: 0 operations;
+
+Runtime of each thread : 
+3.61306 4.4312e-05 3.8772e-05 0.0705141 3.7961e-05 0.0196548 3.2621e-05 2.709e-05 2.7321e-05 2.692e-05 3.0216e-05 3.234e-05 3.0206e-05 2.5939e-05 2024-07-30 15:09:02 3 sec: 100000 operations; [INSERT: Count=100000 Max=76986.14 Min=64.25 Avg=1048.62]
+0.276047 4.0045e-05 0.000301112 4.8641e-05 3.4514e-05 3.2962e-05 2.7341e-05 2.9605e-05 3.0256e-05 3.1909e-05 3.3072e-05 3.0938e-05 3.3953e-05 3.2671e-05 3.2952e-05 4.0856e-05 3.0006e-05 2.7251e-05 
+Total client threads : 32
+Run runtime(sec): 3.99087
+Run operations(ops): 100000
+Run throughput(ops/sec): 25057.2
+Run throughtput(ops/sec): Only inserts : 1.02069e+07
+Extra runtime(sec): start : 0.000365813 mid : 0.00979728 Extra runtime(sec): end : 3.98071
+DataStates stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+------------------------------------------------------------------------------------------------------------------------------------------
+2024-07-30 [15:09:02DEBUG  0 sec: 0] [dstates/datastates_db.cc:183:Init] deleting /dev/shm/persistent_db.dat
+0 operations;
+
+Runtime of each thread : 
+[DEBUG 0] [/home/utkarshnanda/deploy/include/dstates/pmem_history.hpp:43:pmem_history_t] created a new pmembobj pool, path = /dev/shm/persistent_db.dat
+5.87648 0.013764 2.5788e-05 4.1407e-05 2.1681e-05 2.2732e-05 2.3143e-05 2.162e-05 2.5057e-05 2.3053e-05 2.0378e-05 2.2402e-05 2.2201e-05 2.0158e-05 2.0468e-05 2.2362e-05 2.9054e-05 2.3354e-05 1.9857e-05 2.0458e-05 1.8995e-05 2.1019e-05 0.000688133 2.2031e-05 2.3935e-05 2024-07-30 15:09:08 5 sec: 3.0046e-05 1.9517e-05 2.3474e-05 100000 operations; [INSERT: Count=100000 Max=404232.60 Min=63.67 Avg=2641.55]2.0187e-05
+ 2.4947e-05 0.000153226 1.7723e-05 1.6581e-05 1.7302e-05 1.593e-05 1.9787e-05 2.149e-05 1.6321e-05 1.5709e-05 2.145e-05 1.6931e-05 1.7062e-05 1.7322e-05 2.3584e-05 1.6481e-05 1.5488e-05 1.7633e-05 1.7242e-05 1.6641e-05 0.000223166 1.9857e-05 1.9817e-05 2.2021e-05 1.8474e-05 1.9747e-05 2.71e-05 2.3674e-05 2.2612e-05 2.0338e-05 1.9376e-05 2.1109e-05 1.9967e-05 2.3294e-05 3.2531e-05 
+Total client threads : 64
+Load runtime(sec): 5.89731
+Load operations(ops): 100000
+Load throughput(ops/sec): 16956.9
+Load throughtput(ops/sec): Only inserts : 2.37518e+07
+Extra runtime(sec): start : 0.000227414 mid : 0.0042102 Extra runtime(sec): end : 5.89287
+
+DataStates Stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB Stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+2024-07-30 15:09:08 0 sec: 0 operations;
+
+Runtime of each thread : 
+5.30078 0.0115024 0.244428 3.3343e-05 2.8153e-05 2.7121e-05 2.8824e-05 0.0021243 2.7291e-05 2.4615e-05 3.3403e-05 2.5137e-05 2.3824e-05 2.5748e-05 2.7662e-05 2.5668e-05 2.671e-05 2.4917e-05 2.2462e-05 2.5848e-05 2.4806e-05 2.6058e-05 2.5868e-05 2.3023e-05 2.3694e-05 2.3764e-05 2.8944e-05 2024-07-30 15:09:13 5 sec: 100000 operations; [INSERT: Count=100000 Max=89281.84 Min=65.14 Avg=3301.33]
+0.255843 0.000229317 3.1008e-05 2.7652e-05 3.0016e-05 2.5407e-05 2.4445e-05 2.5648e-05 2.4896e-05 2.3955e-05 2.5548e-05 2.9405e-05 2.675e-05 2.8533e-05 2.705e-05 2.8694e-05 2.9816e-05 2.8363e-05 2.668e-05 2.7892e-05 2.8263e-05 2.5588e-05 3.212e-05 2.4446e-05 2.6068e-05 2.7402e-05 2.8223e-05 2.8433e-05 2.5557e-05 2.7421e-05 2.8854e-05 2.4395e-05 2.5869e-05 2.7993e-05 2.4356e-05 2.671e-05 3.5036e-05 
+Total client threads : 64
+Run runtime(sec): 5.83712
+Run operations(ops): 100000
+Run throughput(ops/sec): 17131.7
+Run throughtput(ops/sec): Only inserts : 4.99266e+06
+Extra runtime(sec): start : 0.000206916 mid : 0.0200294 Extra runtime(sec): end : 5.81688
+DataStates stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+------------------------------------------------------------------------------------------------------------------------------------------
+2024-07-30 15:09:14 0 sec: [DEBUG 0] [dstates/datastates_db.cc:183:Init] deleting /dev/shm/persistent_db.dat
+0 operations;
+
+Runtime of each thread : 
+[DEBUG 0] [/home/utkarshnanda/deploy/include/dstates/pmem_history.hpp:43:pmem_history_t] created a new pmembobj pool, path = /dev/shm/persistent_db.dat
+8.72595 0.115312 3.5506e-05 0.00159422 2.9505e-05 2.9515e-05 2.8483e-05 3.1068e-05 2.6009e-05 2.6549e-05 2.8343e-05 2.709e-05 2.7761e-05 2.8383e-05 3.6227e-05 3.7981e-05 2.5317e-05 2.9405e-05 2.8914e-05 2.8473e-05 2.8012e-05 3.5155e-05 2.5217e-05 2.697e-05 2.5528e-05 2.5658e-05 2.7271e-05 2.7211e-05 3.7901e-05 2.4345e-05 2.4376e-05 2.9175e-05 2.672e-05 3.8151e-05 3.202e-05 2.5728e-05 2.4706e-05 2.6019e-05 2.8783e-05 2.9014e-05 0.000946566 2.6881e-05 2.9846e-05 2.4866e-05 2.3864e-05 2.4235e-05 2.2642e-05 2.4576e-05 2.2512e-05 2.8153e-05 2.4015e-05 2.3283e-05 2.7381e-05 2.2813e-05 2.2623e-05 2.3063e-05 2.3865e-05 2.9706e-05 2.3744e-05 2.3915e-05 2.3153e-05 2.2523e-05 2.3313e-05 2.149e-05 2.7502e-05 2.4656e-05 2.2712e-05 2.159e-05 2.2152e-05 2.2081e-05 2.9906e-05 2.2412e-05 2.2212e-05 2.3023e-05 2.3243e-05 2.1721e-05 2.7632e-05 2.8313e-05 2.1731e-05 2.2813e-05 2.5207e-05 3.0717e-05 2024-07-30 15:09:22 2.2942e-05 8 sec: 2.669e-05 2.4856e-05 100000 operations; [INSERT: Count=100000 Max=314067.16 Min=67.11 Avg=8656.19]
+2.169e-05 2.2702e-05 0.000200293 2.149e-05 2.4877e-05 1.8615e-05 2.2623e-05 2.138e-05 2.0348e-05 1.9787e-05 2.0158e-05 2.4967e-05 1.9727e-05 2.0068e-05 1.9336e-05 2.1049e-05 2.2011e-05 2.0468e-05 2.6689e-05 1.8985e-05 2.0148e-05 1.8465e-05 1.9777e-05 1.9326e-05 2.4746e-05 1.9646e-05 2.0128e-05 2.0148e-05 1.8495e-05 2.1249e-05 1.9226e-05 2.4696e-05 1.7452e-05 2.0048e-05 1.9988e-05 1.8535e-05 1.8725e-05 2.5317e-05 2.0688e-05 2.0007e-05 1.8886e-05 2.0468e-05 1.8936e-05 
+Total client threads : 128
+Load runtime(sec): 8.85837
+Load operations(ops): 100000
+Load throughput(ops/sec): 11288.8
+Load throughtput(ops/sec): Only inserts : 9.38862e+06
+Extra runtime(sec): start : 0.000255216 mid : 0.0106512 Extra runtime(sec): end : 8.84745
+
+DataStates Stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB Stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+2024-07-30 15:09:23 0 sec: 0 operations;
+
+Runtime of each thread : 
+7.7013 5.7387e-05 3.6358e-05 3.797e-05 3.4695e-05 3.2741e-05 3.5527e-05 2.5898e-05 2.5478e-05 3.4916e-05 3.9844e-05 8.7984e-05 3.7671e-05 6.1554e-05 3.3282e-05 3.3843e-05 2.8103e-05 4.6487e-05 0.0225888 3.5787e-05 2.9295e-05 2.9304e-05 2.4225e-05 2.5858e-05 2.8533e-05 2.3744e-05 2.7972e-05 3.6589e-05 2.7351e-05 3.1409e-05 2.7942e-05 2.7652e-05 2.6259e-05 2.3373e-05 2.1771e-05 2.8162e-05 3.3262e-05 3.6418e-05 2.7441e-05 3.0657e-05 2.5738e-05 2.2492e-05 3.5146e-05 2.6659e-05 3.0337e-05 3.0597e-05 2.9555e-05 2.2742e-05 2.1711e-05 2.677e-05 2.5628e-05 2.8323e-05 2.698e-05 2.3815e-05 2.4716e-05 2.5918e-05 2.148e-05 2.5959e-05 2.4596e-05 3.223e-05 2.1209e-05 2.673e-05 2.676e-05 2.148e-05 2.5898e-05 2.3944e-05 2.2842e-05 2.0498e-05 2.0879e-05 2.7561e-05 2.6319e-05 2.2482e-05 2.7952e-05 2.4185e-05 2.6229e-05 2.4466e-05 2.8633e-05 2.5197e-05 2.3043e-05 2.4465e-05 2.5417e-05 2.5388e-05 2024-07-30 15:09:31 8 sec: 100000 operations; [INSERT: Count=100000 Max=100015.10 Min=64.77 Avg=9365.88]
+0.255502 0.000205814 2.9535e-05 2.4085e-05 2.5567e-05 2.4175e-05 2.4225e-05 2.4646e-05 2.1951e-05 2.5718e-05 2.137e-05 2.4936e-05 2.2251e-05 2.9325e-05 2.7732e-05 2.8083e-05 2.7722e-05 2.6359e-05 2.5297e-05 2.2472e-05 2.3855e-05 2.5187e-05 2.161e-05 2.706e-05 2.4035e-05 2.4756e-05 2.134e-05 2.3424e-05 2.5036e-05 2.3664e-05 2.6259e-05 2.128e-05 2.2202e-05 2.3464e-05 2.5879e-05 2.2472e-05 2.157e-05 2.1501e-05 2.2753e-05 2.4827e-05 2.3304e-05 2.1941e-05 2.174e-05 2.14e-05 2.0678e-05 1.9677e-05 
+Total client threads : 128
+Run runtime(sec): 8.10732
+Run operations(ops): 100000
+Run throughput(ops/sec): 12334.5
+Run throughtput(ops/sec): Only inserts : 808129
+Extra runtime(sec): start : 0.000232043 mid : 0.123743 Extra runtime(sec): end : 7.98335
+DataStates stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,568 @@
+
+Runtime of each thread : 
+[DEBUG 0] [dstates/datastates_db.cc:183:Init] deleting /dev/shm/persistent_db.dat
+2024-07-30 15:31:01 0 sec: 0 operations;
+2024-07-30 15:31:10 8 sec: 8.097 
+Total client threads : 1
+100000 operations; [INSERT: Count=100000 Max=10406.91 Min=5.14 Avg=11.91]
+Load runtime(sec): 8.09748
+Load operations(ops): 100000
+Load throughput(ops/sec): 12349.5
+Load throughtput(ops/sec): Only inserts : 1.46482e+09
+Extra runtime(sec): start : 0.000229087 mid : 6.8268e-05 Extra runtime(sec): end : 8.09718
+
+DataStates Stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB Stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+2024-07-30 15:31:10 0 sec: 0 operations;
+
+Runtime of each thread : 
+2024-07-30 15:31:17 7 sec: 100000 operations; [INSERT: Count=100000 Max=4754.76 Min=5.44 Avg=12.43]
+7.73712 
+Total client threads : 1
+Run runtime(sec): 7.73769
+Run operations(ops): 100000
+Run throughput(ops/sec): 12923.8
+Run throughtput(ops/sec): Only inserts : 8.25859e+08
+Extra runtime(sec): start : 0.000257009 mid : 0.000121086 Extra runtime(sec): end : 7.73731
+DataStates stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+------------------------------------------------------------------------------------------------------------------------------------------
+2024-07-30 
+Runtime of each thread : 
+15:31:17 0 sec: [DEBUG 0] [dstates/datastates_db.cc:183:Init] deleting 0 operations;/dev/shm/persistent_db.dat
+
+4.09758 2024-07-30 15:31:22 4 sec: 100000 operations; [INSERT: Count=100000 Max=18631.35 Min=5.78 Avg=15.92]
+0.0580157 
+Total client threads : 2
+Load runtime(sec): 4.15647
+Load operations(ops): 100000
+Load throughput(ops/sec): 24058.9
+Load throughtput(ops/sec): Only inserts : 2.57969e+08
+Extra runtime(sec): start : 0.00021943 mid : 0.000387643 Extra runtime(sec): end : 4.15586
+
+DataStates Stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB Stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+2024-07-30 15:31:22 0 sec: 0 operations;
+
+Runtime of each thread : 
+4.13054 2024-07-30 15:31:26 4 sec: 100000 operations; [INSERT: Count=100000 Max=2461.06 Min=5.73 Avg=15.26]
+0.557784 
+Total client threads : 2
+Run runtime(sec): 4.68907
+Run operations(ops): 100000
+Run throughput(ops/sec): 21326.2
+Run throughtput(ops/sec): Only inserts : 2.84702e+08
+Extra runtime(sec): start : 0.00025691 mid : 0.000351245 Extra runtime(sec): end : 4.68846
+DataStates stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+------------------------------------------------------------------------------------------------------------------------------------------
+[DEBUG 2024-07-30 15:31:27 0] [dstates/datastates_db.cc:183:Init] deleting /dev/shm/persistent_db.dat0 sec: 
+
+Runtime of each thread : 
+0 operations;
+2.52729 0.055087 2024-07-30 15:31:29 2 sec: 0.165267 2.4616e-05 
+Total client threads : 4
+100000 operations; [INSERT: Count=100000 Max=16053.73 Min=6.32 Avg=17.80]
+Load runtime(sec): 2.74842
+Load operations(ops): 100000
+Load throughput(ops/sec): 36384.5
+Load throughtput(ops/sec): Only inserts : 2.50573e+08
+Extra runtime(sec): start : 0.00011246 mid : 0.000399085 Extra runtime(sec): end : 2.7479
+
+DataStates Stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB Stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+2024-07-30 15:31:29 0 sec: 0 operations;
+
+Runtime of each thread : 
+2.5165 0.00332037 2024-07-30 15:31:32 2 sec: 0.409904 100000 operations; [INSERT: Count=100000 Max=750.98 Min=6.40 Avg=17.47]
+2.678e-05 
+Total client threads : 4
+Run runtime(sec): 2.93044
+Run operations(ops): 100000
+Run throughput(ops/sec): 34124.6
+Run throughtput(ops/sec): Only inserts : 2.73604e+08
+Extra runtime(sec): start : 0.000134581 mid : 0.000365492 Extra runtime(sec): end : 2.92994
+DataStates stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+------------------------------------------------------------------------------------------------------------------------------------------
+[DEBUG 2024-07-30 15:31:32 0] [dstates/datastates_db.cc:183:Init] deleting /dev/shm/persistent_db.dat0 sec: 
+0 operations;
+
+Runtime of each thread : 
+1.49626 0.00303832 3.0006e-05 2.9024e-05 3.3322e-05 0.0294336 2024-07-30 15:31:34 1 sec: 0.046524 2.6569e-05 
+Total client threads : 8
+100000 operations; [INSERT: Count=100000 Max=23289.00 Min=9.23 Avg=24.67]
+Load runtime(sec): 1.57654
+Load operations(ops): 100000
+Load throughput(ops/sec): 63430.1
+Load throughtput(ops/sec): Only inserts : 1.21127e+08
+Extra runtime(sec): start : 0.000130654 mid : 0.00082558 Extra runtime(sec): end : 1.57558
+
+DataStates Stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB Stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+2024-07-30 15:31:34 0 sec: 0 operations;
+
+Runtime of each thread : 
+1.49923 3.4454e-05 3.0947e-05 0.0280511 2.5157e-05 2.3333e-05 2024-07-30 15:31:36 2 sec: 100000 operations; [INSERT: Count=100000 Max=634.38 Min=12.49 Avg=23.20]
+0.731356 3.745e-05 
+Total client threads : 8
+Run runtime(sec): 2.25982
+Run operations(ops): 100000
+Run throughput(ops/sec): 44251.3
+Run throughtput(ops/sec): Only inserts : 1.46476e+08
+Extra runtime(sec): start : 0.000145692 mid : 0.000682705 Extra runtime(sec): end : 2.25899
+DataStates stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+------------------------------------------------------------------------------------------------------------------------------------------
+[DEBUG 0] [dstates/datastates_db.cc:183:Init] deleting /dev/shm/persistent_db.dat
+2024-07-30 15:31:36 0 sec: 0 operations;
+
+Runtime of each thread : 
+1.06383 0.0573401 3.8742e-05 3.5296e-05 4.8922e-05 2.3574e-05 2024-07-30 15:31:38 1 sec: 100000 operations; [INSERT: Count=100000 Max=50046.66 Min=9.20 Avg=100.21]
+0.0903779 3.1269e-05 2.2642e-05 2.5448e-05 2.168e-05 1.8665e-05 2.644e-05 2.0318e-05 2.5718e-05 2.3875e-05 
+Total client threads : 16
+Load runtime(sec): 1.21527
+Load operations(ops): 100000
+Load throughput(ops/sec): 82286.4
+Load throughtput(ops/sec): Only inserts : 3.38238e+07
+Extra runtime(sec): start : 0.000211374 mid : 0.0029565 Extra runtime(sec): end : 1.21209
+
+DataStates Stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB Stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+2024-07-30 15:31:38 0 sec: 0 operations;
+
+Runtime of each thread : 
+1.08978 0.0029981 2024-07-30 15:31:40 2 sec: 100000 operations; [INSERT: Count=100000 Max=49699.24 Min=9.74 Avg=106.51]
+0.990433 6.965e-05 3.0106e-05 2.4536e-05 2.5017e-05 2.7481e-05 3.1319e-05 2.8613e-05 3.0096e-05 2.2332e-05 2.7962e-05 2.5488e-05 2.682e-05 2.5227e-05 
+Total client threads : 16
+Run runtime(sec): 2.08723
+Run operations(ops): 100000
+Run throughput(ops/sec): 47910.5
+Run throughtput(ops/sec): Only inserts : 3.11068e+07
+Extra runtime(sec): start : 0.00024653 mid : 0.00321473 Extra runtime(sec): end : 2.08376
+DataStates stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+------------------------------------------------------------------------------------------------------------------------------------------
+2024-07-30 15:31:40 0 sec: [DEBUG 0] [dstates/datastates_db.cc:183:Init] deleting /dev/shm/persistent_db.dat
+0 operations;
+
+Runtime of each thread : 
+1.23304 4.287e-05 4.3261e-05 0.00048179 4.0215e-05 0.0154254 2.9735e-05 3.7269e-05 3.0057e-05 2.7401e-05 2.8283e-05 0.0785792 3.0227e-05 2.654e-05 2.9094e-05 2.9526e-05 2.2843e-05 2.4065e-05 2.6529e-05 0.00176432 3.3031e-05 3.0136e-05 2.0328e-05 2.5557e-05 2.7802e-05 2.2893e-05 1.9627e-05 2.3844e-05 2.6038e-05 5.5283e-05 2.5748e-05 2024-07-30 15:31:41 1 sec: 100000 operations; [INSERT: Count=100000 Max=71364.73 Min=9.63 Avg=323.83]
+0.00320668 
+Total client threads : 32
+Load runtime(sec): 1.34076
+Load operations(ops): 100000
+Load throughput(ops/sec): 74584.6
+Load throughtput(ops/sec): Only inserts : 1.43141e+07
+Extra runtime(sec): start : 0.000257601 mid : 0.00698613 Extra runtime(sec): end : 1.33351
+
+DataStates Stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB Stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+2024-07-30 15:31:41 0 sec: 0 operations;
+
+Runtime of each thread : 
+1.23381 5.1365e-05 0.0128303 3.9143e-05 3.3102e-05 3.6228e-05 2.6269e-05 3.2421e-05 2.4296e-05 2.9686e-05 3.1199e-05 2024-07-30 15:31:43 2 sec: 100000 operations; [INSERT: Count=100000 Max=73995.53 Min=9.95 Avg=320.01]
+0.82578 3.0838e-05 2.5878e-05 2.4216e-05 2.4897e-05 1.9897e-05 1.9466e-05 2.5368e-05 2.5548e-05 2.4636e-05 2.4596e-05 2.3073e-05 2.4756e-05 2.2903e-05 1.9256e-05 2.2482e-05 2.2252e-05 2.2412e-05 2.4786e-05 2.4525e-05 2.701e-05 
+Total client threads : 32
+Run runtime(sec): 2.08182
+Run operations(ops): 100000
+Run throughput(ops/sec): 48034.9
+Run throughtput(ops/sec): Only inserts : 1.22237e+07
+Extra runtime(sec): start : 0.000260376 mid : 0.00818084 Extra runtime(sec): end : 2.07338
+DataStates stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+------------------------------------------------------------------------------------------------------------------------------------------
+2024-07-30 15:31:44 0 sec: [DEBUG 0] [dstates/datastates_db.cc:183:Init] deleting /dev/shm/persistent_db.dat
+0 operations;
+
+Runtime of each thread : 
+1.2899 2024-07-30 15:31:45 1 sec: 100000 operations; [INSERT: Count=100000 Max=79260.04 Min=9.93 Avg=807.79]
+0.1114 0.000235941 3.0537e-05 2.168e-05 2.2853e-05 1.9647e-05 2.1721e-05 2.7041e-05 2.6069e-05 2.4536e-05 2.6059e-05 2.4486e-05 2.7031e-05 1.8916e-05 2.7672e-05 1.9426e-05 2.5628e-05 2.3994e-05 2.5377e-05 2.6299e-05 2.7481e-05 2.4907e-05 1.8034e-05 1.9687e-05 2.5127e-05 2.4967e-05 2.3825e-05 2.7391e-05 1.9396e-05 2.5458e-05 2.0058e-05 2.4275e-05 2.5898e-05 2.7051e-05 2.68e-05 2.5478e-05 2.6871e-05 2.4806e-05 2.6489e-05 1.8775e-05 2.4947e-05 2.5518e-05 2.4757e-05 2.7692e-05 2.7481e-05 2.9105e-05 1.9066e-05 2.5357e-05 2.147e-05 1.8414e-05 2.7341e-05 2.0127e-05 2.4455e-05 1.9095e-05 2.5057e-05 2.5768e-05 1.9376e-05 1.591e-05 1.6692e-05 1.9126e-05 1.8134e-05 1.7493e-05 2.182e-05 
+Total client threads : 64
+Load runtime(sec): 1.42
+Load operations(ops): 100000
+Load throughput(ops/sec): 70422.5
+Load throughtput(ops/sec): Only inserts : 6.09936e+06
+Extra runtime(sec): start : 0.000269763 mid : 0.0163952 Extra runtime(sec): end : 1.40333
+
+DataStates Stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB Stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+2024-07-30 15:31:45 0 sec: 0 operations;
+
+Runtime of each thread : 
+1.50764 5.1135e-05 0.00576957 3.3823e-05 3.2431e-05 2.9144e-05 3.5847e-05 2.8222e-05 2.9265e-05 2.6169e-05 2.9756e-05 0.000137837 3.5697e-05 4.6337e-05 4.0376e-05 3.3703e-05 4.311e-05 3.6758e-05 0.000169096 0.000567169 3.0647e-05 2.9575e-05 3.0146e-05 0.000130874 0.00148634 2.4225e-05 2.3614e-05 3.193e-05 3.187e-05 0.0173164 2.5959e-05 2.2182e-05 2.165e-05 2.146e-05 3.1259e-05 2.1681e-05 2.3053e-05 2.0939e-05 2.8233e-05 2.4346e-05 2.0478e-05 2.1089e-05 2.0488e-05 2.1349e-05 2.5207e-05 2.4827e-05 2.154e-05 1.9316e-05 2.0338e-05 2.138e-05 2.1099e-05 2.3484e-05 2.0188e-05 2024-07-30 15:31:47 2 sec: 100000 operations; [INSERT: Count=100000 Max=83530.27 Min=10.03 Avg=887.70]
+0.703665 3.5806e-05 2.5978e-05 2.4676e-05 2.6159e-05 2.4696e-05 2.5637e-05 2.3665e-05 2.6219e-05 2.4376e-05 2.4937e-05 
+Total client threads : 64
+Run runtime(sec): 2.26153
+Run operations(ops): 100000
+Run throughput(ops/sec): 44217.8
+Run throughtput(ops/sec): Only inserts : 4.41407e+06
+Extra runtime(sec): start : 0.000139179 mid : 0.0226548 Extra runtime(sec): end : 2.23874
+DataStates stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+------------------------------------------------------------------------------------------------------------------------------------------
+[DEBUG 2024-07-300] [dstates/datastates_db.cc: 183:Init] deleting 15:31:47/dev/shm/persistent_db.dat 
+0 sec: 0 operations;
+
+Runtime of each thread : 
+1.2862 0.00580346 0.0977911 3.9103e-05 4.1116e-05 0.00509909 4.3021e-05 3.3673e-05 3.5837e-05 3.773e-05 3.1459e-05 0.0210754 4.0456e-05 4.6316e-05 3.6128e-05 4.1127e-05 3.8411e-05 3.6648e-05 3.1318e-05 0.000752264 0.000493401 3.3983e-05 3.2371e-05 3.1539e-05 0.0570944 4.6157e-05 0.0075867 0.000285683 4.0195e-05 3.73e-05 0.000285974 0.000391862 0.000336217 4.2029e-05 2.7021e-05 3.3162e-05 3.6879e-05 3.5696e-05 2.5217e-05 3.5517e-05 4.6256e-05 2.4455e-05 3.0758e-05 3.2009e-05 4.2359e-05 2.9976e-05 2.7111e-05 3.6799e-05 2.8093e-05 2.0849e-05 3.1579e-05 4.1197e-05 3.1058e-05 3.8111e-05 2.3524e-05 2.3263e-05 2.5407e-05 2.8073e-05 3.213e-05 2.5978e-05 2.697e-05 2.5137e-05 2.4716e-05 2.4405e-05 4.1538e-05 2.5678e-05 3.4093e-05 2.116e-05 2.5217e-05 2.115e-05 3.0577e-05 2.681e-05 3.2029e-05 2.3785e-05 1.9105e-05 2.4105e-05 2.3605e-05 2.9334e-05 2.8383e-05 3.1198e-05 3.4495e-05 2.6669e-05 2.4005e-05 2.2492e-05 3.6508e-05 2.7411e-05 2.9375e-05 2.8694e-05 2.7461e-05 4.316e-05 0.000415585 3.4214e-05 2.9595e-05 3.1378e-05 2.2542e-05 5.8159e-05 2024-07-30 15:31:49 1 sec: 100000 operations; [INSERT: Count=100000 Max=77448.31 Min=9.89 Avg=1765.28]
+0.00198021 0.000188122 1.5419e-05 1.9106e-05 2.1089e-05 1.9175e-05 1.5459e-05 2.0739e-05 1.8574e-05 2.3003e-05 1.6291e-05 1.3976e-05 1.8064e-05 2.1831e-05 2.0608e-05 2.2742e-05 2.0819e-05 2.0629e-05 2.2802e-05 2.679e-05 2.0318e-05 2.2892e-05 1.5549e-05 1.9657e-05 1.5939e-05 1.7162e-05 2.126e-05 2.0709e-05 1.7764e-05 2.0598e-05 1.8054e-05 1.7804e-05 
+Total client threads : 128
+Load runtime(sec): 1.52237
+Load operations(ops): 100000
+Load throughput(ops/sec): 65687
+Load throughtput(ops/sec): Only inserts : 3.07678e+06
+Extra runtime(sec): start : 0.000202007 mid : 0.0325015 Extra runtime(sec): end : 1.48966
+
+DataStates Stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB Stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+2024-07-30 15:31:49 0 sec: 0 operations;
+
+Runtime of each thread : 
+1.22019 6.7145e-05 4.8731e-05 3.1408e-05 3.7369e-05 2.702e-05 0.0760272 6.5933e-05 4.8009e-05 5.0694e-05 5.1546e-05 5.3049e-05 3.8832e-05 4.5324e-05 4.6838e-05 4.2108e-05 3.0026e-05 4.1447e-05 3.9694e-05 4.0596e-05 3.5035e-05 3.9704e-05 6.3829e-05 0.00646976 4.295e-05 4.1918e-05 3.3132e-05 2.8103e-05 0.0012528 4.6437e-05 3.7921e-05 6.1024e-05 3.218e-05 3.1238e-05 0.00523528 3.9273e-05 0.000293298 3.8071e-05 4.0966e-05 4.5956e-05 3.726e-05 3.5236e-05 2.7382e-05 2.2783e-05 2.0859e-05 2.2202e-05 2.185e-05 2.3965e-05 2.5037e-05 2.4796e-05 0.000302034 3.2661e-05 3.5747e-05 2.9876e-05 2.8833e-05 0.00201702 3.0657e-05 3.179e-05 3.8953e-05 3.2751e-05 0.00691435 3.0797e-05 2.7882e-05 3.0076e-05 2.5929e-05 2.6128e-05 2.4987e-05 0.000332671 2.9715e-05 2.9435e-05 3.2832e-05 2.7662e-05 3.2891e-05 2.6941e-05 3.6429e-05 2.8854e-05 2.4045e-05 2.4776e-05 0.00150967 0.000171209 3.3262e-05 3.0537e-05 3.0447e-05 2.5568e-05 0.000143658 2.9044e-05 0.00226384 2.9666e-05 4.0616e-05 2.5617e-05 0.000105016 2.4296e-05 2.9735e-05 3.5977e-05 3.3823e-05 3.8582e-05 2.5889e-05 3.6037e-05 3.216e-05 2.4696e-05 3.8221e-05 2.3684e-05 2.4556e-05 2.0539e-05 2.1069e-05 2.3043e-05 0.0689417 3.209e-05 3.8131e-05 4.1047e-05 2.5818e-05 5.0344e-05 3.0166e-05 0.000885353 2.5147e-05 2.3594e-05 2.4697e-05 3.8622e-05 2024-07-30 15:31:51 2 sec: 100000 operations; [INSERT: Count=100000 Max=86700.16 Min=10.51 Avg=1789.40]
+0.687502 0.000241911 2.4776e-05 1.7964e-05 2.0579e-05 2.0629e-05 1.8084e-05 1.8575e-05 1.8143e-05 1.9717e-05 
+Total client threads : 128
+Run runtime(sec): 2.32623
+Run operations(ops): 100000
+Run throughput(ops/sec): 42988
+Run throughtput(ops/sec): Only inserts : 414565
+Extra runtime(sec): start : 0.000195465 mid : 0.241217 Extra runtime(sec): end : 2.08482
+DataStates stats : 
+Total inserts: 100000
+Total updates: 0
+Total reads: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Average operations per key: 1
+size of operations_perkey : 100000
+Average operations per key as per operations_per_key 1
+RocksDB stats : 
+Total inserts: 0
+Total updates: 0
+Total reads: 0
+Total ops: 0
+Unique keys: 0
+Min operations per key: 2147483647
+Max operations per key: 0
+Average operations per key: N/A
+size of operations_perkey : 0
+Average operations per key as per operations_per_key -nan
+
+------------------------------------------------------------------------------------------------------------------------------------------

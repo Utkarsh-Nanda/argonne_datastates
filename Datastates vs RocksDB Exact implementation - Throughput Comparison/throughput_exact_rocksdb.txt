@@ -1,0 +1,216 @@
+Running with 1 threads
+successfully opened DB: /dev/shm/rocksdb_benchmark, timestamp = 0
+Testing with 1 threads
+
+RocksDB benchmarks:
+Completed 100000 operations
+Total inserts: 100000
+Total updates: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Size of operations_per_key: 100000
+Initial load of 100000 key-value pairs inserted
+Completed 100000 operations
+Total inserts: 0
+Total updates: 100000
+Total ops: 100000
+Unique keys: 63324
+Min operations per key: 1
+Max operations per key: 7
+Size of operations_per_key: 63324
+
+RocksDB store throughput (ops/sec):
+  Insert (different keys): 13835.1
+  Insert/Update (same keys): 10308.3
+------------------------------------------------------------------------------------
+Running with 2 threads
+successfully opened DB: /dev/shm/rocksdb_benchmark, timestamp = 0
+Testing with 2 threads
+
+RocksDB benchmarks:
+Completed 100000 operations
+Total inserts: 100000
+Total updates: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Size of operations_per_key: 100000
+Initial load of 100000 key-value pairs inserted
+Completed 100000 operations
+Total inserts: 0
+Total updates: 100000
+Total ops: 100000
+Unique keys: 63296
+Min operations per key: 1
+Max operations per key: 8
+Size of operations_per_key: 63296
+
+RocksDB store throughput (ops/sec):
+  Insert (different keys): 20064.9
+  Insert/Update (same keys): 18343.3
+------------------------------------------------------------------------------------
+Running with 4 threads
+successfully opened DB: /dev/shm/rocksdb_benchmark, timestamp = 0
+Testing with 4 threads
+
+RocksDB benchmarks:
+Completed 100000 operations
+Total inserts: 100000
+Total updates: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Size of operations_per_key: 100000
+Initial load of 100000 key-value pairs inserted
+Completed 100000 operations
+Total inserts: 0
+Total updates: 100000
+Total ops: 100000
+Unique keys: 63226
+Min operations per key: 1
+Max operations per key: 9
+Size of operations_per_key: 63226
+
+RocksDB store throughput (ops/sec):
+  Insert (different keys): 36676.4
+  Insert/Update (same keys): 23236.5
+------------------------------------------------------------------------------------
+Running with 8 threads
+successfully opened DB: /dev/shm/rocksdb_benchmark, timestamp = 0
+Testing with 8 threads
+
+RocksDB benchmarks:
+Completed 100000 operations
+Total inserts: 100000
+Total updates: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Size of operations_per_key: 100000
+Initial load of 100000 key-value pairs inserted
+Completed 100000 operations
+Total inserts: 0
+Total updates: 100000
+Total ops: 100000
+Unique keys: 63084
+Min operations per key: 1
+Max operations per key: 8
+Size of operations_per_key: 63084
+
+RocksDB store throughput (ops/sec):
+  Insert (different keys): 59593.8
+  Insert/Update (same keys): 41322.8
+------------------------------------------------------------------------------------
+Running with 16 threads
+successfully opened DB: /dev/shm/rocksdb_benchmark, timestamp = 0
+Testing with 16 threads
+
+RocksDB benchmarks:
+Completed 100000 operations
+Total inserts: 100000
+Total updates: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Size of operations_per_key: 100000
+Initial load of 100000 key-value pairs inserted
+Completed 100000 operations
+Total inserts: 0
+Total updates: 100000
+Total ops: 100000
+Unique keys: 63267
+Min operations per key: 1
+Max operations per key: 7
+Size of operations_per_key: 63267
+
+RocksDB store throughput (ops/sec):
+  Insert (different keys): 68618.1
+  Insert/Update (same keys): 45566.2
+------------------------------------------------------------------------------------
+Running with 32 threads
+successfully opened DB: /dev/shm/rocksdb_benchmark, timestamp = 0
+Testing with 32 threads
+
+RocksDB benchmarks:
+Completed 100000 operations
+Total inserts: 100000
+Total updates: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Size of operations_per_key: 100000
+Initial load of 100000 key-value pairs inserted
+Completed 100000 operations
+Total inserts: 0
+Total updates: 100000
+Total ops: 100000
+Unique keys: 63169
+Min operations per key: 1
+Max operations per key: 8
+Size of operations_per_key: 63169
+
+RocksDB store throughput (ops/sec):
+  Insert (different keys): 53970.7
+  Insert/Update (same keys): 30569.2
+------------------------------------------------------------------------------------
+Running with 64 threads
+successfully opened DB: /dev/shm/rocksdb_benchmark, timestamp = 0
+Testing with 64 threads
+
+RocksDB benchmarks:
+Completed 100000 operations
+Total inserts: 100000
+Total updates: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Size of operations_per_key: 100000
+Initial load of 100000 key-value pairs inserted
+Completed 100000 operations
+Total inserts: 0
+Total updates: 100000
+Total ops: 100000
+Unique keys: 63328
+Min operations per key: 1
+Max operations per key: 7
+Size of operations_per_key: 63328
+
+RocksDB store throughput (ops/sec):
+  Insert (different keys): 41020.7
+  Insert/Update (same keys): 29007.6
+------------------------------------------------------------------------------------
+Running with 128 threads
+successfully opened DB: /dev/shm/rocksdb_benchmark, timestamp = 0
+Testing with 128 threads
+
+RocksDB benchmarks:
+Completed 100000 operations
+Total inserts: 100000
+Total updates: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Size of operations_per_key: 100000
+Initial load of 100000 key-value pairs inserted
+Completed 100000 operations
+Total inserts: 0
+Total updates: 100000
+Total ops: 100000
+Unique keys: 63326
+Min operations per key: 1
+Max operations per key: 9
+Size of operations_per_key: 63326
+
+RocksDB store throughput (ops/sec):
+  Insert (different keys): 33870.9
+  Insert/Update (same keys): 32672.6
+------------------------------------------------------------------------------------

@@ -1,0 +1,400 @@
+Running with 1 threads
+[DEBUG 0] [/home/utkarshnanda/deploy/include/dstates/pmem_history.hpp:43:pmem_history_t] created a new pmembobj pool, path = /dev/shm/persistent_db.dat
+Testing with 1 threads
+
+Persistent store benchmarks:
+Completed 100000 operations
+Total inserts: 100000
+Total updates: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Size of operations_per_key: 100000
+Initial load of 100000 key-value pairs inserted
+Completed 100000 operations
+Total inserts: 0
+Total updates: 100000
+Total ops: 100000
+Unique keys: 63198
+Min operations per key: 1
+Max operations per key: 7
+Size of operations_per_key: 63198
+
+Ephemeral store benchmarks:
+Completed 100000 operations
+Total inserts: 100000
+Total updates: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Size of operations_per_key: 100000
+Initial load of 100000 key-value pairs inserted
+Completed 100000 operations
+Total inserts: 0
+Total updates: 100000
+Total ops: 100000
+Unique keys: 63304
+Min operations per key: 1
+Max operations per key: 7
+Size of operations_per_key: 63304
+
+Persistent store throughput (ops/sec):
+  Insert (different keys): 8164.86
+  Insert/Update (same keys): 10312.4
+
+Ephemeral store throughput (ops/sec):
+  Insert (different keys): 14746.2
+  Insert/Update (same keys): 12914.9
+------------------------------------------------------------------------------------
+Running with 2 threads
+[DEBUG 0] [/home/utkarshnanda/deploy/include/dstates/pmem_history.hpp:43:pmem_history_t] created a new pmembobj pool, path = /dev/shm/persistent_db.dat
+Testing with 2 threads
+
+Persistent store benchmarks:
+Completed 100000 operations
+Total inserts: 100000
+Total updates: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Size of operations_per_key: 100000
+Initial load of 100000 key-value pairs inserted
+Completed 100000 operations
+Total inserts: 0
+Total updates: 100000
+Total ops: 100000
+Unique keys: 63137
+Min operations per key: 1
+Max operations per key: 8
+Size of operations_per_key: 63137
+
+Ephemeral store benchmarks:
+Completed 100000 operations
+Total inserts: 100000
+Total updates: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Size of operations_per_key: 100000
+Initial load of 100000 key-value pairs inserted
+Completed 100000 operations
+Total inserts: 0
+Total updates: 100000
+Total ops: 100000
+Unique keys: 63157
+Min operations per key: 1
+Max operations per key: 8
+Size of operations_per_key: 63157
+
+Persistent store throughput (ops/sec):
+  Insert (different keys): 11006.4
+  Insert/Update (same keys): 20176.4
+
+Ephemeral store throughput (ops/sec):
+  Insert (different keys): 25571.7
+  Insert/Update (same keys): 21845.7
+------------------------------------------------------------------------------------
+Running with 4 threads
+[DEBUG 0] [/home/utkarshnanda/deploy/include/dstates/pmem_history.hpp:43:pmem_history_t] created a new pmembobj pool, path = /dev/shm/persistent_db.dat
+Testing with 4 threads
+
+Persistent store benchmarks:
+Completed 100000 operations
+Total inserts: 100000
+Total updates: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Size of operations_per_key: 100000
+Initial load of 100000 key-value pairs inserted
+Completed 100000 operations
+Total inserts: 0
+Total updates: 100000
+Total ops: 100000
+Unique keys: 63277
+Min operations per key: 1
+Max operations per key: 7
+Size of operations_per_key: 63277
+
+Ephemeral store benchmarks:
+Completed 100000 operations
+Total inserts: 100000
+Total updates: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Size of operations_per_key: 100000
+Initial load of 100000 key-value pairs inserted
+Completed 100000 operations
+Total inserts: 0
+Total updates: 100000
+Total ops: 100000
+Unique keys: 63290
+Min operations per key: 1
+Max operations per key: 7
+Size of operations_per_key: 63290
+
+Persistent store throughput (ops/sec):
+  Insert (different keys): 19534.7
+  Insert/Update (same keys): 33341.1
+
+Ephemeral store throughput (ops/sec):
+  Insert (different keys): 40217.4
+  Insert/Update (same keys): 36565.2
+------------------------------------------------------------------------------------
+Running with 8 threads
+[DEBUG 0] [/home/utkarshnanda/deploy/include/dstates/pmem_history.hpp:43:pmem_history_t] created a new pmembobj pool, path = /dev/shm/persistent_db.dat
+Testing with 8 threads
+
+Persistent store benchmarks:
+Completed 100000 operations
+Total inserts: 100000
+Total updates: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Size of operations_per_key: 100000
+Initial load of 100000 key-value pairs inserted
+Completed 100000 operations
+Total inserts: 0
+Total updates: 100000
+Total ops: 100000
+Unique keys: 63329
+Min operations per key: 1
+Max operations per key: 7
+Size of operations_per_key: 63329
+
+Ephemeral store benchmarks:
+Completed 100000 operations
+Total inserts: 100000
+Total updates: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Size of operations_per_key: 100000
+Initial load of 100000 key-value pairs inserted
+Completed 100000 operations
+Total inserts: 0
+Total updates: 100000
+Total ops: 100000
+Unique keys: 63115
+Min operations per key: 1
+Max operations per key: 7
+Size of operations_per_key: 63115
+
+Persistent store throughput (ops/sec):
+  Insert (different keys): 32131.2
+  Insert/Update (same keys): 53996.9
+
+Ephemeral store throughput (ops/sec):
+  Insert (different keys): 69913.1
+  Insert/Update (same keys): 59746.5
+------------------------------------------------------------------------------------
+Running with 16 threads
+[DEBUG 0] [/home/utkarshnanda/deploy/include/dstates/pmem_history.hpp:43:pmem_history_t] created a new pmembobj pool, path = /dev/shm/persistent_db.dat
+Testing with 16 threads
+
+Persistent store benchmarks:
+Completed 100000 operations
+Total inserts: 100000
+Total updates: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Size of operations_per_key: 100000
+Initial load of 100000 key-value pairs inserted
+Completed 100000 operations
+Total inserts: 0
+Total updates: 100000
+Total ops: 100000
+Unique keys: 63283
+Min operations per key: 1
+Max operations per key: 7
+Size of operations_per_key: 63283
+
+Ephemeral store benchmarks:
+Completed 100000 operations
+Total inserts: 100000
+Total updates: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Size of operations_per_key: 100000
+Initial load of 100000 key-value pairs inserted
+Completed 100000 operations
+Total inserts: 0
+Total updates: 100000
+Total ops: 100000
+Unique keys: 63261
+Min operations per key: 1
+Max operations per key: 9
+Size of operations_per_key: 63261
+
+Persistent store throughput (ops/sec):
+  Insert (different keys): 33196.8
+  Insert/Update (same keys): 60007.9
+
+Ephemeral store throughput (ops/sec):
+  Insert (different keys): 82999.4
+  Insert/Update (same keys): 68862.6
+------------------------------------------------------------------------------------
+Running with 32 threads
+[DEBUG 0] [/home/utkarshnanda/deploy/include/dstates/pmem_history.hpp:43:pmem_history_t] created a new pmembobj pool, path = /dev/shm/persistent_db.dat
+Testing with 32 threads
+
+Persistent store benchmarks:
+Completed 100000 operations
+Total inserts: 100000
+Total updates: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Size of operations_per_key: 100000
+Initial load of 100000 key-value pairs inserted
+Completed 100000 operations
+Total inserts: 0
+Total updates: 100000
+Total ops: 100000
+Unique keys: 63178
+Min operations per key: 1
+Max operations per key: 8
+Size of operations_per_key: 63178
+
+Ephemeral store benchmarks:
+Completed 100000 operations
+Total inserts: 100000
+Total updates: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Size of operations_per_key: 100000
+Initial load of 100000 key-value pairs inserted
+Completed 100000 operations
+Total inserts: 0
+Total updates: 100000
+Total ops: 100000
+Unique keys: 62996
+Min operations per key: 1
+Max operations per key: 8
+Size of operations_per_key: 62996
+
+Persistent store throughput (ops/sec):
+  Insert (different keys): 26340.3
+  Insert/Update (same keys): 59346.7
+
+Ephemeral store throughput (ops/sec):
+  Insert (different keys): 75657.8
+  Insert/Update (same keys): 69503.4
+------------------------------------------------------------------------------------
+Running with 64 threads
+[DEBUG 0] [/home/utkarshnanda/deploy/include/dstates/pmem_history.hpp:43:pmem_history_t] created a new pmembobj pool, path = /dev/shm/persistent_db.dat
+Testing with 64 threads
+
+Persistent store benchmarks:
+Completed 100000 operations
+Total inserts: 100000
+Total updates: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Size of operations_per_key: 100000
+Initial load of 100000 key-value pairs inserted
+Completed 100000 operations
+Total inserts: 0
+Total updates: 100000
+Total ops: 100000
+Unique keys: 63403
+Min operations per key: 1
+Max operations per key: 8
+Size of operations_per_key: 63403
+
+Ephemeral store benchmarks:
+Completed 100000 operations
+Total inserts: 100000
+Total updates: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Size of operations_per_key: 100000
+Initial load of 100000 key-value pairs inserted
+Completed 100000 operations
+Total inserts: 0
+Total updates: 100000
+Total ops: 100000
+Unique keys: 63168
+Min operations per key: 1
+Max operations per key: 8
+Size of operations_per_key: 63168
+
+Persistent store throughput (ops/sec):
+  Insert (different keys): 18439.6
+  Insert/Update (same keys): 46064.9
+
+Ephemeral store throughput (ops/sec):
+  Insert (different keys): 61710.9
+  Insert/Update (same keys): 60632.4
+------------------------------------------------------------------------------------
+Running with 128 threads
+[DEBUG 0] [/home/utkarshnanda/deploy/include/dstates/pmem_history.hpp:43:pmem_history_t] created a new pmembobj pool, path = /dev/shm/persistent_db.dat
+Testing with 128 threads
+
+Persistent store benchmarks:
+Completed 100000 operations
+Total inserts: 100000
+Total updates: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Size of operations_per_key: 100000
+Initial load of 100000 key-value pairs inserted
+Completed 100000 operations
+Total inserts: 0
+Total updates: 100000
+Total ops: 100000
+Unique keys: 63151
+Min operations per key: 1
+Max operations per key: 8
+Size of operations_per_key: 63151
+
+Ephemeral store benchmarks:
+Completed 100000 operations
+Total inserts: 100000
+Total updates: 0
+Total ops: 100000
+Unique keys: 100000
+Min operations per key: 1
+Max operations per key: 1
+Size of operations_per_key: 100000
+Initial load of 100000 key-value pairs inserted
+Completed 100000 operations
+Total inserts: 0
+Total updates: 100000
+Total ops: 100000
+Unique keys: 63200
+Min operations per key: 1
+Max operations per key: 8
+Size of operations_per_key: 63200
+
+Persistent store throughput (ops/sec):
+  Insert (different keys): 12021.6
+  Insert/Update (same keys): 37446.2
+
+Ephemeral store throughput (ops/sec):
+  Insert (different keys): 51518.1
+  Insert/Update (same keys): 56611
+------------------------------------------------------------------------------------
