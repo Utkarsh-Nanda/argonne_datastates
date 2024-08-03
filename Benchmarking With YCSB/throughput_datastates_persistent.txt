@@ -1,0 +1,68 @@
+2024-08-02 16:27:43 0 sec: 0 operations;
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+[DEBUG 0] [/home/utkarsh-nanda/deploy/include/dstates/pmem_history.hpp:41:pmem_history_t] created a new pmembobj pool, path = /dev/shm/dstates-db.dat
+Time taken to initialize inside client.h : 0.149519
+Time taken to do operatios inside client.h : 0.2969
+Time taken to cleanup inside client.h : 3.3e-08
+Throughput only by the operations : 33681.4
+Time taken by a thread inside client.h : 0.446463
+2024-08-02 16:27:43 0 sec: 10000 operations; [INSERT: Count=10000 Max=251.78 Min=16.77 Avg=20.04 90=21.60 99=23.89 99.9=48.90 99.99=249.73]
+Load runtime(sec): 0.447027
+Load operations(ops): 10000
+Load throughput(ops/sec): 22370
+2024-08-02 16:27:43 0 sec: 0 operations;
+Time taken to initialize inside client.h : 3.2e-08
+Time taken to do operatios inside client.h : 0.0318914
+Time taken to cleanup inside client.h : 0.00269703
+Throughput only by the operations : 313564
+Time taken by a thread inside client.h : 0.0346283
+2024-08-02 16:27:43 0 sec: 10000 operations; [READ: Count=10000 Max=116.73 Min=1.94 Avg=2.70 90=3.80 99=4.90 99.9=27.05 99.99=32.83]
+Run runtime(sec): 0.0347661
+Run operations(ops): 10000
+Run throughput(ops/sec): 287637
+---------------------------------------------------------------------
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-02 16:27:43 0 sec: 0 operations;
+[DEBUG 0] [/home/utkarsh-nanda/deploy/include/dstates/pmem_history.hpp:41:pmem_history_t] created a new pmembobj pool, path = /dev/shm/dstates-db.dat
+Time taken to initialize inside client.h : 0.197909
+Time taken to do operatios inside client.h : 0.293994
+Time taken to cleanup inside client.h : 3.7e-08
+Throughput only by the operations : 34014.3
+Time taken by a thread inside client.h : 0.491938
+2024-08-02 16:27:44 0 sec: 10000 operations; [INSERT: Count=10000 Max=342.53 Min=16.32 Avg=19.88 90=21.41 99=23.76 99.9=192.64 99.99=246.66]
+Load runtime(sec): 0.493407
+Load operations(ops): 10000
+Load throughput(ops/sec): 20267.2
+2024-08-02 16:27:44 0 sec: 0 operations;
+Time taken to initialize inside client.h : 3.2e-08
+Time taken to do operatios inside client.h : 0.304041
+Time taken to cleanup inside client.h : 0.00454035
+Throughput only by the operations : 32890.4
+Time taken by a thread inside client.h : 0.308618
+2024-08-02 16:27:44 0 sec: 10000 operations; [INSERT: Count=10000 Max=247.42 Min=17.10 Avg=20.33 90=21.81 99=25.49 99.9=166.27 99.99=246.27]
+Run runtime(sec): 0.308974
+Run operations(ops): 10000
+Run throughput(ops/sec): 32365.2
+---------------------------------------------------------------------
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-02 16:27:44 0 sec: 0 operations;
+[DEBUG 0] [/home/utkarsh-nanda/deploy/include/dstates/pmem_history.hpp:41:pmem_history_t] created a new pmembobj pool, path = /dev/shm/dstates-db.dat
+Time taken to initialize inside client.h : 0.192412
+Time taken to do operatios inside client.h : 0.296573
+Time taken to cleanup inside client.h : 3.8e-08
+Throughput only by the operations : 33718.5
+Time taken by a thread inside client.h : 0.489025
+2024-08-02 16:27:44 0 sec: 10000 operations; [INSERT: Count=10000 Max=253.82 Min=16.30 Avg=19.98 90=21.52 99=23.82 99.9=46.49 99.99=242.18]
+Load runtime(sec): 0.489483
+Load operations(ops): 10000
+Load throughput(ops/sec): 20429.7
+2024-08-02 16:27:44 0 sec: 0 operations;
+Time taken to initialize inside client.h : 3.2e-08
+Time taken to do operatios inside client.h : 0.0895341
+Time taken to cleanup inside client.h : 0.00316618
+Throughput only by the operations : 111689
+Time taken by a thread inside client.h : 0.0927372
+2024-08-02 16:27:45 0 sec: 10000 operations; [UPDATE: Count=10000 Max=53.34 Min=6.20 Avg=7.18 90=7.49 99=10.22 99.9=32.19 99.99=37.85]
+Run runtime(sec): 0.0931153
+Run operations(ops): 10000
+Run throughput(ops/sec): 107394

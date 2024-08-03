@@ -1,0 +1,65 @@
+2024-08-02 16:22:12 0 sec: 0 operations;
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+Time taken to initialize inside client.h : 5.0603e-05
+Time taken to do operatios inside client.h : 0.143135
+Time taken to cleanup inside client.h : 2.9e-08
+Throughput only by the operations : 69863.9
+Time taken by a thread inside client.h : 0.143231
+2024-08-02 16:22:12 0 sec: 10000 operations; [INSERT: Count=10000 Max=130.88 Min=3.13 Avg=4.94 90=5.59 99=8.49 99.9=30.96 99.99=119.49]
+Load runtime(sec): 0.143555
+Load operations(ops): 10000
+Load throughput(ops/sec): 69659.8
+2024-08-02 16:22:12 0 sec: 0 operations;
+Time taken to initialize inside client.h : 3.1e-08
+Time taken to do operatios inside client.h : 0.0319874
+Time taken to cleanup inside client.h : 0.00883253
+Throughput only by the operations : 312623
+Time taken by a thread inside client.h : 0.0408513
+2024-08-02 16:22:12 0 sec: 10000 operations; [READ: Count=10000 Max=158.08 Min=1.88 Avg=2.70 90=3.77 99=4.71 99.9=26.25 99.99=28.08]
+Run runtime(sec): 0.0412273
+Run operations(ops): 10000
+Run throughput(ops/sec): 242558
+---------------------------------------------------------------------
+2024-08-02 16:22:12 0 sec: 0 operations;
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+Time taken to initialize inside client.h : 4.8373e-05
+Time taken to do operatios inside client.h : 0.142362
+Time taken to cleanup inside client.h : 3.2e-08
+Throughput only by the operations : 70243.6
+Time taken by a thread inside client.h : 0.142446
+2024-08-02 16:22:12 0 sec: 10000 operations; [INSERT: Count=10000 Max=71.68 Min=3.09 Avg=4.85 90=5.50 99=7.85 99.9=30.32 99.99=62.34]
+Load runtime(sec): 0.142751
+Load operations(ops): 10000
+Load throughput(ops/sec): 70052.1
+Time taken to initialize inside client.h : 3.2e-08
+2024-08-02 16:22:12 0 sec: 0 operations;
+Time taken to do operatios inside client.h : 0.148421
+Time taken to cleanup inside client.h : 0.0202678
+Throughput only by the operations : 67376.1
+Time taken by a thread inside client.h : 0.168726
+2024-08-02 16:22:12 0 sec: 10000 operations; [INSERT: Count=10000 Max=138.88 Min=3.22 Avg=5.06 90=5.75 99=8.41 99.9=29.86 99.99=30.85]
+Run runtime(sec): 0.169093
+Run operations(ops): 10000
+Run throughput(ops/sec): 59139
+---------------------------------------------------------------------
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+Time taken to initialize inside client.h : 6.9491e-05
+2024-08-02 16:22:13 0 sec: 2 operations; [INSERT: Count=2 Max=12.78 Min=5.42 Avg=2.18 90=6.61 99=12.78 99.9=12.78 99.99=12.78]
+Time taken to do operatios inside client.h : 0.145033
+Time taken to cleanup inside client.h : 3e-08
+Throughput only by the operations : 68950
+Time taken by a thread inside client.h : 0.14514
+2024-08-02 16:22:13 0 sec: 10000 operations; [INSERT: Count=10000 Max=96.06 Min=3.14 Avg=4.98 90=5.77 99=8.36 99.9=29.36 99.99=30.83]
+Load runtime(sec): 0.145376
+Load operations(ops): 10000
+Load throughput(ops/sec): 68786.9
+2024-08-02 16:22:13 0 sec: 0 operations;
+Time taken to initialize inside client.h : 3.1e-08
+Time taken to do operatios inside client.h : 0.0596001
+Time taken to cleanup inside client.h : 0.0119011
+Throughput only by the operations : 167785
+Time taken by a thread inside client.h : 0.0715402
+2024-08-02 16:22:13 0 sec: 10000 operations; [UPDATE: Count=10000 Max=147.46 Min=2.87 Avg=4.34 90=5.55 99=8.70 99.9=28.22 99.99=31.42]
+Run runtime(sec): 0.0719397
+Run operations(ops): 10000
+Run throughput(ops/sec): 139005
