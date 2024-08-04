@@ -1,62 +1,84 @@
-2024-08-02 16:16:31 0 sec: 0 operations;
-Time taken to initialize inside client.h : 0.406711
-Time taken to do operatios inside client.h : 0.121024
+2024-08-04 12:08:06 0 sec: 0 operations;
+Time taken to initialize inside client.h : 0.00491759
+Time taken to do operatios inside client.h : 0.128837
+Time taken to cleanup inside client.h : 3.1e-08
+Throughput only by the operations : 77617.6
+Time taken by a thread inside client.h : 0.133805
+2024-08-04 12:08:06 0 sec: 10000 operations; [INSERT: Count=10000 Max=10731.52 Min=1.77 Avg=3.75 90=3.39 99=4.71 99.9=26.75 99.99=43.84]
+Load runtime(sec): 0.134199
+Load operations(ops): 10000
+Load throughput(ops/sec): 74516.1
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 77617.6
+Load throughput(ops/sec) based on the max time taken by any thread: 77617.6
+Time taken to initialize inside client.h : 2.9e-08
+2024-08-04 12:08:06 0 sec: 0 operations;
+Time taken to do operatios inside client.h : 0.0298408
+Time taken to cleanup inside client.h : 0.00333514
+Throughput only by the operations : 335112
+Time taken by a thread inside client.h : 0.0332025
+2024-08-04 12:08:06 0 sec: 10000 operations; [READ: Count=10000 Max=78.72 Min=1.84 Avg=2.44 90=3.09 99=4.74 99.9=17.49 99.99=49.60]
+Max Time by a thread in operation : 0.0298408
+Max Time by a thread in cleanup : 0.00333514
+Max Time by a thread full: 0.0332025
+Run runtime(sec): 0.0335165
+Run operations(ops): 10000
+Run throughput(ops/sec): 298360
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 335112
+Run throughput(ops/sec) based on the max time taken by any thread: 335112
+---------------------------------------------------------------------
+2024-08-04 12:08:06 0 sec: 0 operations;
+Time taken to initialize inside client.h : 0.0054482
+Time taken to do operatios inside client.h : 0.129561
+Time taken to cleanup inside client.h : 3.1e-08
+Throughput only by the operations : 77183.9
+Time taken by a thread inside client.h : 0.135054
+2024-08-04 12:08:06 0 sec: 10000 operations; [INSERT: Count=10000 Max=11124.74 Min=1.79 Avg=3.77 90=3.42 99=4.43 99.9=23.10 99.99=30.25]
+Load runtime(sec): 0.135191
+Load operations(ops): 10000
+Load throughput(ops/sec): 73969.4
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 77183.9
+Load throughput(ops/sec) based on the max time taken by any thread: 77183.9
+2024-08-04 12:08:06 0 sec: 0 operations;
+Time taken to initialize inside client.h : 3.4e-08
+Time taken to do operatios inside client.h : 0.128519
+Time taken to cleanup inside client.h : 0.00288385
+Throughput only by the operations : 77809.6
+Time taken by a thread inside client.h : 0.131443
+2024-08-04 12:08:07 0 sec: 10000 operations; [INSERT: Count=10000 Max=31.34 Min=1.91 Avg=3.05 90=3.79 99=7.95 99.9=27.89 99.99=31.18]
+Max Time by a thread in operation : 0.128519
+Max Time by a thread in cleanup : 0.00288385
+Max Time by a thread full: 0.131443
+Run runtime(sec): 0.131672
+Run operations(ops): 10000
+Run throughput(ops/sec): 75946.2
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 77809.6
+Run throughput(ops/sec) based on the max time taken by any thread: 77809.6
+---------------------------------------------------------------------
+2024-08-04 12:08:07 0 sec: 0 operations;
+Time taken to initialize inside client.h : 0.00516868
+Time taken to do operatios inside client.h : 0.134133
 Time taken to cleanup inside client.h : 3.6e-08
-Throughput only by the operations : 82628.5
-Time taken by a thread inside client.h : 0.527768
-2024-08-02 16:16:32 0 sec: 10000 operations; [INSERT: Count=10000 Max=142.72 Min=1.91 Avg=2.92 90=3.84 99=5.25 99.9=27.74 99.99=57.66]
-Load runtime(sec): 0.52808
+Throughput only by the operations : 74552.8
+Time taken by a thread inside client.h : 0.139343
+2024-08-04 12:08:07 0 sec: 10000 operations; [INSERT: Count=10000 Max=10207.23 Min=1.83 Avg=3.83 90=3.57 99=4.81 99.9=25.18 99.99=28.29]
+Load runtime(sec): 0.139597
 Load operations(ops): 10000
-Load throughput(ops/sec): 18936.5
-2024-08-02 16:16:32 0 sec: 0 operations;
-Time taken to initialize inside client.h : 3.1e-08
-Time taken to do operatios inside client.h : 0.0309489
-Time taken to cleanup inside client.h : 0.606554
-Throughput only by the operations : 323113
-Time taken by a thread inside client.h : 0.637534
-2024-08-02 16:16:32 0 sec: 10000 operations; [READ: Count=10000 Max=122.69 Min=1.85 Avg=2.51 90=3.98 99=4.57 99.9=25.65 99.99=42.81]
-Run runtime(sec): 0.637895
+Load throughput(ops/sec): 71634.8
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 74552.8
+Load throughput(ops/sec) based on the max time taken by any thread: 74552.8
+Time taken to initialize inside client.h : 3.4e-08
+2024-08-04 12:08:07 0 sec: 1 operations; [UPDATE: Count=1 Max=67.90 Min=67.84 Avg=7.54 90=18.38 99=67.90 99.9=67.90 99.99=67.90]
+Time taken to do operatios inside client.h : 0.0790402
+Time taken to cleanup inside client.h : 0.00333054
+Throughput only by the operations : 126518
+Time taken by a thread inside client.h : 0.0824074
+2024-08-04 12:08:07 0 sec: 10000 operations; [UPDATE: Count=10000 Max=92.99 Min=4.42 Avg=6.02 90=6.93 99=9.86 99.9=31.95 99.99=67.90]
+Max Time by a thread in operation : 0.0790402
+Max Time by a thread in cleanup : 0.00333054
+Max Time by a thread full: 0.0824074
+Run runtime(sec): 0.0826028
 Run operations(ops): 10000
-Run throughput(ops/sec): 15676.6
+Run throughput(ops/sec): 121061
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 126518
+Run throughput(ops/sec) based on the max time taken by any thread: 126518
 ---------------------------------------------------------------------
-2024-08-02 16:16:32 0 sec: 0 operations;
-Time taken to initialize inside client.h : 0.537649
-Time taken to do operatios inside client.h : 0.124493
-Time taken to cleanup inside client.h : 3.4e-08
-Throughput only by the operations : 80326
-Time taken by a thread inside client.h : 0.662175
-2024-08-02 16:16:33 0 sec: 10000 operations; [INSERT: Count=10000 Max=90.62 Min=1.94 Avg=3.06 90=3.97 99=7.01 99.9=28.16 99.99=50.49]
-Load runtime(sec): 0.662389
-Load operations(ops): 10000
-Load throughput(ops/sec): 15096.9
-Time taken to initialize inside client.h : 2024-08-02 16:16:33 3.9e-08
-0 sec: 0 operations;
-Time taken to do operatios inside client.h : 0.137561
-Time taken to cleanup inside client.h : 0.00128292
-Throughput only by the operations : 72694.9
-Time taken by a thread inside client.h : 0.138873
-2024-08-02 16:16:33 0 sec: 10000 operations; [INSERT: Count=10000 Max=187.13 Min=1.97 Avg=3.51 90=4.67 99=10.33 99.9=24.88 99.99=31.86]
-Run runtime(sec): 0.139058
-Run operations(ops): 10000
-Run throughput(ops/sec): 71912.4
----------------------------------------------------------------------
-2024-08-02 16:16:33 0 sec: 0 operations;
-Time taken to initialize inside client.h : 0.597693
-Time taken to do operatios inside client.h : 0.121116
-Time taken to cleanup inside client.h : 3.5e-08
-Throughput only by the operations : 82565.7
-Time taken by a thread inside client.h : 0.718837
-2024-08-02 16:16:34 0 sec: 10000 operations; [INSERT: Count=10000 Max=52.13 Min=1.86 Avg=2.88 90=3.82 99=4.95 99.9=25.89 99.99=30.83]
-Load runtime(sec): 0.719159
-Load operations(ops): 10000
-Load throughput(ops/sec): 13905.1
-2024-08-02 16:16:34 0 sec: 0 operations;
-Time taken to initialize inside client.h : 3.3e-08
-Time taken to do operatios inside client.h : 0.084225
-Time taken to cleanup inside client.h : 0.00105555
-Throughput only by the operations : 118730
-Time taken by a thread inside client.h : 0.0853049
-2024-08-02 16:16:34 0 sec: 10000 operations; [UPDATE: Count=10000 Max=189.31 Min=4.34 Avg=6.52 90=9.51 99=16.14 99.9=30.57 99.99=100.93]
-Run runtime(sec): 0.0856765
-Run operations(ops): 10000
-Run throughput(ops/sec): 116718
