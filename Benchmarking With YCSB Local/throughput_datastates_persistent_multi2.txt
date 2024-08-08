@@ -1,0 +1,488 @@
+Running benchmark with 1 threads.
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:20:19 0 sec: 0 operations;
+[DEBUG 0] [/home/utkarsh-nanda/deploy/include/dstates/pmem_history.hpp:41:pmem_history_t] created a new pmembobj pool, path = /dev/shm/dstates-db.dat
+2024-08-07 19:20:20 0 sec: 10000 operations; [INSERT: Count=10000 Max=267.01 Min=17.23 Avg=21.54 90=23.30 99=28.70 99.9=55.65 99.99=265.73]
+Load runtime(sec): 0.472823
+Load operations(ops): 10000
+Load throughput(ops/sec): 21149.6
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 31295.9
+Load throughput(ops/sec) based on the max time taken by any thread: 31295.9
+2024-08-07 19:20:20 0 sec: 0 operations;
+2024-08-07 19:20:20 0 sec: 10000 operations; [READ: Count=10000 Max=190.08 Min=1.96 Avg=2.73 90=3.88 99=4.79 99.9=29.74 99.99=32.32]
+Max Time by a thread in operation : 0.0324682
+Max Time by a thread in cleanup : 0.00317842
+Max Time by a thread full: 0.0356488
+Run runtime(sec): 0.0360158
+Run operations(ops): 10000
+Run throughput(ops/sec): 277656
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 307994
+Run throughput(ops/sec) based on the max time taken by any thread: 307994
+---------------------------------------------------------------------
+2024-08-07 19:20:20 0 sec: 0 operations;
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+[DEBUG 0] [/home/utkarsh-nanda/deploy/include/dstates/pmem_history.hpp:41:pmem_history_t] created a new pmembobj pool, path = /dev/shm/dstates-db.dat
+2024-08-07 19:20:20 0 sec: 10000 operations; [INSERT: Count=10000 Max=263.94 Min=17.42 Avg=21.77 90=23.57 99=28.02 99.9=60.96 99.99=262.40]
+Load runtime(sec): 0.522168
+Load operations(ops): 10000
+Load throughput(ops/sec): 19150.9
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 31026.8
+Load throughput(ops/sec) based on the max time taken by any thread: 31026.8
+2024-08-07 19:20:20 0 sec: 0 operations;
+2024-08-07 19:20:20 0 sec: 10000 operations; [INSERT: Count=10000 Max=269.31 Min=17.41 Avg=22.26 90=23.82 99=41.89 99.9=184.83 99.99=268.03]
+Max Time by a thread in operation : 0.33305
+Max Time by a thread in cleanup : 0.00411045
+Max Time by a thread full: 0.337164
+Run runtime(sec): 0.337423
+Run operations(ops): 10000
+Run throughput(ops/sec): 29636.4
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 30025.6
+Run throughput(ops/sec) based on the max time taken by any thread: 30025.6
+---------------------------------------------------------------------
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:20:20 0 sec: 0 operations;
+[DEBUG 0] [/home/utkarsh-nanda/deploy/include/dstates/pmem_history.hpp:41:pmem_history_t] created a new pmembobj pool, path = /dev/shm/dstates-db.dat
+2024-08-07 19:20:21 0 sec: 10000 operations; [INSERT: Count=10000 Max=275.45 Min=17.28 Avg=21.69 90=23.44 99=27.97 99.9=60.48 99.99=269.57]
+Load runtime(sec): 0.516331
+Load operations(ops): 10000
+Load throughput(ops/sec): 19367.4
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 31143.5
+Load throughput(ops/sec) based on the max time taken by any thread: 31143.5
+2024-08-07 19:20:21 0 sec: 0 operations;
+2024-08-07 19:20:21 0 sec: 10000 operations; [UPDATE: Count=10000 Max=55.81 Min=6.26 Avg=7.05 90=7.33 99=9.00 99.9=30.64 99.99=53.47]
+Max Time by a thread in operation : 0.0879955
+Max Time by a thread in cleanup : 0.00281823
+Max Time by a thread full: 0.0908167
+Run runtime(sec): 0.0910145
+Run operations(ops): 10000
+Run throughput(ops/sec): 109873
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 113642
+Run throughput(ops/sec) based on the max time taken by any thread: 113642
+---------------------------------------------------------------------
+Running benchmark with 2 threads.
+2024-08-07 19:20:21 0 sec: [DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+0 operations;
+[DEBUG 0] [/home/utkarsh-nanda/deploy/include/dstates/pmem_history.hpp:41:pmem_history_t] created a new pmembobj pool, path = /dev/shm/dstates-db.dat
+2024-08-07 19:20:21 0 sec: 10000 operations; [INSERT: Count=10000 Max=474.88 Min=17.86 Avg=23.74 90=26.22 99=42.11 99.9=286.98 99.99=387.33]
+Load runtime(sec): 0.368636
+Load operations(ops): 10000
+Load throughput(ops/sec): 27127
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 57822.5
+Load throughput(ops/sec) based on the max time taken by any thread: 57103.8
+2024-08-07 19:20:21 0 sec: 0 operations;
+2024-08-07 19:20:21 0 sec: 10000 operations; [READ: Count=10000 Max=99.65 Min=2.07 Avg=2.72 90=2.91 99=4.71 99.9=28.18 99.99=32.02]
+Max Time by a thread in operation : 0.0164657
+Max Time by a thread in cleanup : 0.00269639
+Max Time by a thread full: 0.0191646
+Run runtime(sec): 0.0195488
+Run operations(ops): 10000
+Run throughput(ops/sec): 511540
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 607741
+Run throughput(ops/sec) based on the max time taken by any thread: 607324
+---------------------------------------------------------------------
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:20:21 0 sec: 0 operations;
+[DEBUG 0] [/home/utkarsh-nanda/deploy/include/dstates/pmem_history.hpp:41:pmem_history_t] created a new pmembobj pool, path = /dev/shm/dstates-db.dat
+2024-08-07 19:20:22 0 sec: 10000 operations; [INSERT: Count=10000 Max=344.57 Min=17.55 Avg=22.64 90=24.30 99=35.77 99.9=267.01 99.99=344.06]
+Load runtime(sec): 0.363457
+Load operations(ops): 10000
+Load throughput(ops/sec): 27513.6
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 60278.7
+Load throughput(ops/sec) based on the max time taken by any thread: 59851.3
+2024-08-07 19:20:22 0 sec: 0 operations;
+2024-08-07 19:20:22 0 sec: 10000 operations; [INSERT: Count=10000 Max=340.48 Min=17.97 Avg=23.35 90=25.10 99=43.39 99.9=260.86 99.99=304.89]
+Max Time by a thread in operation : 0.172721
+Max Time by a thread in cleanup : 0.00420683
+Max Time by a thread full: 0.17693
+Run runtime(sec): 0.177095
+Run operations(ops): 10000
+Run throughput(ops/sec): 56466.8
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 57902.9
+Run throughput(ops/sec) based on the max time taken by any thread: 57896.9
+---------------------------------------------------------------------
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:20:22 0 sec: 0 operations;
+[DEBUG 0] [/home/utkarsh-nanda/deploy/include/dstates/pmem_history.hpp:41:pmem_history_t] created a new pmembobj pool, path = /dev/shm/dstates-db.dat
+2024-08-07 19:20:22 0 sec: 10000 operations; [INSERT: Count=10000 Max=312.32 Min=17.76 Avg=23.16 90=24.98 99=40.51 99.9=264.19 99.99=301.31]
+Load runtime(sec): 0.379914
+Load operations(ops): 10000
+Load throughput(ops/sec): 26321.7
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 58723.5
+Load throughput(ops/sec) based on the max time taken by any thread: 58328.6
+2024-08-07 19:20:22 0 sec: 0 operations;
+2024-08-07 19:20:22 0 sec: 10000 operations; [UPDATE: Count=10000 Max=101.82 Min=6.25 Avg=7.73 90=8.23 99=14.27 99.9=27.70 99.99=85.89]
+Max Time by a thread in operation : 0.0496028
+Max Time by a thread in cleanup : 0.00274575
+Max Time by a thread full: 0.0523513
+Run runtime(sec): 0.052636
+Run operations(ops): 10000
+Run throughput(ops/sec): 189984
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 205254
+Run throughput(ops/sec) based on the max time taken by any thread: 201601
+---------------------------------------------------------------------
+Running benchmark with 4 threads.
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:20:22 0 sec: 0 operations;
+[DEBUG 0] [/home/utkarsh-nanda/deploy/include/dstates/pmem_history.hpp:41:pmem_history_t] created a new pmembobj pool, path = /dev/shm/dstates-db.dat
+2024-08-07 19:20:23 0 sec: 10000 operations; [INSERT: Count=10000 Max=713.22 Min=17.71 Avg=26.14 90=31.70 99=47.65 99.9=445.44 99.99=585.22]
+Load runtime(sec): 0.295065
+Load operations(ops): 10000
+Load throughput(ops/sec): 33890.8
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 108069
+Load throughput(ops/sec) based on the max time taken by any thread: 101415
+2024-08-07 19:20:23 0 sec: 3 operations; [READ: Count=3 Max=10.81 Min=10.17 Avg=0.43 90=5.30 99=10.65 99.9=10.81 99.99=10.81]
+2024-08-07 19:20:23 0 sec: 10000 operations; [READ: Count=10000 Max=108.29 Min=2.06 Avg=3.62 90=4.38 99=5.01 99.9=10.81 99.99=95.17]
+Max Time by a thread in operation : 0.0128284
+Max Time by a thread in cleanup : 0.00259259
+Max Time by a thread full: 0.0154228
+Run runtime(sec): 0.0156843
+Run operations(ops): 10000
+Run throughput(ops/sec): 637581
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 919964
+Run throughput(ops/sec) based on the max time taken by any thread: 779520
+---------------------------------------------------------------------
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:20:23 0 sec: 0 operations;
+[DEBUG 0] [/home/utkarsh-nanda/deploy/include/dstates/pmem_history.hpp:41:pmem_history_t] created a new pmembobj pool, path = /dev/shm/dstates-db.dat
+2024-08-07 19:20:23 0 sec: 10000 operations; [INSERT: Count=10000 Max=551.42 Min=17.46 Avg=25.35 90=26.75 99=44.26 99.9=429.06 99.99=531.46]
+Load runtime(sec): 0.291983
+Load operations(ops): 10000
+Load throughput(ops/sec): 34248.5
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 110698
+Load throughput(ops/sec) based on the max time taken by any thread: 104703
+2024-08-07 19:20:23 0 sec: 0 operations;
+2024-08-07 19:20:23 0 sec: 10000 operations; [INSERT: Count=10000 Max=574.46 Min=18.56 Avg=25.24 90=26.99 99=46.98 99.9=382.72 99.99=537.09]
+Max Time by a thread in operation : 0.0946381
+Max Time by a thread in cleanup : 0.00357487
+Max Time by a thread full: 0.0982151
+Run runtime(sec): 0.0985252
+Run operations(ops): 10000
+Run throughput(ops/sec): 101497
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 109418
+Run throughput(ops/sec) based on the max time taken by any thread: 105666
+---------------------------------------------------------------------
+2024-08-07 19:20:23 0 sec: 0 operations;
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+[DEBUG 0] [/home/utkarsh-nanda/deploy/include/dstates/pmem_history.hpp:41:pmem_history_t] created a new pmembobj pool, path = /dev/shm/dstates-db.dat
+2024-08-07 19:20:23 0 sec: 10000 operations; [INSERT: Count=10000 Max=734.21 Min=18.08 Avg=27.29 90=39.74 99=50.85 99.9=402.43 99.99=643.58]
+Load runtime(sec): 0.301964
+Load operations(ops): 10000
+Load throughput(ops/sec): 33116.5
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 104526
+Load throughput(ops/sec) based on the max time taken by any thread: 94744.9
+2024-08-07 19:20:23 0 sec: 0 operations;
+2024-08-07 19:20:23 0 sec: 10000 operations; [UPDATE: Count=10000 Max=131.84 Min=6.26 Avg=9.05 90=14.00 99=15.27 99.9=29.74 99.99=130.37]
+Max Time by a thread in operation : 0.0349829
+Max Time by a thread in cleanup : 0.00239297
+Max Time by a thread full: 0.0373777
+Run runtime(sec): 0.0377402
+Run operations(ops): 10000
+Run throughput(ops/sec): 264970
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 361339
+Run throughput(ops/sec) based on the max time taken by any thread: 285854
+---------------------------------------------------------------------
+Running benchmark with 8 threads.
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:20:24 0 sec: 0 operations;
+[DEBUG 0] [/home/utkarsh-nanda/deploy/include/dstates/pmem_history.hpp:41:pmem_history_t] created a new pmembobj pool, path = /dev/shm/dstates-db.dat
+2024-08-07 19:20:24 0 sec: 10000 operations; [INSERT: Count=10000 Max=926.21 Min=18.26 Avg=34.76 90=47.33 99=74.69 99.9=658.43 99.99=814.08]
+Load runtime(sec): 0.265499
+Load operations(ops): 10000
+Load throughput(ops/sec): 37665
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 173570
+Load throughput(ops/sec) based on the max time taken by any thread: 138253
+2024-08-07 19:20:24 0 sec: 19 operations; [READ: Count=19 Max=11.16 Min=4.22 Avg=0.88 90=5.56 99=12.74 99.9=13.05 99.99=16.11]
+2024-08-07 19:20:24 0 sec: 10000 operations; [READ: Count=10000 Max=16.11 Min=2.30 Avg=3.33 90=4.26 99=4.93 99.9=9.89 99.99=13.05]
+Max Time by a thread in operation : 0.00659076
+Max Time by a thread in cleanup : 0.00432989
+Max Time by a thread full: 0.0108914
+Run runtime(sec): 0.0111868
+Run operations(ops): 10000
+Run throughput(ops/sec): 893909
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 1.96778e+06
+Run throughput(ops/sec) based on the max time taken by any thread: 1.51728e+06
+---------------------------------------------------------------------
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:20:24 0 sec: 0 operations;
+[DEBUG 0] [/home/utkarsh-nanda/deploy/include/dstates/pmem_history.hpp:41:pmem_history_t] created a new pmembobj pool, path = /dev/shm/dstates-db.dat
+2024-08-07 19:20:24 0 sec: 10000 operations; [INSERT: Count=10000 Max=909.31 Min=19.58 Avg=33.86 90=46.02 99=113.34 99.9=637.44 99.99=868.86]
+Load runtime(sec): 0.268942
+Load operations(ops): 10000
+Load throughput(ops/sec): 37182.7
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 176645
+Load throughput(ops/sec) based on the max time taken by any thread: 146523
+2024-08-07 19:20:24 0 sec: 0 operations;
+2024-08-07 19:20:24 0 sec: 10000 operations; [INSERT: Count=10000 Max=878.08 Min=17.70 Avg=34.09 90=45.53 99=64.96 99.9=652.29 99.99=830.98]
+Max Time by a thread in operation : 0.0724646
+Max Time by a thread in cleanup : 0.00387274
+Max Time by a thread full: 0.0763405
+Run runtime(sec): 0.0768346
+Run operations(ops): 10000
+Run throughput(ops/sec): 130150
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 170606
+Run throughput(ops/sec) based on the max time taken by any thread: 137998
+---------------------------------------------------------------------
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:20:24 0 sec: 0 operations;
+[DEBUG 0] [/home/utkarsh-nanda/deploy/include/dstates/pmem_history.hpp:41:pmem_history_t] created a new pmembobj pool, path = /dev/shm/dstates-db.dat
+2024-08-07 19:20:24 0 sec: 10000 operations; [INSERT: Count=10000 Max=868.35 Min=19.34 Avg=34.38 90=46.66 99=91.65 99.9=664.58 99.99=833.02]
+Load runtime(sec): 0.266943
+Load operations(ops): 10000
+Load throughput(ops/sec): 37461.2
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 172946
+Load throughput(ops/sec) based on the max time taken by any thread: 144089
+2024-08-07 19:20:24 0 sec: 5 operations; [UPDATE: Count=5 Max=31.20 Min=15.54 Avg=3.85 90=27.50 99=33.95 99.9=33.95 99.99=33.95]
+2024-08-07 19:20:24 0 sec: 10000 operations; [UPDATE: Count=10000 Max=1830.91 Min=6.33 Avg=10.91 90=14.59 99=18.45 99.9=84.99 99.99=224.64]
+Max Time by a thread in operation : 0.0234309
+Max Time by a thread in cleanup : 0.00433117
+Max Time by a thread full: 0.0277659
+Run runtime(sec): 0.0280427
+Run operations(ops): 10000
+Run throughput(ops/sec): 356599
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 616077
+Run throughput(ops/sec) based on the max time taken by any thread: 426786
+---------------------------------------------------------------------
+Running benchmark with 16 threads.
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:20:24 0 sec: 0 operations;
+[DEBUG 0] [/home/utkarsh-nanda/deploy/include/dstates/pmem_history.hpp:41:pmem_history_t] created a new pmembobj pool, path = /dev/shm/dstates-db.dat
+2024-08-07 19:20:25 0 sec: 10000 operations; [INSERT: Count=10000 Max=1355.78 Min=20.35 Avg=51.11 90=55.33 99=489.21 99.9=1016.32 99.99=1239.04]
+Load runtime(sec): 0.247645
+Load operations(ops): 10000
+Load throughput(ops/sec): 40380.3
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 247296
+Load throughput(ops/sec) based on the max time taken by any thread: 203144
+2024-08-07 19:20:25 0 sec: 0 operations;
+2024-08-07 19:20:25 0 sec: 10000 operations; [READ: Count=10000 Max=104.51 Min=2.36 Avg=4.44 90=5.06 99=6.20 99.9=9.84 99.99=23.14]
+Max Time by a thread in operation : 0.00395599
+Max Time by a thread in cleanup : 0.00399639
+Max Time by a thread full: 0.00786489
+Run runtime(sec): 0.00820693
+Run operations(ops): 10000
+Run throughput(ops/sec): 1.21848e+06
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 2.78678e+06
+Run throughput(ops/sec) based on the max time taken by any thread: 2.52781e+06
+---------------------------------------------------------------------
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:20:25 0 sec: 0 operations;
+[DEBUG 0] [/home/utkarsh-nanda/deploy/include/dstates/pmem_history.hpp:41:pmem_history_t] created a new pmembobj pool, path = /dev/shm/dstates-db.dat
+2024-08-07 19:20:25 0 sec: 10000 operations; [INSERT: Count=10000 Max=1384.45 Min=21.17 Avg=52.37 90=56.90 99=551.93 99.9=1074.17 99.99=1328.13]
+Load runtime(sec): 0.244891
+Load operations(ops): 10000
+Load throughput(ops/sec): 40834.5
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 240913
+Load throughput(ops/sec) based on the max time taken by any thread: 198012
+2024-08-07 19:20:25 0 sec: 0 operations;
+2024-08-07 19:20:25 0 sec: 10000 operations; [INSERT: Count=10000 Max=989.18 Min=20.53 Avg=51.24 90=59.77 99=347.90 99.9=763.90 99.99=967.17]
+Max Time by a thread in operation : 0.0504605
+Max Time by a thread in cleanup : 0.00644529
+Max Time by a thread full: 0.0569095
+Run runtime(sec): 0.0572528
+Run operations(ops): 10000
+Run throughput(ops/sec): 174664
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 236797
+Run throughput(ops/sec) based on the max time taken by any thread: 198175
+---------------------------------------------------------------------
+2024-08-07 19:20:25 0 sec: 0 operations;
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+[DEBUG 0] [/home/utkarsh-nanda/deploy/include/dstates/pmem_history.hpp:41:pmem_history_t] created a new pmembobj pool, path = /dev/shm/dstates-db.dat
+2024-08-07 19:20:25 0 sec: 10000 operations; [INSERT: Count=10000 Max=1384.45 Min=18.27 Avg=50.61 90=56.77 99=464.89 99.9=1197.06 99.99=1353.73]
+Load runtime(sec): 0.247293
+Load operations(ops): 10000
+Load throughput(ops/sec): 40437.8
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 248526
+Load throughput(ops/sec) based on the max time taken by any thread: 202288
+2024-08-07 19:20:25 0 sec: 0 operations;
+2024-08-07 19:20:25 0 sec: 10000 operations; [UPDATE: Count=10000 Max=153.22 Min=7.44 Avg=14.37 90=17.33 99=35.07 99.9=86.14 99.99=134.40]
+Max Time by a thread in operation : 0.0123111
+Max Time by a thread in cleanup : 0.00331951
+Max Time by a thread full: 0.0155474
+Run runtime(sec): 0.0159955
+Run operations(ops): 10000
+Run throughput(ops/sec): 625174
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 935617
+Run throughput(ops/sec) based on the max time taken by any thread: 812277
+---------------------------------------------------------------------
+Running benchmark with 32 threads.
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:20:25 0 sec: 0 operations;
+[DEBUG 0] [/home/utkarsh-nanda/deploy/include/dstates/pmem_history.hpp:41:pmem_history_t] created a new pmembobj pool, path = /dev/shm/dstates-db.dat
+2024-08-07 19:20:26 0 sec: 10000 operations; [INSERT: Count=10000 Max=9723.90 Min=22.29 Avg=96.07 90=62.34 99=1373.18 99.9=4923.39 99.99=7348.22]
+Load runtime(sec): 0.243587
+Load operations(ops): 10000
+Load throughput(ops/sec): 41053.1
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 286938
+Load throughput(ops/sec) based on the max time taken by any thread: 225779
+2024-08-07 19:20:26 0 sec: 4 operations; [READ: Count=4 Max=8.92 Min=4.58 Avg=0.34 90=5.24 99=9.33 99.9=10.22 99.99=10.22]
+2024-08-07 19:20:26 0 sec: 10000 operations; [READ: Count=10000 Max=549.89 Min=2.25 Avg=4.55 90=5.21 99=6.67 99.9=13.85 99.99=459.26]
+Max Time by a thread in operation : 0.00240126
+Max Time by a thread in cleanup : 0.00402707
+Max Time by a thread full: 0.00595101
+Run runtime(sec): 0.0087054
+Run operations(ops): 10000
+Run throughput(ops/sec): 1.14871e+06
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 5.44937e+06
+Run throughput(ops/sec) based on the max time taken by any thread: 4.16448e+06
+---------------------------------------------------------------------
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:20:26 0 sec: 0 operations;
+[DEBUG 0] [/home/utkarsh-nanda/deploy/include/dstates/pmem_history.hpp:41:pmem_history_t] created a new pmembobj pool, path = /dev/shm/dstates-db.dat
+2024-08-07 19:20:26 0 sec: 10000 operations; [INSERT: Count=10000 Max=7823.36 Min=19.87 Avg=95.27 90=59.01 99=1593.34 99.9=4669.44 99.99=7405.57]
+Load runtime(sec): 0.240303
+Load operations(ops): 10000
+Load throughput(ops/sec): 41614
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 287548
+Load throughput(ops/sec) based on the max time taken by any thread: 234710
+2024-08-07 19:20:26 0 sec: 0 operations;
+2024-08-07 19:20:26 0 sec: 10000 operations; [INSERT: Count=10000 Max=2701.31 Min=23.18 Avg=107.26 90=229.50 99=830.98 99.9=1590.27 99.99=2057.22]
+Max Time by a thread in operation : 0.0461015
+Max Time by a thread in cleanup : 0.00649932
+Max Time by a thread full: 0.0526038
+Run runtime(sec): 0.0539541
+Run operations(ops): 10000
+Run throughput(ops/sec): 185343
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 249871
+Run throughput(ops/sec) based on the max time taken by any thread: 216913
+---------------------------------------------------------------------
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:20:26 0 sec: 0 operations;
+[DEBUG 0] [/home/utkarsh-nanda/deploy/include/dstates/pmem_history.hpp:41:pmem_history_t] created a new pmembobj pool, path = /dev/shm/dstates-db.dat
+2024-08-07 19:20:26 0 sec: 10000 operations; [INSERT: Count=10000 Max=8134.65 Min=20.48 Avg=93.56 90=60.45 99=1473.54 99.9=4177.92 99.99=6598.65]
+Load runtime(sec): 0.233974
+Load operations(ops): 10000
+Load throughput(ops/sec): 42739.9
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 290532
+Load throughput(ops/sec) based on the max time taken by any thread: 244833
+2024-08-07 19:20:26 0 sec: 0 operations;
+2024-08-07 19:20:26 0 sec: 10000 operations; [UPDATE: Count=10000 Max=2779.14 Min=7.18 Avg=25.16 90=21.41 99=214.78 99.9=1677.31 99.99=2353.15]
+Max Time by a thread in operation : 0.0111168
+Max Time by a thread in cleanup : 0.00286261
+Max Time by a thread full: 0.0134579
+Run runtime(sec): 0.0167022
+Run operations(ops): 10000
+Run throughput(ops/sec): 598725
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 1.13594e+06
+Run throughput(ops/sec) based on the max time taken by any thread: 899543
+---------------------------------------------------------------------
+Running benchmark with 64 threads.
+2024-08-07 19:20:26 0 sec: 0 operations;
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+[DEBUG 0] [/home/utkarsh-nanda/deploy/include/dstates/pmem_history.hpp:41:pmem_history_t] created a new pmembobj pool, path = /dev/shm/dstates-db.dat
+2024-08-07 19:20:26 0 sec: 10000 operations; [INSERT: Count=10000 Max=14442.50 Min=20.48 Avg=185.04 90=64.73 99=4337.66 99.9=9453.57 99.99=13852.67]
+Load runtime(sec): 0.237659
+Load operations(ops): 10000
+Load throughput(ops/sec): 42077.1
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 328908
+Load throughput(ops/sec) based on the max time taken by any thread: 249408
+2024-08-07 19:20:26 0 sec: 0 operations;
+2024-08-07 19:20:26 0 sec: 10000 operations; [READ: Count=10000 Max=1331.20 Min=2.42 Avg=5.01 90=5.63 99=7.98 99.9=20.57 99.99=219.52]
+Max Time by a thread in operation : 0.00231415
+Max Time by a thread in cleanup : 0.00428553
+Max Time by a thread full: 0.00531533
+Run runtime(sec): 0.00866003
+Run operations(ops): 10000
+Run throughput(ops/sec): 1.15473e+06
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 9.98505e+06
+Run throughput(ops/sec) based on the max time taken by any thread: 4.32124e+06
+---------------------------------------------------------------------
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:20:26 0 sec: 0 operations;
+[DEBUG 0] [/home/utkarsh-nanda/deploy/include/dstates/pmem_history.hpp:41:pmem_history_t] created a new pmembobj pool, path = /dev/shm/dstates-db.dat
+2024-08-07 19:20:27 0 sec: 10000 operations; [INSERT: Count=10000 Max=10625.02 Min=21.28 Avg=183.32 90=69.18 99=4061.18 99.9=7909.38 99.99=9994.24]
+Load runtime(sec): 0.234716
+Load operations(ops): 10000
+Load throughput(ops/sec): 42604.7
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 324104
+Load throughput(ops/sec) based on the max time taken by any thread: 255489
+2024-08-07 19:20:27 0 sec: 0 operations;
+2024-08-07 19:20:27 0 sec: 10000 operations; [INSERT: Count=10000 Max=8122.37 Min=22.26 Avg=159.54 90=126.97 99=2922.49 99.9=6246.40 99.99=8040.45]
+Max Time by a thread in operation : 0.0403582
+Max Time by a thread in cleanup : 0.00430171
+Max Time by a thread full: 0.0403588
+Run runtime(sec): 0.0475759
+Run operations(ops): 10000
+Run throughput(ops/sec): 210190
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 338075
+Run throughput(ops/sec) based on the max time taken by any thread: 247781
+---------------------------------------------------------------------
+2024-08-07 19:20:27[DEBUG  0] [dstates/datastates_db.cc0:56 sec: :Init] deleting /dev/shm/dstates-db.dat
+0 operations;
+[DEBUG 0] [/home/utkarsh-nanda/deploy/include/dstates/pmem_history.hpp:41:pmem_history_t] created a new pmembobj pool, path = /dev/shm/dstates-db.dat
+2024-08-07 19:20:27 0 sec: 10000 operations; [INSERT: Count=10000 Max=14696.45 Min=22.29 Avg=181.80 90=72.00 99=4059.14 99.9=9003.01 99.99=13778.94]
+Load runtime(sec): 0.247424
+Load operations(ops): 10000
+Load throughput(ops/sec): 40416.4
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 330501
+Load throughput(ops/sec) based on the max time taken by any thread: 245501
+2024-08-07 19:20:27 0 sec: 0 operations;
+2024-08-07 19:20:27 0 sec: 10000 operations; [UPDATE: Count=10000 Max=1537.02 Min=7.52 Avg=31.55 90=43.26 99=395.77 99.9=1023.49 99.99=1290.24]
+Max Time by a thread in operation : 0.00783276
+Max Time by a thread in cleanup : 0.00330338
+Max Time by a thread full: 0.0078333
+Run runtime(sec): 0.0174616
+Run operations(ops): 10000
+Run throughput(ops/sec): 572685
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 1.99655e+06
+Run throughput(ops/sec) based on the max time taken by any thread: 1.27669e+06
+---------------------------------------------------------------------
+Running benchmark with 128 threads.
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:20:27 0 sec: 0 operations;
+[DEBUG 0] [/home/utkarsh-nanda/deploy/include/dstates/pmem_history.hpp:41:pmem_history_t] created a new pmembobj pool, path = /dev/shm/dstates-db.dat
+2024-08-07 19:20:27 0 sec: 10000 operations; [INSERT: Count=10000 Max=18612.22 Min=22.05 Avg=354.97 90=402.94 99=7028.73 99.9=12320.77 99.99=16351.23]
+Load runtime(sec): 0.236355
+Load operations(ops): 10000
+Load throughput(ops/sec): 42309.3
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 367552
+Load throughput(ops/sec) based on the max time taken by any thread: 248792
+2024-08-07 19:20:27 0 sec: 0 operations;
+2024-08-07 19:20:27 0 sec: 10000 operations; [READ: Count=10000 Max=145.28 Min=2.40 Avg=4.79 90=5.60 99=8.41 99.9=17.01 99.99=34.62]
+Max Time by a thread in operation : 0.000660826
+Max Time by a thread in cleanup : 0.00310855
+Max Time by a thread full: 0.00374362
+Run runtime(sec): 0.00786713
+Run operations(ops): 10000
+Run throughput(ops/sec): 1.27111e+06
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 2.06234e+07
+Run throughput(ops/sec) based on the max time taken by any thread: 1.51326e+07
+---------------------------------------------------------------------
+2024-08-07 19:20:27 0 sec: [DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+0 operations;
+[DEBUG 0] [/home/utkarsh-nanda/deploy/include/dstates/pmem_history.hpp:41:pmem_history_t] created a new pmembobj pool, path = /dev/shm/dstates-db.dat
+2024-08-07 19:20:27 0 sec: 10000 operations; [INSERT: Count=10000 Max=28295.17 Min=21.70 Avg=371.02 90=275.20 99=7774.21 99.9=16465.92 99.99=26050.56]
+Load runtime(sec): 0.237383
+Load operations(ops): 10000
+Load throughput(ops/sec): 42126.1
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 367450
+Load throughput(ops/sec) based on the max time taken by any thread: 232702
+2024-08-07 19:20:27 0 sec: 0 operations;
+2024-08-07 19:20:27 0 sec: 10000 operations; [INSERT: Count=10000 Max=9445.38 Min=22.61 Avg=186.69 90=390.14 99=2764.80 99.9=6307.84 99.99=8347.65]
+Max Time by a thread in operation : 0.0333814
+Max Time by a thread in cleanup : 0.0044264
+Max Time by a thread full: 0.0333823
+Run runtime(sec): 0.0479795
+Run operations(ops): 10000
+Run throughput(ops/sec): 208422
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 668879
+Run throughput(ops/sec) based on the max time taken by any thread: 299568
+---------------------------------------------------------------------
+2024-08-07 19:20:27 [DEBUG 0] [dstates/datastates_db.cc:056:Init] deleting  sec: /dev/shm/dstates-db.dat
+0 operations;
+[DEBUG 0] [/home/utkarsh-nanda/deploy/include/dstates/pmem_history.hpp:41:pmem_history_t] created a new pmembobj pool, path = /dev/shm/dstates-db.dat
+2024-08-07 19:20:28 0 sec: 10000 operations; [INSERT: Count=10000 Max=15499.26 Min=22.38 Avg=366.61 90=465.41 99=7274.49 99.9=11862.01 99.99=15015.93]
+Load runtime(sec): 0.241946
+Load operations(ops): 10000
+Load throughput(ops/sec): 41331.6
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 348098
+Load throughput(ops/sec) based on the max time taken by any thread: 246249
+2024-08-07 19:20:28 0 sec: 0 operations;
+2024-08-07 19:20:28 0 sec: 10000 operations; [UPDATE: Count=10000 Max=1170.43 Min=7.89 Avg=31.10 90=47.81 99=205.95 99.9=576.51 99.99=849.41]
+Max Time by a thread in operation : 0.00528924
+Max Time by a thread in cleanup : 0.00320111
+Max Time by a thread full: 0.00556732
+Run runtime(sec): 0.019387
+Run operations(ops): 10000
+Run throughput(ops/sec): 515809
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 3.93043e+06
+Run throughput(ops/sec) based on the max time taken by any thread: 1.89063e+06
+---------------------------------------------------------------------

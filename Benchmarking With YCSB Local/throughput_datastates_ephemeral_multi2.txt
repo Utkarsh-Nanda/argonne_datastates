@@ -1,0 +1,464 @@
+Running benchmark with 1 threads.
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:17:20 0 sec: 0 operations;
+2024-08-07 19:17:21 0 sec: 10000 operations; [INSERT: Count=10000 Max=1141.76 Min=3.11 Avg=5.87 90=6.38 99=22.24 99.9=55.01 99.99=206.72]
+Load runtime(sec): 0.221532
+Load operations(ops): 10000
+Load throughput(ops/sec): 45140.2
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 62543.4
+Load throughput(ops/sec) based on the max time taken by any thread: 62543.4
+2024-08-07 19:17:21 0 sec: 0 operations;
+2024-08-07 19:17:21 0 sec: 10000 operations; [READ: Count=10000 Max=102.53 Min=1.86 Avg=3.15 90=4.12 99=5.42 99.9=27.65 99.99=31.93]
+Max Time by a thread in operation : 0.0372816
+Max Time by a thread in cleanup : 0.0112122
+Max Time by a thread full: 0.0485013
+Run runtime(sec): 0.0488545
+Run operations(ops): 10000
+Run throughput(ops/sec): 204690
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 268229
+Run throughput(ops/sec) based on the max time taken by any thread: 268229
+---------------------------------------------------------------------
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:17:21 0 sec: 0 operations;
+2024-08-07 19:17:21 0 sec: 10000 operations; [INSERT: Count=10000 Max=122.11 Min=3.25 Avg=5.71 90=7.13 99=9.49 99.9=31.77 99.99=36.86]
+Load runtime(sec): 0.16346
+Load operations(ops): 10000
+Load throughput(ops/sec): 61177.1
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 61325
+Load throughput(ops/sec) based on the max time taken by any thread: 61325
+2024-08-07 19:17:21 0 sec: 1 operations; [INSERT: Count=1 Max=13.98 Min=13.98 Avg=2.00 90=9.21 99=13.98 99.9=13.98 99.99=13.98]
+2024-08-07 19:17:21 0 sec: 10000 operations; [INSERT: Count=10000 Max=248.32 Min=3.36 Avg=6.29 90=7.33 99=24.19 99.9=34.66 99.99=207.10]
+Max Time by a thread in operation : 0.170361
+Max Time by a thread in cleanup : 0.0232937
+Max Time by a thread full: 0.193662
+Run runtime(sec): 0.193936
+Run operations(ops): 10000
+Run throughput(ops/sec): 51563.4
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 58698.8
+Run throughput(ops/sec) based on the max time taken by any thread: 58698.8
+---------------------------------------------------------------------
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:17:21 0 sec: 1 operations; [INSERT: Count=1 Max=9.15 Min=5.85 Avg=1.50 90=6.64 99=9.15 99.9=9.15 99.99=9.15]
+2024-08-07 19:17:21 0 sec: 10000 operations; [INSERT: Count=10000 Max=203.90 Min=3.21 Avg=5.86 90=7.48 99=18.38 99.9=33.76 99.99=202.50]
+Load runtime(sec): 0.162639
+Load operations(ops): 10000
+Load throughput(ops/sec): 61486
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 61607.2
+Load throughput(ops/sec) based on the max time taken by any thread: 61607.2
+2024-08-07 19:17:21 0 sec: 0 operations;
+2024-08-07 19:17:21 0 sec: 10000 operations; [UPDATE: Count=10000 Max=209.53 Min=3.02 Avg=4.91 90=6.14 99=10.14 99.9=31.21 99.99=135.04]
+Max Time by a thread in operation : 0.0656897
+Max Time by a thread in cleanup : 0.0149359
+Max Time by a thread full: 0.0806302
+Run runtime(sec): 0.0810097
+Run operations(ops): 10000
+Run throughput(ops/sec): 123442
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 152231
+Run throughput(ops/sec) based on the max time taken by any thread: 152231
+---------------------------------------------------------------------
+Running benchmark with 2 threads.
+2024-08-07[ DEBUG 19:17:21 0 sec: 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+0 operations;
+2024-08-07 19:17:21 0 sec: 10000 operations; [INSERT: Count=10000 Max=231.68 Min=3.41 Avg=6.84 90=9.21 99=12.86 99.9=36.54 99.99=223.49]
+Load runtime(sec): 0.0995993
+Load operations(ops): 10000
+Load throughput(ops/sec): 100402
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 105946
+Load throughput(ops/sec) based on the max time taken by any thread: 100809
+2024-08-07 19:17:21 0 sec: 1 operations; [READ: Count=1 Max=9.34 Min=6.90 Avg=0.58 90=6.81 99=9.34 99.9=10.97 99.99=9.34]
+2024-08-07 19:17:21 0 sec: 10000 operations; [READ: Count=10000 Max=11.08 Min=2.92 Avg=4.00 90=4.63 99=6.49 99.9=8.59 99.99=10.97]
+Max Time by a thread in operation : 0.0243497
+Max Time by a thread in cleanup : 0.0121069
+Max Time by a thread full: 0.036463
+Run runtime(sec): 0.036748
+Run operations(ops): 10000
+Run throughput(ops/sec): 272124
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 413990
+Run throughput(ops/sec) based on the max time taken by any thread: 410682
+---------------------------------------------------------------------
+2024-08-07 19:17:21 0 sec: [DEBUG 0] [dstates/datastates_db.cc:0 operations;
+56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:17:21 0 sec: 10000 operations; [INSERT: Count=10000 Max=214.78 Min=3.34 Avg=6.16 90=7.69 99=15.37 99.9=54.53 99.99=212.74]
+Load runtime(sec): 0.0879189
+Load operations(ops): 10000
+Load throughput(ops/sec): 113741
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 118512
+Load throughput(ops/sec) based on the max time taken by any thread: 114269
+2024-08-07 19:17:21 0 sec: 0 operations;
+2024-08-07 19:17:22 0 sec: 10000 operations; [INSERT: Count=10000 Max=213.38 Min=3.66 Avg=6.71 90=7.82 99=22.32 99.9=77.25 99.99=212.99]
+Max Time by a thread in operation : 0.0910775
+Max Time by a thread in cleanup : 0.0224167
+Max Time by a thread full: 0.1135
+Run runtime(sec): 0.113815
+Run operations(ops): 10000
+Run throughput(ops/sec): 87862.1
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 110067
+Run throughput(ops/sec) based on the max time taken by any thread: 109797
+---------------------------------------------------------------------
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:17:22 0 sec: 0 operations;
+2024-08-07 19:17:22 0 sec: 10000 operations; [INSERT: Count=10000 Max=224.90 Min=3.49 Avg=6.11 90=7.33 99=10.77 99.9=54.98 99.99=213.25]
+Load runtime(sec): 0.0860403
+Load operations(ops): 10000
+Load throughput(ops/sec): 116225
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 117031
+Load throughput(ops/sec) based on the max time taken by any thread: 116811
+2024-08-07 19:17:22 0 sec: 1 operations; [UPDATE: Count=1 Max=12.77 Min=12.76 Avg=0.94 90=12.77 99=19.84 99.9=18.40 99.99=19.84]
+2024-08-07 19:17:22 0 sec: 10000 operations; [UPDATE: Count=10000 Max=124.73 Min=3.15 Avg=5.79 90=8.56 99=11.60 99.9=30.69 99.99=99.78]
+Max Time by a thread in operation : 0.0394741
+Max Time by a thread in cleanup : 0.0141671
+Max Time by a thread full: 0.0536463
+Run runtime(sec): 0.0549789
+Run operations(ops): 10000
+Run throughput(ops/sec): 181888
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 253597
+Run throughput(ops/sec) based on the max time taken by any thread: 253330
+---------------------------------------------------------------------
+Running benchmark with 4 threads.
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:17:22 0 sec: 0 operations;
+2024-08-07 19:17:22 0 sec: 10000 operations; [INSERT: Count=10000 Max=263.42 Min=3.39 Avg=7.13 90=9.63 99=16.05 99.9=54.46 99.99=148.74]
+Load runtime(sec): 0.0500381
+Load operations(ops): 10000
+Load throughput(ops/sec): 199848
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 208065
+Load throughput(ops/sec) based on the max time taken by any thread: 202104
+2024-08-07 19:17:22 0 sec: 0 operations;
+2024-08-07 19:17:22 0 sec: 10000 operations; [READ: Count=10000 Max=14.19 Min=1.99 Avg=3.77 90=4.51 99=5.32 99.9=9.33 99.99=11.56]
+Max Time by a thread in operation : 0.0128239
+Max Time by a thread in cleanup : 0.0144185
+Max Time by a thread full: 0.0272488
+Run runtime(sec): 0.0274836
+Run operations(ops): 10000
+Run throughput(ops/sec): 363853
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 890290
+Run throughput(ops/sec) based on the max time taken by any thread: 779795
+---------------------------------------------------------------------
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:17:22 0 sec: 6 operations; [INSERT: Count=6 Max=12.76 Min=6.24 Avg=2.36 90=9.19 99=12.76 99.9=12.76 99.99=12.20]
+2024-08-07 19:17:22 0 sec: 10000 operations; [INSERT: Count=10000 Max=230.53 Min=3.37 Avg=6.92 90=9.73 99=12.61 99.9=83.39 99.99=220.80]
+Load runtime(sec): 0.0584272
+Load operations(ops): 10000
+Load throughput(ops/sec): 171153
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 212028
+Load throughput(ops/sec) based on the max time taken by any thread: 172257
+2024-08-07 19:17:22 0 sec: 0 operations;
+2024-08-07 19:17:22 0 sec: 10000 operations; [INSERT: Count=10000 Max=221.57 Min=3.64 Avg=7.34 90=10.32 99=13.25 99.9=69.31 99.99=205.44]
+Max Time by a thread in operation : 0.0580324
+Max Time by a thread in cleanup : 0.0220724
+Max Time by a thread full: 0.0801078
+Run runtime(sec): 0.0803884
+Run operations(ops): 10000
+Run throughput(ops/sec): 124396
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 196686
+Run throughput(ops/sec) based on the max time taken by any thread: 172318
+---------------------------------------------------------------------
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:17:22 0 sec: 0 operations;
+2024-08-07 19:17:22 0 sec: 10000 operations; [INSERT: Count=10000 Max=233.60 Min=3.18 Avg=6.74 90=9.37 99=11.81 99.9=65.47 99.99=205.06]
+Load runtime(sec): 0.0535731
+Load operations(ops): 10000
+Load throughput(ops/sec): 186661
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 217484
+Load throughput(ops/sec) based on the max time taken by any thread: 188330
+2024-08-07 19:17:22 0 sec: 0 operations;
+2024-08-07 19:17:22 0 sec: 10000 operations; [UPDATE: Count=10000 Max=128.51 Min=3.19 Avg=5.81 90=8.88 99=11.03 99.9=15.16 99.99=91.20]
+Max Time by a thread in operation : 0.0239586
+Max Time by a thread in cleanup : 0.0149501
+Max Time by a thread full: 0.0389132
+Run runtime(sec): 0.0392351
+Run operations(ops): 10000
+Run throughput(ops/sec): 254874
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 511079
+Run throughput(ops/sec) based on the max time taken by any thread: 417387
+---------------------------------------------------------------------
+Running benchmark with 8 threads.
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:17:22 0 sec: 0 operations;
+2024-08-07 19:17:22 0 sec: 10000 operations; [INSERT: Count=10000 Max=221.95 Min=3.38 Avg=7.85 90=10.86 99=14.41 99.9=93.38 99.99=121.09]
+Load runtime(sec): 0.0318194
+Load operations(ops): 10000
+Load throughput(ops/sec): 314273
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 393262
+Load throughput(ops/sec) based on the max time taken by any thread: 316924
+2024-08-07 19:17:22 0 sec: 0 operations;
+2024-08-07 19:17:22 0 sec: 10000 operations; [READ: Count=10000 Max=89.60 Min=2.06 Avg=3.34 90=4.38 99=5.78 99.9=13.32 99.99=85.38]
+Max Time by a thread in operation : 0.00665899
+Max Time by a thread in cleanup : 0.0130407
+Max Time by a thread full: 0.0197044
+Run runtime(sec): 0.0200197
+Run operations(ops): 10000
+Run throughput(ops/sec): 499509
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 1.97131e+06
+Run throughput(ops/sec) based on the max time taken by any thread: 1.50173e+06
+---------------------------------------------------------------------
+2024-08-07 19:17:22 [DEBUG 0] [dstates/datastates_db.cc:056 sec: :Init] deleting /dev/shm/dstates-db.dat
+0 operations;
+2024-08-07 19:17:22 0 sec: 10000 operations; [INSERT: Count=10000 Max=262.01 Min=3.56 Avg=8.47 90=11.90 99=18.06 99.9=110.46 99.99=259.97]
+Load runtime(sec): 0.032209
+Load operations(ops): 10000
+Load throughput(ops/sec): 310472
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 384828
+Load throughput(ops/sec) based on the max time taken by any thread: 314153
+2024-08-07 19:17:22 0 sec: 0 operations;
+2024-08-07 19:17:22 0 sec: 10000 operations; [INSERT: Count=10000 Max=1136.64 Min=4.09 Avg=8.80 90=12.10 99=17.54 99.9=50.37 99.99=133.38]
+Max Time by a thread in operation : 0.0334957
+Max Time by a thread in cleanup : 0.0235006
+Max Time by a thread full: 0.0569997
+Run runtime(sec): 0.0574555
+Run operations(ops): 10000
+Run throughput(ops/sec): 174048
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 346612
+Run throughput(ops/sec) based on the max time taken by any thread: 298546
+---------------------------------------------------------------------
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:17:22 0 sec: 0 operations;
+2024-08-07 19:17:22 0 sec: 10000 operations; [INSERT: Count=10000 Max=121.02 Min=3.46 Avg=8.07 90=11.00 99=14.66 99.9=61.98 99.99=119.94]
+Load runtime(sec): 0.0326635
+Load operations(ops): 10000
+Load throughput(ops/sec): 306153
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 393218
+Load throughput(ops/sec) based on the max time taken by any thread: 311741
+2024-08-07 19:17:22 0 sec: 10 operations; [UPDATE: Count=10 Max=31.87 Min=7.80 Avg=1.61 90=13.32 99=23.28 99.9=31.87 99.99=31.87]
+2024-08-07 19:17:22 0 sec: 10000 operations; [UPDATE: Count=10000 Max=275.20 Min=3.46 Avg=6.57 90=9.77 99=13.45 99.9=30.53 99.99=235.01]
+Max Time by a thread in operation : 0.0139312
+Max Time by a thread in cleanup : 0.0147459
+Max Time by a thread full: 0.0286805
+Run runtime(sec): 0.0294755
+Run operations(ops): 10000
+Run throughput(ops/sec): 339265
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 919765
+Run throughput(ops/sec) based on the max time taken by any thread: 717812
+---------------------------------------------------------------------
+Running benchmark with 16 threads.
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:17:22 0 sec: 0 operations;
+2024-08-07 19:17:22 0 sec: 10000 operations; [INSERT: Count=10000 Max=347.13 Min=3.53 Avg=11.05 90=14.19 99=23.05 99.9=201.85 99.99=253.31]
+Load runtime(sec): 0.02089
+Load operations(ops): 10000
+Load throughput(ops/sec): 478698
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 563400
+Load throughput(ops/sec) based on the max time taken by any thread: 493760
+2024-08-07 19:17:22 0 sec: 12 operations; [READ: Count=12 Max=10.54 Min=4.62 Avg=0.37 90=6.77 99=10.64 99.9=11.16 99.99=11.07]
+2024-08-07 19:17:22 0 sec: 10000 operations; [READ: Count=10000 Max=30.37 Min=2.19 Avg=4.57 90=5.27 99=7.19 99.9=15.11 99.99=29.86]
+Max Time by a thread in operation : 0.00403253
+Max Time by a thread in cleanup : 0.0109716
+Max Time by a thread full: 0.0149687
+Run runtime(sec): 0.0155244
+Run operations(ops): 10000
+Run throughput(ops/sec): 644147
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 2.67857e+06
+Run throughput(ops/sec) based on the max time taken by any thread: 2.47984e+06
+---------------------------------------------------------------------
+[DEBUG 2024-08-07 19:17:22 0] [0dstates/datastates_db.cc sec: :56:Init] deleting /dev/shm/dstates-db.dat
+0 operations;
+2024-08-07 19:17:22 0 sec: 10000 operations; [INSERT: Count=10000 Max=392.45 Min=3.79 Avg=11.40 90=14.60 99=25.28 99.9=207.36 99.99=350.21]
+Load runtime(sec): 0.0201038
+Load operations(ops): 10000
+Load throughput(ops/sec): 497418
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 565380
+Load throughput(ops/sec) based on the max time taken by any thread: 509764
+2024-08-07 19:17:22 0 sec: 7 operations; [INSERT: Count=7 Max=19.49 Min=7.69 Avg=1.84 90=19.20 99=22.06 99.9=25.09 99.99=22.06]
+2024-08-07 19:17:22 0 sec: 10000 operations; [INSERT: Count=10000 Max=589.31 Min=4.33 Avg=11.64 90=14.42 99=21.10 99.9=238.72 99.99=584.70]
+Max Time by a thread in operation : 0.0206258
+Max Time by a thread in cleanup : 0.0262397
+Max Time by a thread full: 0.0467864
+Run runtime(sec): 0.0472954
+Run operations(ops): 10000
+Run throughput(ops/sec): 211437
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 520618
+Run throughput(ops/sec) based on the max time taken by any thread: 484829
+---------------------------------------------------------------------
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:17:22 0 sec: 1 operations; [INSERT: Count=1 Max=11.04 Min=7.15 Avg=0.47 90=8.26 99=12.67 99.9=11.04 99.99=12.67]
+2024-08-07 19:17:22 0 sec: 10000 operations; [INSERT: Count=10000 Max=3635.20 Min=3.62 Avg=10.98 90=12.86 99=20.41 99.9=373.76 99.99=1068.03]
+Load runtime(sec): 0.021486
+Load operations(ops): 10000
+Load throughput(ops/sec): 465419
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 605755
+Load throughput(ops/sec) based on the max time taken by any thread: 475117
+2024-08-07 19:17:22 0 sec: 14 operations; [UPDATE: Count=14 Max=17.66 Min=7.30 Avg=1.24 90=13.72 99=17.71 99.9=21.44 99.99=17.73]
+2024-08-07 19:17:23 0 sec: 10000 operations; [UPDATE: Count=10000 Max=347.65 Min=3.62 Avg=7.94 90=10.43 99=15.70 99.9=128.06 99.99=309.76]
+Max Time by a thread in operation : 0.00753419
+Max Time by a thread in cleanup : 0.0160007
+Max Time by a thread full: 0.0234454
+Run runtime(sec): 0.0243288
+Run operations(ops): 10000
+Run throughput(ops/sec): 411035
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 1.4775e+06
+Run throughput(ops/sec) based on the max time taken by any thread: 1.32728e+06
+---------------------------------------------------------------------
+Running benchmark with 32 threads.
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:17:23 0 sec: 0 operations;
+2024-08-07 19:17:23 0 sec: 10000 operations; [INSERT: Count=10000 Max=4251.65 Min=3.66 Avg=16.85 90=19.92 99=75.07 99.9=481.54 99.99=4085.76]
+Load runtime(sec): 0.0225043
+Load operations(ops): 10000
+Load throughput(ops/sec): 444359
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 940772
+Load throughput(ops/sec) based on the max time taken by any thread: 620416
+2024-08-07 19:17:23 0 sec: 0 operations;
+2024-08-07 19:17:23 0 sec: 10000 operations; [READ: Count=10000 Max=87.17 Min=2.17 Avg=4.45 90=5.33 99=7.80 99.9=19.73 99.99=61.82]
+Max Time by a thread in operation : 0.0021898
+Max Time by a thread in cleanup : 0.0128043
+Max Time by a thread full: 0.0149985
+Run runtime(sec): 0.0172876
+Run operations(ops): 10000
+Run throughput(ops/sec): 578449
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 5.49531e+06
+Run throughput(ops/sec) based on the max time taken by any thread: 4.56664e+06
+---------------------------------------------------------------------
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:17:23 0 sec: 0 operations;
+2024-08-07 19:17:23 0 sec: 10000 operations; [INSERT: Count=10000 Max=6668.29 Min=3.59 Avg=16.30 90=18.00 99=125.50 99.9=613.38 99.99=3657.73]
+Load runtime(sec): 0.0216082
+Load operations(ops): 10000
+Load throughput(ops/sec): 462787
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 933864
+Load throughput(ops/sec) based on the max time taken by any thread: 584853
+2024-08-07 19:17:23 0 sec: 0 operations;
+2024-08-07 19:17:23 0 sec: 10000 operations; [INSERT: Count=10000 Max=5906.43 Min=4.39 Avg=20.60 90=17.01 99=76.09 99.9=2541.57 99.99=5881.85]
+Max Time by a thread in operation : 0.02245
+Max Time by a thread in cleanup : 0.0245303
+Max Time by a thread full: 0.0469856
+Run runtime(sec): 0.0478247
+Run operations(ops): 10000
+Run throughput(ops/sec): 209097
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 759534
+Run throughput(ops/sec) based on the max time taken by any thread: 445435
+---------------------------------------------------------------------
+2024-08-07 19:17:23 0 sec: 0 operations;
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:17:23 0 sec: 10000 operations; [INSERT: Count=10000 Max=5292.03 Min=3.56 Avg=14.96 90=14.94 99=41.25 99.9=889.34 99.99=5214.21]
+Load runtime(sec): 0.0210303
+Load operations(ops): 10000
+Load throughput(ops/sec): 475503
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 957050
+Load throughput(ops/sec) based on the max time taken by any thread: 669505
+2024-08-07 19:17:23 0 sec: 0 operations;
+2024-08-07 19:17:23 0 sec: 10000 operations; [UPDATE: Count=10000 Max=2455.55 Min=3.51 Avg=10.55 90=11.18 99=22.24 99.9=751.62 99.99=2049.02]
+Max Time by a thread in operation : 0.00725434
+Max Time by a thread in cleanup : 0.0181471
+Max Time by a thread full: 0.0218835
+Run runtime(sec): 0.0277643
+Run operations(ops): 10000
+Run throughput(ops/sec): 360174
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 2.43434e+06
+Run throughput(ops/sec) based on the max time taken by any thread: 1.37848e+06
+---------------------------------------------------------------------
+Running benchmark with 64 threads.
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:17:23 0 sec: 0 operations;
+2024-08-07 19:17:23 0 sec: 10000 operations; [INSERT: Count=10000 Max=3299.33 Min=3.34 Avg=19.58 90=16.94 99=156.03 99.9=2095.10 99.99=3276.80]
+Load runtime(sec): 0.0210637
+Load operations(ops): 10000
+Load throughput(ops/sec): 474751
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 1.87493e+06
+Load throughput(ops/sec) based on the max time taken by any thread: 933511
+2024-08-07 19:17:23 0 sec: 3 operations; [READ: Count=3 Max=10.47 Min=5.92 Avg=0.35 90=6.39 99=9.83 99.9=10.47 99.99=10.48]
+2024-08-07 19:17:23 0 sec: 10000 operations; [READ: Count=10000 Max=288.00 Min=2.18 Avg=4.41 90=5.02 99=7.46 99.9=21.84 99.99=62.11]
+Max Time by a thread in operation : 0.0012416
+Max Time by a thread in cleanup : 0.0125841
+Max Time by a thread full: 0.0136111
+Run runtime(sec): 0.0171679
+Run operations(ops): 10000
+Run throughput(ops/sec): 582483
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 1.12e+07
+Run throughput(ops/sec) based on the max time taken by any thread: 8.05412e+06
+---------------------------------------------------------------------
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:17:23 0 sec: 9 operations; [INSERT: Count=9 Max=9.73 Min=4.76 Avg=1.43 90=8.84 99=10.73 99.9=13.21 99.99=13.21]
+2024-08-07 19:17:23 0 sec: 10000 operations; [INSERT: Count=10000 Max=4026.37 Min=3.36 Avg=17.66 90=16.89 99=161.02 99.9=1142.78 99.99=3334.14]
+Load runtime(sec): 0.0221204
+Load operations(ops): 10000
+Load throughput(ops/sec): 452072
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 1.85046e+06
+Load throughput(ops/sec) based on the max time taken by any thread: 1.00166e+06
+2024-08-07 19:17:23 0 sec: 0 operations;
+2024-08-07 19:17:23 0 sec: 10000 operations; [INSERT: Count=10000 Max=2955.26 Min=4.28 Avg=23.32 90=21.52 99=203.90 99.9=1536.00 99.99=2777.09]
+Max Time by a thread in operation : 0.011426
+Max Time by a thread in cleanup : 0.0229938
+Max Time by a thread full: 0.0282714
+Run runtime(sec): 0.0477125
+Run operations(ops): 10000
+Run throughput(ops/sec): 209589
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 1.48903e+06
+Run throughput(ops/sec) based on the max time taken by any thread: 875201
+---------------------------------------------------------------------
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:17:23 0 sec: 1 operations; [INSERT: Count=1 Max=9.97 Min=7.22 Avg=0.66 90=10.02 99=12.28 99.9=12.28 99.99=12.28]
+2024-08-07 19:17:23 0 sec: 10000 operations; [INSERT: Count=10000 Max=3383.30 Min=3.72 Avg=20.36 90=19.66 99=189.44 99.9=950.27 99.99=2951.17]
+Load runtime(sec): 0.0230611
+Load operations(ops): 10000
+Load throughput(ops/sec): 433630
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 1.76001e+06
+Load throughput(ops/sec) based on the max time taken by any thread: 1.04705e+06
+2024-08-07 19:17:23 0 sec: 0 operations;
+2024-08-07 19:17:23 0 sec: 10000 operations; [UPDATE: Count=10000 Max=1441.79 Min=3.53 Avg=10.41 90=12.40 99=71.36 99.9=433.92 99.99=1214.46]
+Max Time by a thread in operation : 0.00462562
+Max Time by a thread in cleanup : 0.0153991
+Max Time by a thread full: 0.0174677
+Run runtime(sec): 0.0247184
+Run operations(ops): 10000
+Run throughput(ops/sec): 404557
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 4.8216e+06
+Run throughput(ops/sec) based on the max time taken by any thread: 2.16187e+06
+---------------------------------------------------------------------
+Running benchmark with 128 threads.
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:17:23 0 sec: 0 operations;
+2024-08-07 19:17:23 0 sec: 10000 operations; [INSERT: Count=10000 Max=1936.38 Min=3.26 Avg=22.49 90=20.54 99=193.41 99.9=1169.41 99.99=1438.72]
+Load runtime(sec): 0.0240479
+Load operations(ops): 10000
+Load throughput(ops/sec): 415836
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 3.44247e+06
+Load throughput(ops/sec) based on the max time taken by any thread: 1.50351e+06
+2024-08-07 19:17:23 0 sec: 0 operations;
+2024-08-07 19:17:23 0 sec: 10000 operations; [READ: Count=10000 Max=35.26 Min=2.21 Avg=4.44 90=5.31 99=7.78 99.9=17.49 99.99=29.54]
+Max Time by a thread in operation : 0.0006029
+Max Time by a thread in cleanup : 0.0123349
+Max Time by a thread full: 0.0129406
+Run runtime(sec): 0.0172128
+Run operations(ops): 10000
+Run throughput(ops/sec): 580965
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 2.27068e+07
+Run throughput(ops/sec) based on the max time taken by any thread: 1.65865e+07
+---------------------------------------------------------------------
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:17:23 0 sec: 0 operations;
+2024-08-07 19:17:23 0 sec: 10000 operations; [INSERT: Count=10000 Max=2046.97 Min=3.66 Avg=21.52 90=20.82 99=204.67 99.9=964.61 99.99=1953.79]
+Load runtime(sec): 0.0228762
+Load operations(ops): 10000
+Load throughput(ops/sec): 437136
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 3.51267e+06
+Load throughput(ops/sec) based on the max time taken by any thread: 1.57041e+06
+2024-08-07 19:17:23 0 sec: 0 operations;
+2024-08-07 19:17:23 0 sec: 10000 operations; [INSERT: Count=10000 Max=1804.29 Min=4.82 Avg=25.47 90=25.81 99=242.56 99.9=1115.13 99.99=1622.02]
+Max Time by a thread in operation : 0.00642883
+Max Time by a thread in cleanup : 0.0250198
+Max Time by a thread full: 0.0286198
+Run runtime(sec): 0.0508404
+Run operations(ops): 10000
+Run throughput(ops/sec): 196694
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 2.95205e+06
+Run throughput(ops/sec) based on the max time taken by any thread: 1.55549e+06
+---------------------------------------------------------------------
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-08-07 19:17:23 0 sec: 1 operations; [INSERT: Count=1 Max=10.74 Min=6.64 Avg=0.64 90=10.68 99=12.02 99.9=11.47 99.99=12.02]
+2024-08-07 19:17:23 0 sec: 10000 operations; [INSERT: Count=10000 Max=1603.58 Min=3.47 Avg=22.29 90=23.07 99=185.85 99.9=1342.46 99.99=1599.49]
+Load runtime(sec): 0.0232754
+Load operations(ops): 10000
+Load throughput(ops/sec): 429639
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 3.46171e+06
+Load throughput(ops/sec) based on the max time taken by any thread: 1.8299e+06
+2024-08-07 19:17:23 0 sec: 0 operations;
+2024-08-07 19:17:23 0 sec: 10000 operations; [UPDATE: Count=10000 Max=646.65 Min=3.59 Avg=12.39 90=14.57 99=105.02 99.9=473.86 99.99=602.62]
+Max Time by a thread in operation : 0.0019684
+Max Time by a thread in cleanup : 0.0171933
+Max Time by a thread full: 0.0190812
+Run runtime(sec): 0.0279147
+Run operations(ops): 10000
+Run throughput(ops/sec): 358234
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 8.64055e+06
+Run throughput(ops/sec) based on the max time taken by any thread: 5.08026e+06
+---------------------------------------------------------------------

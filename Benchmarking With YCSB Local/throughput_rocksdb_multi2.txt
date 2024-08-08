@@ -1,0 +1,440 @@
+Running benchmark with 1 threads.
+2024-08-07 19:24:37 0 sec: 0 operations;
+2024-08-07 19:24:37 0 sec: 10000 operations; [INSERT: Count=10000 Max=10330.11 Min=1.80 Avg=3.57 90=3.27 99=4.04 99.9=4.94 99.99=25.93]
+Load runtime(sec): 0.203186
+Load operations(ops): 10000
+Load throughput(ops/sec): 49216
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 75297.1
+Load throughput(ops/sec) based on the max time taken by any thread: 75297.1
+2024-08-07 19:24:37 0 sec: 7 operations; [READ: Count=7 Max=42.53 Min=4.58 Avg=2.59 90=5.06 99=42.53 99.9=42.53 99.99=42.53]
+2024-08-07 19:24:37 0 sec: 10000 operations; [READ: Count=10000 Max=94.59 Min=1.78 Avg=2.26 90=2.34 99=4.51 99.9=25.79 99.99=42.53]
+Max Time by a thread in operation : 0.0276473
+Max Time by a thread in cleanup : 0.00364601
+Max Time by a thread full: 0.0312959
+Run runtime(sec): 0.0315692
+Run operations(ops): 10000
+Run throughput(ops/sec): 316764
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 361699
+Run throughput(ops/sec) based on the max time taken by any thread: 361699
+---------------------------------------------------------------------
+2024-08-07 19:24:37 0 sec: 0 operations;
+2024-08-07 19:24:37 0 sec: 10000 operations; [INSERT: Count=10000 Max=10125.31 Min=1.81 Avg=3.84 90=3.49 99=5.00 99.9=30.41 99.99=33.38]
+Load runtime(sec): 0.149349
+Load operations(ops): 10000
+Load throughput(ops/sec): 66957.2
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 69687.2
+Load throughput(ops/sec) based on the max time taken by any thread: 69687.2
+2024-08-07 19:24:37 0 sec: 0 operations;
+2024-08-07 19:24:37 0 sec: 10000 operations; [INSERT: Count=10000 Max=31.82 Min=1.94 Avg=3.01 90=3.78 99=8.69 99.9=24.96 99.99=29.66]
+Max Time by a thread in operation : 0.13181
+Max Time by a thread in cleanup : 0.00363813
+Max Time by a thread full: 0.135451
+Run runtime(sec): 0.135677
+Run operations(ops): 10000
+Run throughput(ops/sec): 73704.4
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 75867
+Run throughput(ops/sec) based on the max time taken by any thread: 75867
+---------------------------------------------------------------------
+2024-08-07 19:24:37 0 sec: 0 operations;
+2024-08-07 19:24:37 0 sec: 10000 operations; [INSERT: Count=10000 Max=10166.27 Min=1.82 Avg=3.70 90=3.38 99=4.62 99.9=26.27 99.99=30.46]
+Load runtime(sec): 0.140051
+Load operations(ops): 10000
+Load throughput(ops/sec): 71402.8
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 75059.2
+Load throughput(ops/sec) based on the max time taken by any thread: 75059.2
+2024-08-07 19:24:37 0 sec: 0 operations;
+2024-08-07 19:24:37 0 sec: 10000 operations; [UPDATE: Count=10000 Max=142.72 Min=4.32 Avg=5.70 90=6.55 99=13.06 99.9=30.06 99.99=65.86]
+Max Time by a thread in operation : 0.0750037
+Max Time by a thread in cleanup : 0.00319252
+Max Time by a thread full: 0.0782
+Run runtime(sec): 0.0785755
+Run operations(ops): 10000
+Run throughput(ops/sec): 127266
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 133327
+Run throughput(ops/sec) based on the max time taken by any thread: 133327
+---------------------------------------------------------------------
+Running benchmark with 2 threads.
+2024-08-07 19:24:37 0 sec: 0 operations;
+2024-08-07 19:24:38 0 sec: 10000 operations; [INSERT: Count=10000 Max=10166.27 Min=1.99 Avg=5.39 90=4.25 99=5.57 99.9=24.21 99.99=10149.89]
+Load runtime(sec): 0.0816658
+Load operations(ops): 10000
+Load throughput(ops/sec): 122450
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 132069
+Load throughput(ops/sec) based on the max time taken by any thread: 131625
+2024-08-07 19:24:38 0 sec: 0 operations;
+2024-08-07 19:24:38 0 sec: 10000 operations; [READ: Count=10000 Max=85.06 Min=1.90 Avg=2.47 90=3.66 99=4.39 99.9=11.54 99.99=44.26]
+Max Time by a thread in operation : 0.0164381
+Max Time by a thread in cleanup : 0.00374877
+Max Time by a thread full: 0.0201887
+Run runtime(sec): 0.0205386
+Run operations(ops): 10000
+Run throughput(ops/sec): 486887
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 647074
+Run throughput(ops/sec) based on the max time taken by any thread: 608343
+---------------------------------------------------------------------
+2024-08-07 19:24:38 0 sec: 0 operations;
+2024-08-07 19:24:38 0 sec: 10000 operations; [INSERT: Count=10000 Max=10215.42 Min=1.82 Avg=5.38 90=4.10 99=8.78 99.9=28.35 99.99=10141.69]
+Load runtime(sec): 0.082188
+Load operations(ops): 10000
+Load throughput(ops/sec): 121672
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 131152
+Load throughput(ops/sec) based on the max time taken by any thread: 130051
+2024-08-07 19:24:38 0 sec: 0 operations;
+2024-08-07 19:24:38 0 sec: 10000 operations; [INSERT: Count=10000 Max=131.97 Min=1.98 Avg=3.88 90=7.08 99=10.19 99.9=24.59 99.99=124.61]
+Max Time by a thread in operation : 0.075659
+Max Time by a thread in cleanup : 0.00314819
+Max Time by a thread full: 0.0788103
+Run runtime(sec): 0.0791839
+Run operations(ops): 10000
+Run throughput(ops/sec): 126288
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 138037
+Run throughput(ops/sec) based on the max time taken by any thread: 132172
+---------------------------------------------------------------------
+2024-08-07 19:24:38 0 sec: 0 operations;
+2024-08-07 19:24:38 0 sec: 10000 operations; [INSERT: Count=10000 Max=10018.82 Min=1.88 Avg=5.63 90=4.50 99=10.20 99.9=29.65 99.99=9986.05]
+Load runtime(sec): 0.0874149
+Load operations(ops): 10000
+Load throughput(ops/sec): 114397
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 125238
+Load throughput(ops/sec) based on the max time taken by any thread: 123036
+2024-08-07 19:24:38 0 sec: 0 operations;
+2024-08-07 19:24:38 0 sec: 10000 operations; [UPDATE: Count=10000 Max=155.39 Min=4.50 Avg=7.25 90=12.78 99=15.82 99.9=31.52 99.99=130.50]
+Max Time by a thread in operation : 0.0481291
+Max Time by a thread in cleanup : 0.00363939
+Max Time by a thread full: 0.0517717
+Run runtime(sec): 0.0520479
+Run operations(ops): 10000
+Run throughput(ops/sec): 192131
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 215782
+Run throughput(ops/sec) based on the max time taken by any thread: 207774
+---------------------------------------------------------------------
+Running benchmark with 4 threads.
+2024-08-07 19:24:38 0 sec: 0 operations;
+2024-08-07 19:24:38 0 sec: 10000 operations; [INSERT: Count=10000 Max=10698.75 Min=2.06 Avg=9.31 90=9.06 99=12.68 99.9=30.57 99.99=10592.25]
+Load runtime(sec): 0.0607765
+Load operations(ops): 10000
+Load throughput(ops/sec): 164537
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 199384
+Load throughput(ops/sec) based on the max time taken by any thread: 184727
+2024-08-07 19:24:38 0 sec: 0 operations;
+2024-08-07 19:24:38 0 sec: 10000 operations; [READ: Count=10000 Max=34.91 Min=1.84 Avg=3.62 90=4.26 99=4.71 99.9=8.26 99.99=22.53]
+Max Time by a thread in operation : 0.0130895
+Max Time by a thread in cleanup : 0.00587951
+Max Time by a thread full: 0.0189736
+Run runtime(sec): 0.0192315
+Run operations(ops): 10000
+Run throughput(ops/sec): 519981
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 930698
+Run throughput(ops/sec) based on the max time taken by any thread: 763974
+---------------------------------------------------------------------
+2024-08-07 19:24:38 0 sec: 0 operations;
+2024-08-07 19:24:38 0 sec: 10000 operations; [INSERT: Count=10000 Max=11575.30 Min=2.15 Avg=8.89 90=6.44 99=11.70 99.9=31.09 99.99=11468.80]
+Load runtime(sec): 0.0567907
+Load operations(ops): 10000
+Load throughput(ops/sec): 176085
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 206294
+Load throughput(ops/sec) based on the max time taken by any thread: 198234
+2024-08-07 19:24:38 0 sec: 4 operations; [INSERT: Count=4 Max=28.69 Min=15.60 Avg=4.48 90=20.37 99=28.69 99.9=28.69 99.99=28.69]
+2024-08-07 19:24:38 0 sec: 10000 operations; [INSERT: Count=10000 Max=102.97 Min=2.24 Avg=5.13 90=9.34 99=13.25 99.9=33.22 99.99=102.21]
+Max Time by a thread in operation : 0.0429061
+Max Time by a thread in cleanup : 0.00338686
+Max Time by a thread full: 0.0462958
+Run runtime(sec): 0.0466687
+Run operations(ops): 10000
+Run throughput(ops/sec): 214276
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 239439
+Run throughput(ops/sec) based on the max time taken by any thread: 233067
+---------------------------------------------------------------------
+2024-08-07 19:24:38 0 sec: 0 operations;
+2024-08-07 19:24:38 0 sec: 10000 operations; [INSERT: Count=10000 Max=11018.24 Min=2.14 Avg=9.09 90=8.57 99=13.97 99.9=82.11 99.99=10960.90]
+Load runtime(sec): 0.0580841
+Load operations(ops): 10000
+Load throughput(ops/sec): 172164
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 199780
+Load throughput(ops/sec) based on the max time taken by any thread: 195647
+2024-08-07 19:24:38 0 sec: 0 operations;
+2024-08-07 19:24:38 0 sec: 10000 operations; [UPDATE: Count=10000 Max=125.63 Min=4.61 Avg=11.58 90=17.76 99=22.93 99.9=45.25 99.99=101.44]
+Max Time by a thread in operation : 0.0389755
+Max Time by a thread in cleanup : 0.00298524
+Max Time by a thread full: 0.041963
+Run runtime(sec): 0.0423082
+Run operations(ops): 10000
+Run throughput(ops/sec): 236361
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 288933
+Run throughput(ops/sec) based on the max time taken by any thread: 256572
+---------------------------------------------------------------------
+Running benchmark with 8 threads.
+2024-08-07 19:24:38 0 sec: 0 operations;
+2024-08-07 19:24:38 0 sec: 10000 operations; [INSERT: Count=10000 Max=10182.66 Min=2.13 Avg=19.04 90=15.87 99=20.80 99.9=94.85 99.99=10092.54]
+Load runtime(sec): 0.0487736
+Load operations(ops): 10000
+Load throughput(ops/sec): 205029
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 257112
+Load throughput(ops/sec) based on the max time taken by any thread: 237799
+2024-08-07 19:24:38 0 sec: 0 operations;
+2024-08-07 19:24:38 0 sec: 10000 operations; [READ: Count=10000 Max=117.25 Min=1.90 Avg=3.07 90=4.25 99=4.68 99.9=12.55 99.99=42.72]
+Max Time by a thread in operation : 0.00675312
+Max Time by a thread in cleanup : 0.00378462
+Max Time by a thread full: 0.0105398
+Run runtime(sec): 0.01086
+Run operations(ops): 10000
+Run throughput(ops/sec): 920807
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 2.11207e+06
+Run throughput(ops/sec) based on the max time taken by any thread: 1.4808e+06
+---------------------------------------------------------------------
+2024-08-07 19:24:38 0 sec: 0 operations;
+2024-08-07 19:24:38 0 sec: 10000 operations; [INSERT: Count=10000 Max=10485.76 Min=2.29 Avg=18.47 90=14.44 99=19.17 99.9=132.99 99.99=10387.45]
+Load runtime(sec): 0.0462374
+Load operations(ops): 10000
+Load throughput(ops/sec): 216275
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 266128
+Load throughput(ops/sec) based on the max time taken by any thread: 247990
+2024-08-07 19:24:38 0 sec: 12 operations; [INSERT: Count=12 Max=25.12 Min=4.06 Avg=4.62 90=25.12 99=27.81 99.9=27.81 99.99=27.81]
+2024-08-07 19:24:38 0 sec: 10000 operations; [INSERT: Count=10000 Max=27.81 Min=2.53 Avg=10.28 90=14.68 99=19.70 99.9=24.27 99.99=27.61]
+Max Time by a thread in operation : 0.0320825
+Max Time by a thread in cleanup : 0.00328491
+Max Time by a thread full: 0.0353693
+Run runtime(sec): 0.035672
+Run operations(ops): 10000
+Run throughput(ops/sec): 280332
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 332675
+Run throughput(ops/sec) based on the max time taken by any thread: 311697
+---------------------------------------------------------------------
+2024-08-07 19:24:38 0 sec: 0 operations;
+2024-08-07 19:24:38 0 sec: 10000 operations; [INSERT: Count=10000 Max=10444.80 Min=2.34 Avg=19.45 90=15.95 99=23.20 99.9=111.68 99.99=10362.88]
+Load runtime(sec): 0.0482991
+Load operations(ops): 10000
+Load throughput(ops/sec): 207043
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 253288
+Load throughput(ops/sec) based on the max time taken by any thread: 239447
+2024-08-07 19:24:38 0 sec: 0 operations;
+2024-08-07 19:24:38 0 sec: 10000 operations; [UPDATE: Count=10000 Max=118.53 Min=4.92 Avg=16.43 90=22.41 99=28.96 99.9=73.53 99.99=118.08]
+Max Time by a thread in operation : 0.0255476
+Max Time by a thread in cleanup : 0.00323775
+Max Time by a thread full: 0.0287448
+Run runtime(sec): 0.029226
+Run operations(ops): 10000
+Run throughput(ops/sec): 342161
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 422523
+Run throughput(ops/sec) based on the max time taken by any thread: 391426
+---------------------------------------------------------------------
+Running benchmark with 16 threads.
+2024-08-07 19:24:38 0 sec: 0 operations;
+2024-08-07 19:24:38 0 sec: 10000 operations; [INSERT: Count=10000 Max=10027.01 Min=2.23 Avg=33.33 90=24.35 99=34.05 99.9=9691.14 99.99=10018.82]
+Load runtime(sec): 0.03679
+Load operations(ops): 10000
+Load throughput(ops/sec): 271813
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 331927
+Load throughput(ops/sec) based on the max time taken by any thread: 316602
+2024-08-07 19:24:38 0 sec: 0 operations;
+2024-08-07 19:24:39 0 sec: 10000 operations; [READ: Count=10000 Max=96.13 Min=2.00 Avg=4.20 90=4.76 99=6.26 99.9=17.18 99.99=87.49]
+Max Time by a thread in operation : 0.00390909
+Max Time by a thread in cleanup : 0.00598796
+Max Time by a thread full: 0.00980795
+Run runtime(sec): 0.0103236
+Run operations(ops): 10000
+Run throughput(ops/sec): 968654
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 2.92842e+06
+Run throughput(ops/sec) based on the max time taken by any thread: 2.55814e+06
+---------------------------------------------------------------------
+2024-08-07 19:24:39 0 sec: 0 operations;
+2024-08-07 19:24:39 0 sec: 10000 operations; [INSERT: Count=10000 Max=10354.69 Min=3.64 Avg=33.10 90=23.58 99=30.06 99.9=9912.32 99.99=10297.34]
+Load runtime(sec): 0.0369461
+Load operations(ops): 10000
+Load throughput(ops/sec): 270664
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 333672
+Load throughput(ops/sec) based on the max time taken by any thread: 314870
+2024-08-07 19:24:39 0 sec: 0 operations;
+2024-08-07 19:24:39 0 sec: 10000 operations; [INSERT: Count=10000 Max=96.83 Min=3.37 Avg=18.41 90=25.98 99=39.30 99.9=73.28 99.99=95.68]
+Max Time by a thread in operation : 0.0251625
+Max Time by a thread in cleanup : 0.00422849
+Max Time by a thread full: 0.0293932
+Run runtime(sec): 0.0299037
+Run operations(ops): 10000
+Run throughput(ops/sec): 334407
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 426679
+Run throughput(ops/sec) based on the max time taken by any thread: 397416
+---------------------------------------------------------------------
+2024-08-07 19:24:39 0 sec: 0 operations;
+2024-08-07 19:24:39 0 sec: 10000 operations; [INSERT: Count=10000 Max=11042.82 Min=2.04 Avg=34.29 90=23.71 99=32.03 99.9=10616.83 99.99=11018.24]
+Load runtime(sec): 0.0397655
+Load operations(ops): 10000
+Load throughput(ops/sec): 251475
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 324856
+Load throughput(ops/sec) based on the max time taken by any thread: 305007
+2024-08-07 19:24:39 0 sec: 0 operations;
+2024-08-07 19:24:39 0 sec: 10000 operations; [UPDATE: Count=10000 Max=113.79 Min=6.07 Avg=23.10 90=30.32 99=39.68 99.9=103.36 99.99=113.41]
+Max Time by a thread in operation : 0.017848
+Max Time by a thread in cleanup : 0.00369949
+Max Time by a thread full: 0.0215501
+Run runtime(sec): 0.0220042
+Run operations(ops): 10000
+Run throughput(ops/sec): 454460
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 607101
+Run throughput(ops/sec) based on the max time taken by any thread: 560287
+---------------------------------------------------------------------
+Running benchmark with 32 threads.
+2024-08-07 19:24:39 0 sec: 0 operations;
+2024-08-07 19:24:39 0 sec: 10000 operations; [INSERT: Count=10000 Max=10215.42 Min=3.46 Avg=111.51 90=121.34 99=202.50 99.9=9428.99 99.99=10067.97]
+Load runtime(sec): 0.0492927
+Load operations(ops): 10000
+Load throughput(ops/sec): 202870
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 247768
+Load throughput(ops/sec) based on the max time taken by any thread: 239378
+2024-08-07 19:24:39 0 sec: 0 operations;
+2024-08-07 19:24:39 0 sec: 10000 operations; [READ: Count=10000 Max=2240.51 Min=2.15 Avg=4.65 90=5.01 99=7.37 99.9=18.89 99.99=520.45]
+Max Time by a thread in operation : 0.00418963
+Max Time by a thread in cleanup : 0.00449494
+Max Time by a thread full: 0.0064881
+Run runtime(sec): 0.00941411
+Run operations(ops): 10000
+Run throughput(ops/sec): 1.06224e+06
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 5.33267e+06
+Run throughput(ops/sec) based on the max time taken by any thread: 2.38685e+06
+---------------------------------------------------------------------
+2024-08-07 19:24:39 0 sec: 0 operations;
+2024-08-07 19:24:39 0 sec: 10000 operations; [INSERT: Count=10000 Max=10518.53 Min=4.15 Avg=128.67 90=134.27 99=203.78 99.9=10051.58 99.99=10518.53]
+Load runtime(sec): 0.0516152
+Load operations(ops): 10000
+Load throughput(ops/sec): 193741
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 218902
+Load throughput(ops/sec) based on the max time taken by any thread: 215389
+2024-08-07 19:24:39 0 sec: 0 operations;
+2024-08-07 19:24:39 0 sec: 10000 operations; [INSERT: Count=10000 Max=308.48 Min=3.43 Avg=97.41 90=132.74 99=192.90 99.9=252.03 99.99=302.85]
+Max Time by a thread in operation : 0.0386287
+Max Time by a thread in cleanup : 0.0039509
+Max Time by a thread full: 0.0423001
+Run runtime(sec): 0.0431168
+Run operations(ops): 10000
+Run throughput(ops/sec): 231928
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 261669
+Run throughput(ops/sec) based on the max time taken by any thread: 258875
+---------------------------------------------------------------------
+2024-08-07 19:24:39 0 sec: 0 operations;
+2024-08-07 19:24:39 0 sec: 10000 operations; [INSERT: Count=10000 Max=10412.03 Min=3.06 Avg=110.66 90=114.43 99=171.01 99.9=10018.82 99.99=10403.84]
+Load runtime(sec): 0.0478568
+Load operations(ops): 10000
+Load throughput(ops/sec): 208957
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 247958
+Load throughput(ops/sec) based on the max time taken by any thread: 244046
+2024-08-07 19:24:39 0 sec: 0 operations;
+2024-08-07 19:24:39 0 sec: 10000 operations; [UPDATE: Count=10000 Max=326.65 Min=6.98 Avg=88.40 90=121.79 99=189.44 99.9=271.36 99.99=324.10]
+Max Time by a thread in operation : 0.02943
+Max Time by a thread in cleanup : 0.00318573
+Max Time by a thread full: 0.0324044
+Run runtime(sec): 0.0334678
+Run operations(ops): 10000
+Run throughput(ops/sec): 298795
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 346691
+Run throughput(ops/sec) based on the max time taken by any thread: 339790
+---------------------------------------------------------------------
+Running benchmark with 64 threads.
+2024-08-07 19:24:39 0 sec: 0 operations;
+2024-08-07 19:24:39 0 sec: 10000 operations; [INSERT: Count=10000 Max=11476.99 Min=6.01 Avg=259.73 90=257.28 99=331.77 99.9=11042.82 99.99=11460.61]
+Load runtime(sec): 0.0513614
+Load operations(ops): 10000
+Load throughput(ops/sec): 194699
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 229075
+Load throughput(ops/sec) based on the max time taken by any thread: 225477
+2024-08-07 19:24:39 0 sec: 0 operations;
+2024-08-07 19:24:39 0 sec: 10000 operations; [READ: Count=10000 Max=1070.08 Min=2.14 Avg=4.54 90=5.06 99=8.68 99.9=17.47 99.99=1063.93]
+Max Time by a thread in operation : 0.00205854
+Max Time by a thread in cleanup : 0.00404356
+Max Time by a thread full: 0.00521272
+Run runtime(sec): 0.00854795
+Run operations(ops): 10000
+Run throughput(ops/sec): 1.16987e+06
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 1.1084e+07
+Run throughput(ops/sec) based on the max time taken by any thread: 4.85782e+06
+---------------------------------------------------------------------
+2024-08-07 19:24:39 0 sec: 0 operations;
+2024-08-07 19:24:39 0 sec: 10000 operations; [INSERT: Count=10000 Max=12419.07 Min=7.02 Avg=267.79 90=257.02 99=317.69 99.9=12197.89 99.99=12410.88]
+Load runtime(sec): 0.051298
+Load operations(ops): 10000
+Load throughput(ops/sec): 194940
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 223348
+Load throughput(ops/sec) based on the max time taken by any thread: 220021
+2024-08-07 19:24:39 0 sec: 0 operations;
+2024-08-07 19:24:39 0 sec: 10000 operations; [INSERT: Count=10000 Max=438.78 Min=6.40 Avg=191.02 90=259.71 99=329.47 99.9=395.01 99.99=422.65]
+Max Time by a thread in operation : 0.0336078
+Max Time by a thread in cleanup : 0.00375898
+Max Time by a thread full: 0.0367634
+Run runtime(sec): 0.0385698
+Run operations(ops): 10000
+Run throughput(ops/sec): 259270
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 303304
+Run throughput(ops/sec) based on the max time taken by any thread: 297550
+---------------------------------------------------------------------
+2024-08-07 19:24:39 0 sec: 0 operations;
+2024-08-07 19:24:39 0 sec: 10000 operations; [INSERT: Count=10000 Max=10567.68 Min=8.18 Avg=257.36 90=259.33 99=335.10 99.9=10338.30 99.99=10534.91]
+Load runtime(sec): 0.0491619
+Load operations(ops): 10000
+Load throughput(ops/sec): 203410
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 231019
+Load throughput(ops/sec) based on the max time taken by any thread: 228295
+2024-08-07 19:24:39 0 sec: 0 operations;
+2024-08-07 19:24:39 0 sec: 10000 operations; [UPDATE: Count=10000 Max=463.62 Min=9.10 Avg=180.64 90=238.08 99=291.84 99.9=430.08 99.99=454.91]
+Max Time by a thread in operation : 0.0291338
+Max Time by a thread in cleanup : 0.00329856
+Max Time by a thread full: 0.0320855
+Run runtime(sec): 0.0336531
+Run operations(ops): 10000
+Run throughput(ops/sec): 297150
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 347600
+Run throughput(ops/sec) based on the max time taken by any thread: 343244
+---------------------------------------------------------------------
+Running benchmark with 128 threads.
+2024-08-07 19:24:39 0 sec: 0 operations;
+2024-08-07 19:24:39 0 sec: 10000 operations; [INSERT: Count=10000 Max=11493.38 Min=6.13 Avg=509.39 90=539.13 99=9715.71 99.9=11214.85 99.99=11436.03]
+Load runtime(sec): 0.0505227
+Load operations(ops): 10000
+Load throughput(ops/sec): 197931
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 238811
+Load throughput(ops/sec) based on the max time taken by any thread: 233407
+2024-08-07 19:24:39 0 sec: 0 operations;
+2024-08-07 19:24:39 0 sec: 10000 operations; [READ: Count=10000 Max=51.23 Min=2.11 Avg=3.97 90=4.86 99=9.70 99.9=20.77 99.99=44.51]
+Max Time by a thread in operation : 0.000689512
+Max Time by a thread in cleanup : 0.00463674
+Max Time by a thread full: 0.00532861
+Run runtime(sec): 0.00941579
+Run operations(ops): 10000
+Run throughput(ops/sec): 1.06205e+06
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 2.46244e+07
+Run throughput(ops/sec) based on the max time taken by any thread: 1.4503e+07
+---------------------------------------------------------------------
+2024-08-07 19:24:39 0 sec: 0 operations;
+2024-08-07 19:24:39 0 sec: 10000 operations; [INSERT: Count=10000 Max=11280.38 Min=8.66 Avg=496.58 90=520.70 99=8970.24 99.9=10993.66 99.99=11247.61]
+Load runtime(sec): 0.0481221
+Load operations(ops): 10000
+Load throughput(ops/sec): 207805
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 246160
+Load throughput(ops/sec) based on the max time taken by any thread: 237132
+2024-08-07 19:24:39 0 sec: 0 operations;
+2024-08-07 19:24:39 0 sec: 10000 operations; [INSERT: Count=10000 Max=838.14 Min=5.56 Avg=372.03 90=536.06 99=687.10 99.9=786.43 99.99=819.20]
+Max Time by a thread in operation : 0.0320644
+Max Time by a thread in cleanup : 0.00596056
+Max Time by a thread full: 0.0370152
+Run runtime(sec): 0.0402009
+Run operations(ops): 10000
+Run throughput(ops/sec): 248751
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 325388
+Run throughput(ops/sec) based on the max time taken by any thread: 311872
+---------------------------------------------------------------------
+2024-08-07 19:24:39 0 sec: 0 operations;
+2024-08-07 19:24:39 0 sec: 10000 operations; [INSERT: Count=10000 Max=11853.82 Min=10.32 Avg=498.46 90=511.74 99=9805.82 99.9=11550.72 99.99=11812.86]
+Load runtime(sec): 0.0477388
+Load operations(ops): 10000
+Load throughput(ops/sec): 209473
+Load throughput(ops/sec) based on summation of individual threads (only by ops): 244451
+Load throughput(ops/sec) based on the max time taken by any thread: 237861
+2024-08-07 19:24:39 0 sec: 0 operations;
+2024-08-07 19:24:39 0 sec: 10000 operations; [UPDATE: Count=10000 Max=836.61 Min=20.08 Avg=331.43 90=480.25 99=619.01 99.9=761.86 99.99=816.64]
+Max Time by a thread in operation : 0.0274126
+Max Time by a thread in cleanup : 0.00389502
+Max Time by a thread full: 0.0301733
+Run runtime(sec): 0.0339262
+Run operations(ops): 10000
+Run throughput(ops/sec): 294758
+Run throughput(ops/sec) based on summation of individual threads (only by ops): 382205
+Run throughput(ops/sec) based on the max time taken by any thread: 364796
+---------------------------------------------------------------------
