@@ -97,27 +97,11 @@ void run_insert(Map &vmap, const int n, const int t)
         {
             std::string key = key_value[i].first;
             std::string value = key_value[i].second;
-            /*
-            int version;
-            {
-                std::unique_lock lock(history_mutex);
-                version = (int) vmap.tag();
-        //vmap.insert(key, value, version);
-            }*/
 
-            /*{
-             std::unique_lock lock(history_mutex);
-            std::cout << "key : " << key << " value : " << value << "\n";
-                //vmap.tag();
-            }*/
-            // vmap.insert(key, value, version);
             count++;
             int timestamp = vmap.tag();
             vmap.insert(key, value, true);
-            /*{
-                std::unique_lock<std::mutex> lock(history_mutex);
-                key_history_counts[key]++;
-            }*/
+
         }
     }
     std::cout << "Insert completed : " << count << "\n";
@@ -141,14 +125,7 @@ void run_update(Map &vmap, const int n, const int t)
 
             std::string key = key_value[updates[i].first].first; // get the key from it's index
             std::string new_value = updates[i].second;           // get the new value from the updates vector
-                                                                 /*
-                                                                int version;
-                                                             {
-                                                                     std::unique_lock lock(history_mutex);
-                                                                     version = (int) vmap.tag();
-                                                                     //vmap.insert(key, new_value, version);
-                                                             }
-                                                             */
+
             vmap.insert(key, new_value, true);
             // vmap.insert(key, new_value, version);
         }
@@ -166,8 +143,6 @@ void run_read(Map &vmap, const int n, const int t, std::vector<std::pair<std::st
     std::cout << "Starting reads with " << t << " threads..." << std::endl;
     auto start = std::chrono::high_resolution_clock::now();
 
-    // std::atomic<int> successful_reads{0};
-    // std::atomic<int> total_versions_read{0};
 
 #pragma omp parallel num_threads(t)
     {
@@ -179,18 +154,9 @@ void run_read(Map &vmap, const int n, const int t, std::vector<std::pair<std::st
             const auto &read_pair = reads[i];
             const std::string &key = read_pair.first;
             int version = read_pair.second;
-            // int version = 10;
-            // Get the value for the specific key and version
-            // std::cout << "To search : key : " << key << " version : " << version << "\n";
-            auto value = vmap.find(version, key);
-            // std::cout << "Value for key " << key << " and version " << version << " is " << value << std::endl;
-            // if (value != vordered_kv_t<std::string, std::string>::low_marker) {
-            //     successful_reads++;
 
-            // Get history size for statistics
-            // history.clear();
-            // vmap.get_key_history(key, history);
-            // total_versions_read += history.size();
+            auto value = vmap.find(version, key);
+
         }
     }
 
@@ -199,11 +165,6 @@ void run_read(Map &vmap, const int n, const int t, std::vector<std::pair<std::st
 
     // // Print statistics
     std::cout << "Read benchmark completed in " << duration.count() << "ms" << std::endl;
-    // std::cout << "Successful reads: " << successful_reads << "/" << reads.size() << std::endl;
-    // if (successful_reads > 0) {
-    //     double avg_versions = static_cast<double>(total_versions_read) / successful_reads;
-    //     std::cout << "Average versions per key: " << avg_versions << std::endl;
-    // }
 }
 
 // Function to create reference key-value pairs
@@ -342,29 +303,29 @@ int main(int argc, char **argv)
     }
 
     // Print statistics
-    // std::cout << "\nKey History Statistics Actual: " << std::endl;
-    // int count = 0;
-    // for (const auto& pair : key_history_counts) {
-    //         count += pair.second;
-    //     std::cout << "Key: " << pair.first << ", History Count: " << pair.second << std::endl;
-    // }
-    // std::cout << "Count : " << count << "\n";
+    std::cout << "\nKey History Statistics Actual: " << std::endl;
+    int count = 0;
+    for (const auto& pair : key_history_counts) {
+            count += pair.second;
+        std::cout << "Key: " << pair.first << ", History Count: " << pair.second << std::endl;
+    }
+    std::cout << "Count : " << count << "\n";
 
-    // // Print statistics
-    // std::cout << "\nKey History Statistics:" << std::endl;
+    // Print statistics
+    std::cout << "\nKey History Statistics:" << std::endl;
 
-    // int history_total_size = 0;
-    // for (const auto& pair : key_history_counts) {
-    //     std::vector<std::pair<int, std::string>> history;
-    //     vmap.get_key_history(pair.first, history);
-    // history_total_size += history.size();
-    //     std::cout << "Key: " << pair.first << ", History Size: " << history.size() << std::endl;
-    //     for (const auto& h : history) {
-    //         std::cout << "  Version: " << h.first << ", Value: " << h.second << std::endl;
-    //     }
-    //     std::cout << std::endl;
-    // }
-    // std::cout << "Total history size combined : " << history_total_size << "\n";
+    int history_total_size = 0;
+    for (const auto& pair : key_history_counts) {
+        std::vector<std::pair<int, std::string>> history;
+        vmap.get_key_history(pair.first, history);
+    history_total_size += history.size();
+        std::cout << "Key: " << pair.first << ", History Size: " << history.size() << std::endl;
+        for (const auto& h : history) {
+            std::cout << "  Version: " << h.first << ", Value: " << h.second << std::endl;
+        }
+        std::cout << std::endl;
+    }
+    std::cout << "Total history size combined : " << history_total_size << "\n";
 
     return 0;
 }
