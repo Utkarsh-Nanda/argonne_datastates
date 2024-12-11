@@ -1,0 +1,456 @@
+Running benchmark with 1 threads.
+Running insert Ops.
+----------------------------------
+2024-10-29 04:06:36[DEBUG  0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat0 sec: 
+0 operations;
+2024-10-29 04:06:46 10 sec: 177081 operations; [INSERT: Count=177081 Max=28.33 Min=9.85 Avg=13.45]
+2024-10-29 04:06:56 20 sec: 351595 operations; [INSERT: Count=351595 Max=32.06 Min=9.85 Avg=13.84]
+2024-10-29 04:07:06 30 sec: 525677 operations; [INSERT: Count=525677 Max=33.33 Min=9.85 Avg=14.03]
+2024-10-29 04:07:16 40 sec: 698868 operations; [INSERT: Count=698868 Max=33.33 Min=9.85 Avg=14.20]
+Runtime Init : 1.73017e+09 Runtime Ops : 45.858 Runtime Cleanup : 2.63336 Runtime Total : 48.4916 Ops Throughput : 17445.2
+2024-10-29 04:07:25 48 sec: 800000 operations; [INSERT: Count=800000 Max=33.33 Min=9.85 Avg=14.29]
+Run runtime(sec): 48.4921
+Run operations(ops): 800000
+Run throughput(ops/sec): 16497.5
+Running update Ops.
+----------------------------------
+2024-10-29 04:07:25[DEBUG  0] [dstates/datastates_db.cc:056 sec: :Init] deleting /dev/shm/dstates-db.dat
+0 operations;
+2024-10-29 04:07:35 10 sec: 177603 operations; [INSERT: Count=177603 Max=55.10 Min=9.77 Avg=13.52]
+2024-10-29 04:07:45 20 sec: 352888 operations; [INSERT: Count=352888 Max=55.10 Min=9.77 Avg=13.93]
+2024-10-29 04:07:55 30 sec: 527559 operations; [INSERT: Count=527559 Max=931.80 Min=9.77 Avg=14.12]
+2024-10-29 04:08:05 40 sec: 701678 operations; [INSERT: Count=701678 Max=931.80 Min=9.77 Avg=14.27]
+Runtime Init : 1.73017e+09 Runtime Ops : 45.6837 Runtime Cleanup : 9.417e-06 Runtime Total : 45.6839 Ops Throughput : 17511.7
+2024-10-29 04:08:11 45 sec: 800000 operations; [INSERT: Count=800000 Max=931.80 Min=9.77 Avg=14.36]
+Load runtime(sec): 45.6844
+Load operations(ops): 800000
+Load throughput(ops/sec): 17511.4
+2024-10-29 04:08:11 0 sec: 0 operations;
+2024-10-29 04:08:21 10 sec: 430584 operations; [UPDATE: Count=430584 Max=87.06 Min=13.14 Avg=17.80]
+2024-10-29 04:08:31 20 sec: 800000 operations; [UPDATE: Count=800000 Max=87.06 Min=13.14 Avg=17.82]
+Runtime Init : 1.73017e+09 Runtime Ops : 18.5972 Runtime Cleanup : 3.07955 Runtime Total : 21.6768 Ops Throughput : 43017.1
+2024-10-29 04:08:33 21 sec: 800000 operations; [UPDATE: Count=800000 Max=87.06 Min=13.14 Avg=17.82]
+Run runtime(sec): 21.7166
+Run operations(ops): 800000
+Run throughput(ops/sec): 36838.2
+Running read Ops.
+----------------------------------
+2024-10-29 04:08:33[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting  /dev/shm/dstates-db.dat
+0 sec: 0 operations;
+2024-10-29 04:08:43 10 sec: 178420 operations; [INSERT: Count=178420 Max=35.70 Min=9.60 Avg=13.33]
+2024-10-29 04:08:53 20 sec: 354424 operations; [INSERT: Count=354424 Max=51.03 Min=9.60 Avg=13.69]
+2024-10-29 04:09:03 30 sec: 529658 operations; [INSERT: Count=529658 Max=51.03 Min=9.60 Avg=13.89]
+2024-10-29 04:09:13 40 sec: 704246 operations; [INSERT: Count=704246 Max=51.03 Min=9.60 Avg=14.06]
+Runtime Init : 1.73017e+09 Runtime Ops : 45.515 Runtime Cleanup : 9.127e-06 Runtime Total : 45.5152 Ops Throughput : 17576.6
+2024-10-29 04:09:19 45 sec: 800000 operations; [INSERT: Count=800000 Max=51.03 Min=9.60 Avg=14.14]
+Load runtime(sec): 45.5157
+Load operations(ops): 800000
+Load throughput(ops/sec): 17576.3
+2024-10-29 04:09:19 0 sec: 0 operations;
+2024-10-29 04:09:29 10 sec: 722741 operations; [READ: Count=722741 Max=44.36 Min=9.04 Avg=12.38]
+Runtime Init : 1.73017e+09 Runtime Ops : 11.0533 Runtime Cleanup : 2.69334 Runtime Total : 13.7466 Ops Throughput : 72376.9
+2024-10-29 04:09:32 13 sec: 800000 operations; [READ: Count=800000 Max=44.36 Min=9.04 Avg=12.36]
+Run runtime(sec): 13.747
+Run operations(ops): 800000
+Run throughput(ops/sec): 58194.7
+------------------------------------------------------------------------------------------------------------------------------------------
+Running benchmark with 2 threads.
+Running insert Ops.
+----------------------------------
+2024-10-29 04:09:33 [DEBUG0  sec: 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+0 operations;
+2024-10-29 04:09:43 10 sec: 338457 operations; [INSERT: Count=338457 Max=41.60 Min=10.10 Avg=14.96]
+2024-10-29 04:09:53 20 sec: 672136 operations; [INSERT: Count=672136 Max=45.71 Min=10.10 Avg=15.40]
+Runtime Init : 1.73017e+09 Runtime Ops : 23.6909 Runtime Cleanup : 7.71e-07 Runtime Total : 23.691 Ops Throughput : 33768.3
+Runtime Init : 1.73017e+09 Runtime Ops : 24.0582 Runtime Cleanup : 2.70696 Runtime Total : 26.7654 Ops Throughput : 33252.7
+2024-10-29 04:10:00 26 sec: 800000 operations; [INSERT: Count=800000 Max=45.71 Min=10.10 Avg=15.56]
+Run runtime(sec): 26.7658
+Run operations(ops): 800000
+Run throughput(ops/sec): 29888.9
+Running update Ops.
+----------------------------------
+2024-10-29 04:10:00 0 sec: 0 operations;
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+2024-10-29 04:10:10 10 sec: 344087 operations; [INSERT: Count=344087 Max=37.66 Min=10.17 Avg=14.84]
+2024-10-29 04:10:20 20 sec: 682622 operations; [INSERT: Count=682622 Max=37.66 Min=10.17 Avg=15.29]
+Runtime Init : 1.73018e+09 Runtime Ops : 23.4439 Runtime Cleanup : 3.21e-07 Runtime Total : 23.4441 Ops Throughput : 34124.1
+Runtime Init : 1.73018e+09 Runtime Ops : 23.538 Runtime Cleanup : 9.107e-06 Runtime Total : 23.5383 Ops Throughput : 33987.6
+2024-10-29 04:10:24 23 sec: 800000 operations; [INSERT: Count=800000 Max=47.67 Min=10.17 Avg=15.41]
+Load runtime(sec): 23.5388
+Load operations(ops): 800000
+Load throughput(ops/sec): 33986.4
+2024-10-29 04:10:24 0 sec: 0 operations;
+Runtime Init : 1.73018e+09 Runtime Ops : 9.53971 Runtime Cleanup : 1.193e-06 Runtime Total : 9.53971 Ops Throughput : 83860
+2024-10-29 04:10:34 10 sec: 800000 operations; [UPDATE: Count=800000 Max=74.09 Min=13.24 Avg=17.98]
+Runtime Init : 1.73018e+09 Runtime Ops : 9.57871 Runtime Cleanup : 3.34532 Runtime Total : 12.924 Ops Throughput : 83518.5
+2024-10-29 04:10:37 12 sec: 800000 operations; [UPDATE: Count=800000 Max=74.09 Min=13.24 Avg=17.98]
+Run runtime(sec): 13.1878
+Run operations(ops): 800000
+Run throughput(ops/sec): 60662.3
+Running read Ops.
+----------------------------------
+2024-10-29 [DEBUG 04:10:37 0] [dstates/datastates_db.cc:56:Init] deleting 0 sec: /dev/shm/dstates-db.dat
+0 operations;
+2024-10-29 04:10:47 10 sec: 343407 operations; [INSERT: Count=343407 Max=58.71 Min=9.97 Avg=14.86]
+2024-10-29 04:10:57 20 sec: 682505 operations; [INSERT: Count=682505 Max=85.48 Min=9.97 Avg=15.26]
+Runtime Init : 1.73018e+09 Runtime Ops : 23.3719 Runtime Cleanup : 2.6e-07 Runtime Total : 23.372 Ops Throughput : 34229.2
+Runtime Init : 1.73018e+09 Runtime Ops : 23.6107 Runtime Cleanup : 8.987e-06 Runtime Total : 23.6109 Ops Throughput : 33883
+2024-10-29 04:11:01 23 sec: 800000 operations; [INSERT: Count=800000 Max=85.48 Min=9.97 Avg=15.39]
+Load runtime(sec): 23.6113
+Load operations(ops): 800000
+Load throughput(ops/sec): 33882.1
+2024-10-29 04:11:01 0 sec: 0 operations;
+Runtime Init : 1.73018e+09 Runtime Ops : 5.65997 Runtime Cleanup : 1.312e-06 Runtime Total : 5.65997 Ops Throughput : 141344
+Runtime Init : 1.73018e+09 Runtime Ops : 5.67898 Runtime Cleanup : 2.73102 Runtime Total : 8.41 Ops Throughput : 140870
+2024-10-29 04:11:09 8 sec: 800000 operations; [READ: Count=800000 Max=49.78 Min=9.19 Avg=12.38]
+Run runtime(sec): 8.41038
+Run operations(ops): 800000
+Run throughput(ops/sec): 95120.5
+------------------------------------------------------------------------------------------------------------------------------------------
+Running benchmark with 4 threads.
+Running insert Ops.
+----------------------------------
+2024-10-29 04:11:10 0 sec: [DEBUG 0] [dstates/datastates_db.cc:56:0 operations;Init] deleting /dev/shm/dstates-db.dat
+
+2024-10-29 04:11:20 10 sec: 657431 operations; [INSERT: Count=657431 Max=101.68 Min=9.88 Avg=16.40]
+Runtime Init : 1.73018e+09 Runtime Ops : 12.1328 Runtime Cleanup : 8.52e-07 Runtime Total : 12.1328 Ops Throughput : 65937.2
+Runtime Init : 1.73018e+09 Runtime Ops : 12.1342 Runtime Cleanup : 7.92e-07 Runtime Total : 12.1343 Ops Throughput : 65929.4
+Runtime Init : 1.73018e+09 Runtime Ops : 12.2101 Runtime Cleanup : 8.12e-07 Runtime Total : 12.2102 Ops Throughput : 65519.3
+Runtime Init : 1.73018e+09 Runtime Ops : 12.274 Runtime Cleanup : 2.75053 Runtime Total : 15.0247 Ops Throughput : 65178.3
+2024-10-29 04:11:25 15 sec: 800000 operations; [INSERT: Count=800000 Max=101.68 Min=9.88 Avg=16.54]
+Run runtime(sec): 15.0252
+Run operations(ops): 800000
+Run throughput(ops/sec): 53243.8
+Running update Ops.
+----------------------------------
+2024-10-29 04:11:25[DEBUG  0 sec: 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+0 operations;
+2024-10-29 04:11:35 10 sec: 663489 operations; [INSERT: Count=663489 Max=80.51 Min=10.13 Avg=16.34]
+Runtime Init : 1.73018e+09 Runtime Ops : 12.0285 Runtime Cleanup : 2.8e-07 Runtime Total : 12.0288 Ops Throughput : 66508.7
+Runtime Init : 1.73018e+09 Runtime Ops : 12.0378 Runtime Cleanup : 3.71e-07 Runtime Total : 12.038 Ops Throughput : 66457.1
+Runtime Init : 1.73018e+09 Runtime Ops : 12.0535 Runtime Cleanup : 2.5e-07 Runtime Total : 12.0537 Ops Throughput : 66370.7
+Runtime Init : 1.73018e+09 Runtime Ops : 12.1817 Runtime Cleanup : 8.556e-06 Runtime Total : 12.182 Ops Throughput : 65672.5
+2024-10-29 04:11:38 12 sec: 800000 operations; [INSERT: Count=800000 Max=102.73 Min=10.13 Avg=16.46]
+Load runtime(sec): 12.1824
+Load operations(ops): 800000
+Load throughput(ops/sec): 65668.6
+2024-10-29 04:11:38 0 sec: 0 operations;
+Runtime Init : 1.73018e+09 Runtime Ops : 4.88536 Runtime Cleanup : 1.272e-06 Runtime Total : 4.88536 Ops Throughput : 163755
+Runtime Init : 1.73018e+09 Runtime Ops : 4.9234 Runtime Cleanup : 1.453e-06 Runtime Total : 4.9234 Ops Throughput : 162489
+Runtime Init : 1.73018e+09 Runtime Ops : 4.97061 Runtime Cleanup : 1.372e-06 Runtime Total : 4.97061 Ops Throughput : 160946
+Runtime Init : 1.73018e+09 Runtime Ops : 4.98243 Runtime Cleanup : 3.57903 Runtime Total : 8.56146 Ops Throughput : 160564
+2024-10-29 04:11:46 8 sec: 800000 operations; [UPDATE: Count=800000 Max=74.41 Min=12.73 Avg=18.54]
+Run runtime(sec): 8.90389
+Run operations(ops): 800000
+Run throughput(ops/sec): 89848.4
+Running read Ops.
+----------------------------------
+2024-10-29 04:11:47[DEBUG  0] [dstates/datastates_db.cc:56:Init] deleting 0 sec: /dev/shm/dstates-db.dat
+0 operations;
+2024-10-29 04:11:57 10 sec: 665019 operations; [INSERT: Count=665019 Max=69.51 Min=10.05 Avg=16.28]
+Runtime Init : 1.73018e+09 Runtime Ops : 12.0059 Runtime Cleanup : 4.81e-07 Runtime Total : 12.0061 Ops Throughput : 66633.9
+Runtime Init : 1.73018e+09 Runtime Ops : 12.0235 Runtime Cleanup : 3.91e-07 Runtime Total : 12.0237 Ops Throughput : 66536.5
+Runtime Init : 1.73018e+09 Runtime Ops : 12.0247 Runtime Cleanup : 2.7e-07 Runtime Total : 12.0249 Ops Throughput : 66530
+Runtime Init : 1.73018e+09 Runtime Ops : 12.1542 Runtime Cleanup : 8.766e-06 Runtime Total : 12.1545 Ops Throughput : 65820.9
+2024-10-29 04:11:59 12 sec: 800000 operations; [INSERT: Count=800000 Max=69.51 Min=10.05 Avg=16.41]
+Load runtime(sec): 12.1549
+Load operations(ops): 800000
+Load throughput(ops/sec): 65817.1
+2024-10-29 04:11:59 0 sec: 0 operations;
+Runtime Init : 1.73018e+09 Runtime Ops : 2.93287 Runtime Cleanup : 1.272e-06 Runtime Total : 2.93287 Ops Throughput : 272771
+Runtime Init : 1.73018e+09 Runtime Ops : 2.93689 Runtime Cleanup : 1.213e-06 Runtime Total : 2.93689 Ops Throughput : 272397
+Runtime Init : 1.73018e+09 Runtime Ops : 2.94898 Runtime Cleanup : 1.183e-06 Runtime Total : 2.94898 Ops Throughput : 271280
+Runtime Init : 1.73018e+09 Runtime Ops : 2.96478 Runtime Cleanup : 2.85507 Runtime Total : 5.81985 Ops Throughput : 269835
+2024-10-29 04:12:05 5 sec: 800000 operations; [READ: Count=800000 Max=68.40 Min=9.05 Avg=12.85]
+Run runtime(sec): 5.8202
+Run operations(ops): 800000
+Run throughput(ops/sec): 137452
+------------------------------------------------------------------------------------------------------------------------------------------
+Running benchmark with 8 threads.
+Running insert Ops.
+----------------------------------
+2024-10-29 04:12:05 0 sec: 0 operations;
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+Runtime Init : 1.73018e+09 Runtime Ops : 6.42445 Runtime Cleanup : 1.022e-06 Runtime Total : 6.4245 Ops Throughput : 124524
+Runtime Init : 1.73018e+09 Runtime Ops : 6.42746 Runtime Cleanup : 7.22e-07 Runtime Total : 6.42752 Ops Throughput : 124466
+Runtime Init : 1.73018e+09 Runtime Ops : 6.4778 Runtime Cleanup : 9.32e-07 Runtime Total : 6.47787 Ops Throughput : 123499
+Runtime Init : 1.73018e+09 Runtime Ops : 6.47991 Runtime Cleanup : 8.71e-07 Runtime Total : 6.47992 Ops Throughput : 123458
+Runtime Init : 1.73018e+09 Runtime Ops : 6.48272 Runtime Cleanup : 8.81e-07 Runtime Total : 6.48273 Ops Throughput : 123405
+Runtime Init : 1.73018e+09 Runtime Ops : 6.48626 Runtime Cleanup : 8.12e-07 Runtime Total : 6.48627 Ops Throughput : 123338
+Runtime Init : 1.73018e+09 Runtime Ops : 6.50253 Runtime Cleanup : 9.22e-07 Runtime Total : 6.50253 Ops Throughput : 123029
+Runtime Init : 1.73018e+09 Runtime Ops : 6.57982 Runtime Cleanup : 2.83197 Runtime Total : 9.41191 Ops Throughput : 121584
+2024-10-29 04:12:15 9 sec: 800000 operations; [INSERT: Count=800000 Max=637.99 Min=10.52 Avg=19.11]
+Run runtime(sec): 9.41245
+Run operations(ops): 800000
+Run throughput(ops/sec): 84993.8
+Running update Ops.
+----------------------------------
+2024-10-29 04:12:15[DEBUG  00 sec: ] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+0 operations;
+Runtime Init : 1.73018e+09 Runtime Ops : 6.266 Runtime Cleanup : 2.61e-07 Runtime Total : 6.266 Ops Throughput : 127673
+Runtime Init : 1.73018e+09 Runtime Ops : 6.26786 Runtime Cleanup : 2.51e-07 Runtime Total : 6.26801 Ops Throughput : 127635
+Runtime Init : 1.73018e+09 Runtime Ops : 6.29006 Runtime Cleanup : 2.4e-07 Runtime Total : 6.29028 Ops Throughput : 127185
+Runtime Init : 1.73018e+09 Runtime Ops : 6.29373 Runtime Cleanup : 2.81e-07 Runtime Total : 6.29391 Ops Throughput : 127111
+Runtime Init : 1.73018e+09 Runtime Ops : 6.3132 Runtime Cleanup : 2.81e-07 Runtime Total : 6.31336 Ops Throughput : 126719
+Runtime Init : 1.73018e+09 Runtime Ops : 6.3406 Runtime Cleanup : 2.2e-07 Runtime Total : 6.34061 Ops Throughput : 126171
+Runtime Init : 1.73018e+09 Runtime Ops : 6.3753 Runtime Cleanup : 2.6e-07 Runtime Total : 6.37531 Ops Throughput : 125484
+Runtime Init : 1.73018e+09 Runtime Ops : 6.4458 Runtime Cleanup : 9.558e-06 Runtime Total : 6.44607 Ops Throughput : 124112
+2024-10-29 04:12:22 6 sec: 800000 operations; [INSERT: Count=800000 Max=95.77 Min=10.26 Avg=18.97]
+Load runtime(sec): 6.44645
+Load operations(ops): 800000
+Load throughput(ops/sec): 124099
+2024-10-29 04:12:22 0 sec: 0 operations;
+Runtime Init : 1.73018e+09 Runtime Ops : 2.49614 Runtime Cleanup : 1.283e-06 Runtime Total : 2.49615 Ops Throughput : 320494
+Runtime Init : 1.73018e+09 Runtime Ops : 2.50216 Runtime Cleanup : 7.01e-07 Runtime Total : 2.50216 Ops Throughput : 319723
+Runtime Init : 1.73018e+09 Runtime Ops : 2.52747 Runtime Cleanup : 1.012e-06 Runtime Total : 2.52747 Ops Throughput : 316523
+Runtime Init : 1.73018e+09 Runtime Ops : 2.53239 Runtime Cleanup : 1.282e-06 Runtime Total : 2.53239 Ops Throughput : 315907
+Runtime Init : 1.73018e+09 Runtime Ops : 2.5616 Runtime Cleanup : 1.193e-06 Runtime Total : 2.5616 Ops Throughput : 312305
+Runtime Init : 1.73018e+09 Runtime Ops : 2.56278 Runtime Cleanup : 1.192e-06 Runtime Total : 2.56278 Ops Throughput : 312161
+Runtime Init : 1.73018e+09 Runtime Ops : 2.57453 Runtime Cleanup : 1.112e-06 Runtime Total : 2.57453 Ops Throughput : 310736
+Runtime Init : 1.73018e+09 Runtime Ops : 2.621 Runtime Cleanup : 3.71215 Runtime Total : 6.33314 Ops Throughput : 305227
+2024-10-29 04:12:28 6 sec: 800000 operations; [UPDATE: Count=800000 Max=95.39 Min=13.69 Avg=19.17]
+Run runtime(sec): 6.66698
+Run operations(ops): 800000
+Run throughput(ops/sec): 119994
+Running read Ops.
+----------------------------------
+2024-10-29 04:12:28 0 sec: [DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat0 operations;
+
+Runtime Init : 1.73018e+09 Runtime Ops : 6.25079 Runtime Cleanup : 2.71e-07 Runtime Total : 6.25086 Ops Throughput : 127984
+Runtime Init : 1.73018e+09 Runtime Ops : 6.2644 Runtime Cleanup : 2.21e-07 Runtime Total : 6.26454 Ops Throughput : 127706
+Runtime Init : 1.73018e+09 Runtime Ops : 6.29859 Runtime Cleanup : 3.4e-07 Runtime Total : 6.29859 Ops Throughput : 127013
+Runtime Init : 1.73018e+09 Runtime Ops : 6.3046 Runtime Cleanup : 3.61e-07 Runtime Total : 6.30468 Ops Throughput : 126891
+Runtime Init : 1.73018e+09 Runtime Ops : 6.3068 Runtime Cleanup : 2.21e-07 Runtime Total : 6.3068 Ops Throughput : 126847
+Runtime Init : 1.73018e+09 Runtime Ops : 6.31663 Runtime Cleanup : 2.31e-07 Runtime Total : 6.31673 Ops Throughput : 126650
+Runtime Init : 1.73018e+09 Runtime Ops : 6.36116 Runtime Cleanup : 2.31e-07 Runtime Total : 6.36116 Ops Throughput : 125763
+Runtime Init : 1.73018e+09 Runtime Ops : 6.3957 Runtime Cleanup : 8.265e-06 Runtime Total : 6.39589 Ops Throughput : 125084
+2024-10-29 04:12:35 6 sec: 800000 operations; [INSERT: Count=800000 Max=93.87 Min=10.34 Avg=18.82]
+Load runtime(sec): 6.39664
+Load operations(ops): 800000
+Load throughput(ops/sec): 125066
+2024-10-29 04:12:35 0 sec: 0 operations;
+Runtime Init : 1.73018e+09 Runtime Ops : 1.52517 Runtime Cleanup : 1.533e-06 Runtime Total : 1.52518 Ops Throughput : 524530
+Runtime Init : 1.73018e+09 Runtime Ops : 1.53059 Runtime Cleanup : 1.182e-06 Runtime Total : 1.53059 Ops Throughput : 522676
+Runtime Init : 1.73018e+09 Runtime Ops : 1.53196 Runtime Cleanup : 5.81e-07 Runtime Total : 1.53196 Ops Throughput : 522206
+Runtime Init : 1.73018e+09 Runtime Ops : 1.53331 Runtime Cleanup : 1.183e-06 Runtime Total : 1.53331 Ops Throughput : 521749
+Runtime Init : 1.73018e+09 Runtime Ops : 1.54718 Runtime Cleanup : 1.513e-06 Runtime Total : 1.54718 Ops Throughput : 517069
+Runtime Init : 1.73018e+09 Runtime Ops : 1.54838 Runtime Cleanup : 1.002e-06 Runtime Total : 1.54838 Ops Throughput : 516669
+Runtime Init : 1.73018e+09 Runtime Ops : 1.55811 Runtime Cleanup : 1.532e-06 Runtime Total : 1.55811 Ops Throughput : 513443
+Runtime Init : 1.73018e+09 Runtime Ops : 1.55918 Runtime Cleanup : 2.86801 Runtime Total : 4.42719 Ops Throughput : 513092
+2024-10-29 04:12:39 4 sec: 800000 operations; [READ: Count=800000 Max=54.53 Min=9.24 Avg=13.29]
+Run runtime(sec): 4.42779
+Run operations(ops): 800000
+Run throughput(ops/sec): 180677
+------------------------------------------------------------------------------------------------------------------------------------------
+Running benchmark with 12 threads.
+Running insert Ops.
+----------------------------------
+2024-10-29 04:12:40[DEBUG  0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat0 sec: 
+0 operations;
+Runtime Init : 1.73018e+09 Runtime Ops : 4.70214 Runtime Cleanup : 1.031e-06 Runtime Total : 4.70222 Ops Throughput : 170135
+Runtime Init : 1.73018e+09 Runtime Ops : 4.70919 Runtime Cleanup : 9.92e-07 Runtime Total : 4.70929 Ops Throughput : 169880
+Runtime Init : 1.73018e+09 Runtime Ops : 4.71185 Runtime Cleanup : 7.21e-07 Runtime Total : 4.71185 Ops Throughput : 169785
+Runtime Init : 1.73018e+09 Runtime Ops : 4.71769 Runtime Cleanup : 6.41e-07 Runtime Total : 4.71769 Ops Throughput : 169575
+Runtime Init : 1.73018e+09 Runtime Ops : 4.71868 Runtime Cleanup : 9.52e-07 Runtime Total : 4.71868 Ops Throughput : 169539
+Runtime Init : 1.73018e+09 Runtime Ops : 4.72037 Runtime Cleanup : 6.51e-07 Runtime Total : 4.72038 Ops Throughput : 169478
+Runtime Init : 1.73018e+09 Runtime Ops : 4.72249 Runtime Cleanup : 9.42e-07 Runtime Total : 4.72249 Ops Throughput : 169402
+Runtime Init : 1.73018e+09 Runtime Ops : 4.72804 Runtime Cleanup : 5.31e-07 Runtime Total : 4.72804 Ops Throughput : 169203
+Runtime Init : 1.73018e+09 Runtime Ops : 4.75056 Runtime Cleanup : 8.62e-07 Runtime Total : 4.75057 Ops Throughput : 168401
+Runtime Init : 1.73018e+09 Runtime Ops : 4.75937 Runtime Cleanup : 8.61e-07 Runtime Total : 4.75947 Ops Throughput : 168090
+Runtime Init : 1.73018e+09 Runtime Ops : 4.75909 Runtime Cleanup : 7.52e-07 Runtime Total : 4.7591 Ops Throughput : 168099
+Runtime Init : 1.73018e+09 Runtime Ops : 4.8161 Runtime Cleanup : 2.82621 Runtime Total : 7.64248 Ops Throughput : 166109
+2024-10-29 04:12:47 7 sec: 800000 operations; [INSERT: Count=800000 Max=262.42 Min=10.83 Avg=23.78]
+Run runtime(sec): 7.6429
+Run operations(ops): 800000
+Run throughput(ops/sec): 104672
+Running update Ops.
+----------------------------------
+2024-10-29 04:12:48 0 sec: 0 operations;
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+Runtime Init : 1.73018e+09 Runtime Ops : 4.63802 Runtime Cleanup : 3.3e-07 Runtime Total : 4.63815 Ops Throughput : 172487
+Runtime Init : 1.73018e+09 Runtime Ops : 4.64192 Runtime Cleanup : 3.51e-07 Runtime Total : 4.64192 Ops Throughput : 172343
+Runtime Init : 1.73018e+09 Runtime Ops : 4.64217 Runtime Cleanup : 2.81e-07 Runtime Total : 4.64218 Ops Throughput : 172333
+Runtime Init : 1.73018e+09 Runtime Ops : 4.64339 Runtime Cleanup : 2.9e-07 Runtime Total : 4.64349 Ops Throughput : 172288
+Runtime Init : 1.73018e+09 Runtime Ops : 4.64613 Runtime Cleanup : 3e-07 Runtime Total : 4.64629 Ops Throughput : 172186
+Runtime Init : 1.73018e+09 Runtime Ops : 4.64886 Runtime Cleanup : 2.4e-07 Runtime Total : 4.64896 Ops Throughput : 172085
+Runtime Init : 1.73018e+09 Runtime Ops : 4.66526 Runtime Cleanup : 3e-07 Runtime Total : 4.66527 Ops Throughput : 171480
+Runtime Init : 1.73018e+09 Runtime Ops : 4.66884 Runtime Cleanup : 3.01e-07 Runtime Total : 4.66884 Ops Throughput : 171349
+Runtime Init : 1.73018e+09 Runtime Ops : 4.67538 Runtime Cleanup : 2.81e-07 Runtime Total : 4.67559 Ops Throughput : 171109
+Runtime Init : 1.73018e+09 Runtime Ops : 4.69507 Runtime Cleanup : 3.01e-07 Runtime Total : 4.69538 Ops Throughput : 170392
+Runtime Init : 1.73018e+09 Runtime Ops : 4.70093 Runtime Cleanup : 4.11e-07 Runtime Total : 4.70104 Ops Throughput : 170179
+Runtime Init : 1.73018e+09 Runtime Ops : 4.73075 Runtime Cleanup : 8.156e-06 Runtime Total : 4.73111 Ops Throughput : 169106
+2024-10-29 04:12:53 4 sec: 800000 operations; [INSERT: Count=800000 Max=127.48 Min=10.10 Avg=24.12]
+Load runtime(sec): 4.73152
+Load operations(ops): 800000
+Load throughput(ops/sec): 169079
+2024-10-29 04:12:53 0 sec: 0 operations;
+Runtime Init : 1.73018e+09 Runtime Ops : 1.73487 Runtime Cleanup : 1.172e-06 Runtime Total : 1.73487 Ops Throughput : 461130
+Runtime Init : 1.73018e+09 Runtime Ops : 1.73564 Runtime Cleanup : 1.302e-06 Runtime Total : 1.73565 Ops Throughput : 460924
+Runtime Init : 1.73018e+09 Runtime Ops : 1.73627 Runtime Cleanup : 1.263e-06 Runtime Total : 1.73627 Ops Throughput : 460757
+Runtime Init : 1.73018e+09 Runtime Ops : 1.74483 Runtime Cleanup : 7.51e-07 Runtime Total : 1.74484 Ops Throughput : 458496
+Runtime Init : 1.73018e+09 Runtime Ops : 1.74807 Runtime Cleanup : 7.82e-07 Runtime Total : 1.74807 Ops Throughput : 457647
+Runtime Init : 1.73018e+09 Runtime Ops : 1.74922 Runtime Cleanup : 1.372e-06 Runtime Total : 1.74922 Ops Throughput : 457347
+Runtime Init : 1.73018e+09 Runtime Ops : 1.76542 Runtime Cleanup : 1.253e-06 Runtime Total : 1.76542 Ops Throughput : 453150
+Runtime Init : 1.73018e+09 Runtime Ops : 1.77295 Runtime Cleanup : 6.61e-07 Runtime Total : 1.77296 Ops Throughput : 451224
+Runtime Init : 1.73018e+09 Runtime Ops : 1.78036 Runtime Cleanup : 1.162e-06 Runtime Total : 1.78036 Ops Throughput : 449347
+Runtime Init : 1.73018e+09 Runtime Ops : 1.79437 Runtime Cleanup : 1.222e-06 Runtime Total : 1.79438 Ops Throughput : 445838
+Runtime Init : 1.73018e+09 Runtime Ops : 1.79979 Runtime Cleanup : 8.22e-07 Runtime Total : 1.79979 Ops Throughput : 444496
+Runtime Init : 1.73018e+09 Runtime Ops : 1.81513 Runtime Cleanup : 3.72958 Runtime Total : 5.54472 Ops Throughput : 440739
+2024-10-29 04:12:58 5 sec: 800000 operations; [UPDATE: Count=800000 Max=90.80 Min=14.03 Avg=19.76]
+Run runtime(sec): 5.7605
+Run operations(ops): 800000
+Run throughput(ops/sec): 138877
+Running read Ops.
+----------------------------------
+2024-10-29 [DEBUG 04:12:590] [dstates/datastates_db.cc:56:Init] deleting  /dev/shm/dstates-db.dat
+0 sec: 0 operations;
+Runtime Init : 1.73018e+09 Runtime Ops : 4.60622 Runtime Cleanup : 2.81e-07 Runtime Total : 4.60626 Ops Throughput : 173678
+Runtime Init : 1.73018e+09 Runtime Ops : 4.61263 Runtime Cleanup : 3.71e-07 Runtime Total : 4.61264 Ops Throughput : 173437
+Runtime Init : 1.73018e+09 Runtime Ops : 4.61774 Runtime Cleanup : 3.81e-07 Runtime Total : 4.61788 Ops Throughput : 173245
+Runtime Init : 1.73018e+09 Runtime Ops : 4.61846 Runtime Cleanup : 3.8e-07 Runtime Total : 4.61847 Ops Throughput : 173218
+Runtime Init : 1.73018e+09 Runtime Ops : 4.62257 Runtime Cleanup : 2.5e-07 Runtime Total : 4.62284 Ops Throughput : 173064
+Runtime Init : 1.73018e+09 Runtime Ops : 4.62332 Runtime Cleanup : 3.91e-07 Runtime Total : 4.62332 Ops Throughput : 173036
+Runtime Init : 1.73018e+09 Runtime Ops : 4.63199 Runtime Cleanup : 3.4e-07 Runtime Total : 4.632 Ops Throughput : 172712
+Runtime Init : 1.73018e+09 Runtime Ops : 4.63273 Runtime Cleanup : 2.91e-07 Runtime Total : 4.63274 Ops Throughput : 172684
+Runtime Init : 1.73018e+09 Runtime Ops : 4.64168 Runtime Cleanup : 2.71e-07 Runtime Total : 4.64169 Ops Throughput : 172351
+Runtime Init : 1.73018e+09 Runtime Ops : 4.64421 Runtime Cleanup : 3.9e-07 Runtime Total : 4.64439 Ops Throughput : 172257
+Runtime Init : 1.73018e+09 Runtime Ops : 4.6467 Runtime Cleanup : 3.1e-07 Runtime Total : 4.64686 Ops Throughput : 172165
+Runtime Init : 1.73018e+09 Runtime Ops : 4.67487 Runtime Cleanup : 7.545e-06 Runtime Total : 4.6752 Ops Throughput : 171128
+2024-10-29 04:13:03 4 sec: 800000 operations; [INSERT: Count=800000 Max=161.76 Min=11.03 Avg=23.80]
+Load runtime(sec): 4.67556
+Load operations(ops): 800000
+Load throughput(ops/sec): 171102
+2024-10-29 04:13:03 0 sec: 0 operations;
+Runtime Init : 1.73018e+09 Runtime Ops : 1.04276 Runtime Cleanup : 1.543e-06 Runtime Total : 1.04277 Ops Throughput : 767192
+Runtime Init : 1.73018e+09 Runtime Ops : 1.0435 Runtime Cleanup : 1.363e-06 Runtime Total : 1.0435 Ops Throughput : 766649
+Runtime Init : 1.73018e+09 Runtime Ops : 1.04868 Runtime Cleanup : 9.92e-07 Runtime Total : 1.04868 Ops Throughput : 762861
+Runtime Init : 1.73018e+09 Runtime Ops : 1.04978 Runtime Cleanup : 5.21e-07 Runtime Total : 1.04978 Ops Throughput : 762068
+Runtime Init : 1.73018e+09 Runtime Ops : 1.0497 Runtime Cleanup : 1.342e-06 Runtime Total : 1.0497 Ops Throughput : 762121
+Runtime Init : 1.73018e+09 Runtime Ops : 1.05009 Runtime Cleanup : 5.81e-07 Runtime Total : 1.0501 Ops Throughput : 761836
+Runtime Init : 1.73018e+09 Runtime Ops : 1.05195 Runtime Cleanup : 1.253e-06 Runtime Total : 1.05196 Ops Throughput : 760490
+Runtime Init : 1.73018e+09 Runtime Ops : 1.05404 Runtime Cleanup : 9.82e-07 Runtime Total : 1.05404 Ops Throughput : 758985
+Runtime Init : 1.73018e+09 Runtime Ops : 1.06324 Runtime Cleanup : 1.143e-06 Runtime Total : 1.06324 Ops Throughput : 752420
+Runtime Init : 1.73018e+09 Runtime Ops : 1.06515 Runtime Cleanup : 1.162e-06 Runtime Total : 1.06515 Ops Throughput : 751071
+Runtime Init : 1.73018e+09 Runtime Ops : 1.07976 Runtime Cleanup : 7.22e-07 Runtime Total : 1.07976 Ops Throughput : 740907
+Runtime Init : 1.73018e+09 Runtime Ops : 1.08639 Runtime Cleanup : 2.89386 Runtime Total : 3.98025 Ops Throughput : 736386
+2024-10-29 04:13:07 3 sec: 800000 operations; [READ: Count=800000 Max=78.92 Min=9.36 Avg=13.54]
+Run runtime(sec): 3.98069
+Run operations(ops): 800000
+Run throughput(ops/sec): 200970
+------------------------------------------------------------------------------------------------------------------------------------------
+Running benchmark with 16 threads.
+Running insert Ops.
+----------------------------------
+2024-10-29 04:13:08 0 sec: [DEBUG 0 operations;
+0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+Runtime Init : 1.73018e+09 Runtime Ops : 4.24171 Runtime Cleanup : 9.22e-07 Runtime Total : 4.24192 Ops Throughput : 188603
+Runtime Init : 1.73018e+09 Runtime Ops : 4.24398 Runtime Cleanup : 8.32e-07 Runtime Total : 4.24416 Ops Throughput : 188502
+Runtime Init : 1.73018e+09 Runtime Ops : 4.24394 Runtime Cleanup : 1.092e-06 Runtime Total : 4.2441 Ops Throughput : 188504
+Runtime Init : 1.73018e+09 Runtime Ops : 4.2444 Runtime Cleanup : 9.42e-07 Runtime Total : 4.2444 Ops Throughput : 188484
+Runtime Init : 1.73018e+09 Runtime Ops : 4.24644 Runtime Cleanup : 8.62e-07 Runtime Total : 4.24644 Ops Throughput : 188393
+Runtime Init : 1.73018e+09 Runtime Ops : 4.24834 Runtime Cleanup : 5.72e-07 Runtime Total : 4.24834 Ops Throughput : 188309
+Runtime Init : 1.73018e+09 Runtime Ops : 4.24902 Runtime Cleanup : 6.21e-07 Runtime Total : 4.2492 Ops Throughput : 188279
+Runtime Init : 1.73018e+09 Runtime Ops : 4.24906 Runtime Cleanup : 9.62e-07 Runtime Total : 4.24906 Ops Throughput : 188277
+Runtime Init : 1.73018e+09 Runtime Ops : 4.25136 Runtime Cleanup : 6.32e-07 Runtime Total : 4.25149 Ops Throughput : 188175
+Runtime Init : 1.73018e+09 Runtime Ops : 4.25153 Runtime Cleanup : 5.91e-07 Runtime Total : 4.25154 Ops Throughput : 188167
+Runtime Init : 1.73018e+09 Runtime Ops : 4.253 Runtime Cleanup : 7.41e-07 Runtime Total : 4.25301 Ops Throughput : 188102
+Runtime Init : 1.73018e+09 Runtime Ops : 4.25895 Runtime Cleanup : 4.81e-07 Runtime Total : 4.25907 Ops Throughput : 187840
+Runtime Init : 1.73018e+09 Runtime Ops : 4.26435 Runtime Cleanup : 8.91e-07 Runtime Total : 4.26436 Ops Throughput : 187602
+Runtime Init : 1.73018e+09 Runtime Ops : 4.26762 Runtime Cleanup : 6.71e-07 Runtime Total : 4.26762 Ops Throughput : 187458
+Runtime Init : 1.73018e+09 Runtime Ops : 4.26943 Runtime Cleanup : 6.91e-07 Runtime Total : 4.26944 Ops Throughput : 187379
+Runtime Init : 1.73018e+09 Runtime Ops : 4.30092 Runtime Cleanup : 2.81349 Runtime Total : 7.11468 Ops Throughput : 186007
+2024-10-29 04:13:15 7 sec: 800000 operations; [INSERT: Count=800000 Max=919.97 Min=11.01 Avg=37.35]
+Run runtime(sec): 7.11511
+Run operations(ops): 800000
+Run throughput(ops/sec): 112437
+Running update Ops.
+----------------------------------
+2024-10-29 04:13:16 0 sec: 0 operations;
+[DEBUG 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+Runtime Init : 1.73018e+09 Runtime Ops : 4.26672 Runtime Cleanup : 2.71e-07 Runtime Total : 4.26688 Ops Throughput : 187497
+Runtime Init : 1.73018e+09 Runtime Ops : 4.26804 Runtime Cleanup : 2.9e-07 Runtime Total : 4.26804 Ops Throughput : 187440
+Runtime Init : 1.73018e+09 Runtime Ops : 4.275 Runtime Cleanup : 3.1e-07 Runtime Total : 4.275 Ops Throughput : 187135
+Runtime Init : 1.73018e+09 Runtime Ops : 4.27764 Runtime Cleanup : 3e-07 Runtime Total : 4.27765 Ops Throughput : 187019
+Runtime Init : 1.73018e+09 Runtime Ops : 4.27956 Runtime Cleanup : 2.61e-07 Runtime Total : 4.27979 Ops Throughput : 186935
+Runtime Init : 1.73018e+09 Runtime Ops : 4.28048 Runtime Cleanup : 2.61e-07 Runtime Total : 4.28048 Ops Throughput : 186895
+Runtime Init : 1.73018e+09 Runtime Ops : 4.28157 Runtime Cleanup : 3.2e-07 Runtime Total : 4.2817 Ops Throughput : 186847
+Runtime Init : 1.73018e+09 Runtime Ops : 4.28169 Runtime Cleanup : 2.5e-07 Runtime Total : 4.2817 Ops Throughput : 186842
+Runtime Init : 1.73018e+09 Runtime Ops : 4.28602 Runtime Cleanup : 2.5e-07 Runtime Total : 4.28602 Ops Throughput : 186653
+Runtime Init : 1.73018e+09 Runtime Ops : 4.28638 Runtime Cleanup : 3.4e-07 Runtime Total : 4.28655 Ops Throughput : 186638
+Runtime Init : 1.73018e+09 Runtime Ops : 4.28806 Runtime Cleanup : 2.21e-07 Runtime Total : 4.28807 Ops Throughput : 186564
+Runtime Init : 1.73018e+09 Runtime Ops : 4.28972 Runtime Cleanup : 3.31e-07 Runtime Total : 4.28972 Ops Throughput : 186493
+Runtime Init : 1.73018e+09 Runtime Ops : 4.29074 Runtime Cleanup : 3.1e-07 Runtime Total : 4.29089 Ops Throughput : 186448
+Runtime Init : 1.73018e+09 Runtime Ops : 4.29509 Runtime Cleanup : 2.3e-07 Runtime Total : 4.29509 Ops Throughput : 186259
+Runtime Init : 1.73018e+09 Runtime Ops : 4.29995 Runtime Cleanup : 1.4e-07 Runtime Total : 4.29996 Ops Throughput : 186048
+Runtime Init : 1.73018e+09 Runtime Ops : 4.32198 Runtime Cleanup : 7.594e-06 Runtime Total : 4.32225 Ops Throughput : 185100
+2024-10-29 04:13:20 4 sec: 800000 operations; [INSERT: Count=800000 Max=248.03 Min=10.95 Avg=39.28]
+Load runtime(sec): 4.3226
+Load operations(ops): 800000
+Load throughput(ops/sec): 185074
+2024-10-29 04:13:20 0 sec: 0 operations;
+Runtime Init : 1.73018e+09 Runtime Ops : 1.34609 Runtime Cleanup : 1.252e-06 Runtime Total : 1.34609 Ops Throughput : 594315
+Runtime Init : 1.73018e+09 Runtime Ops : 1.35217 Runtime Cleanup : 1.112e-06 Runtime Total : 1.35218 Ops Throughput : 591640
+Runtime Init : 1.73018e+09 Runtime Ops : 1.35452 Runtime Cleanup : 1.062e-06 Runtime Total : 1.35452 Ops Throughput : 590615
+Runtime Init : 1.73018e+09 Runtime Ops : 1.35519 Runtime Cleanup : 1.112e-06 Runtime Total : 1.35519 Ops Throughput : 590322
+Runtime Init : 1.73018e+09 Runtime Ops : 1.35801 Runtime Cleanup : 7.02e-07 Runtime Total : 1.35801 Ops Throughput : 589098
+Runtime Init : 1.73018e+09 Runtime Ops : 1.35857 Runtime Cleanup : 1.242e-06 Runtime Total : 1.35857 Ops Throughput : 588854
+Runtime Init : 1.73018e+09 Runtime Ops : 1.35928 Runtime Cleanup : 1.152e-06 Runtime Total : 1.35928 Ops Throughput : 588547
+Runtime Init : 1.73018e+09 Runtime Ops : 1.36396 Runtime Cleanup : 1.272e-06 Runtime Total : 1.36396 Ops Throughput : 586528
+Runtime Init : Runtime Init : 1.73018e+09 Runtime Ops : 1.36698 Runtime Cleanup : 1.73018e+09 Runtime Ops : 6.62e-07 Runtime Total : 1.36689 Runtime Cleanup : 1.36699 Ops Throughput : 1.132e-06 Runtime Total : 585230
+1.36689 Ops Throughput : 585272
+Runtime Init : 1.73018e+09 Runtime Ops : 1.36762 Runtime Cleanup : 6.21e-07 Runtime Total : 1.36762 Ops Throughput : 584960
+Runtime Init : 1.73018e+09 Runtime Ops : 1.37337 Runtime Cleanup : 6.21e-07 Runtime Total : 1.37337 Ops Throughput : 582509
+Runtime Init : 1.73018e+09 Runtime Ops : 1.37426 Runtime Cleanup : 7.71e-07 Runtime Total : 1.37426 Ops Throughput : 582131
+Runtime Init : 1.73018e+09 Runtime Ops : 1.38269 Runtime Cleanup : 6.41e-07 Runtime Total : 1.38269 Ops Throughput : 578584
+Runtime Init : 1.73018e+09 Runtime Ops : 1.39222 Runtime Cleanup : 9.12e-07 Runtime Total : 1.39223 Ops Throughput : 574620
+Runtime Init : 1.73018e+09 Runtime Ops : 1.40496 Runtime Cleanup : 3.7997 Runtime Total : 5.20466 Ops Throughput : 569410
+2024-10-29 04:13:25 5 sec: 800000 operations; [UPDATE: Count=800000 Max=304.75 Min=14.28 Avg=20.65]
+Run runtime(sec): 5.37565
+Run operations(ops): 800000
+Run throughput(ops/sec): 148819
+Running read Ops.
+----------------------------------
+2024-10-29 04:13:25[ DEBUG 0 sec: 0] [dstates/datastates_db.cc:56:Init] deleting /dev/shm/dstates-db.dat
+0 operations;
+Runtime Init : 1.73018e+09 Runtime Ops : 4.15688 Runtime Cleanup : 5.21e-07 Runtime Total : 4.15688 Ops Throughput : 192452
+Runtime Init : 1.73018e+09 Runtime Ops : 4.168 Runtime Cleanup : 3.71e-07 Runtime Total : 4.16801 Ops Throughput : 191938
+Runtime Init : 1.73018e+09 Runtime Ops : 4.17084 Runtime Cleanup : 4.41e-07 Runtime Total : 4.17084 Ops Throughput : 191808
+Runtime Init : 1.73018e+09 Runtime Ops : 4.17142 Runtime Cleanup : 3.91e-07 Runtime Total : 4.17142 Ops Throughput : 191781
+Runtime Init : 1.73018e+09 Runtime Ops : 4.17295 Runtime Cleanup : 3.31e-07 Runtime Total : 4.17304 Ops Throughput : 191711
+Runtime Init : 1.73018e+09 Runtime Ops : 4.17273 Runtime Cleanup : 2.81e-07 Runtime Total : 4.17273 Ops Throughput : 191721
+Runtime Init : 1.73018e+09 Runtime Ops : 4.17316 Runtime Cleanup : 2.61e-07 Runtime Total : 4.17332 Ops Throughput : 191701
+Runtime Init : 1.73018e+09 Runtime Ops : 4.17513 Runtime Cleanup : 4.41e-07 Runtime Total : 4.17514 Ops Throughput : 191611
+Runtime Init : 1.73018e+09 Runtime Ops : 4.17495 Runtime Cleanup : 2.5e-07 Runtime Total : 4.17496 Ops Throughput : 191619
+Runtime Init : 1.73018e+09 Runtime Ops : 4.17625 Runtime Cleanup : 3.1e-07 Runtime Total : 4.17638 Ops Throughput : 191560
+Runtime Init : 1.73018e+09 Runtime Ops : 4.17577 Runtime Cleanup : 2.21e-07 Runtime Total : 4.17577 Ops Throughput : 191581
+Runtime Init : 1.73018e+09 Runtime Ops : 4.1819 Runtime Cleanup : 3.11e-07 Runtime Total : 4.18191 Ops Throughput : 191301
+Runtime Init : 1.73018e+09 Runtime Ops : 4.1845 Runtime Cleanup : 3.9e-07 Runtime Total : 4.18479 Ops Throughput : 191182
+Runtime Init : 1.73018e+09 Runtime Ops : 4.18554 Runtime Cleanup : 3.41e-07 Runtime Total : 4.18554 Ops Throughput : 191134
+Runtime Init : 1.73018e+09 Runtime Ops : 4.18877 Runtime Cleanup : 2.6e-07 Runtime Total : 4.18877 Ops Throughput : 190987
+Runtime Init : 1.73018e+09 Runtime Ops : 4.21203 Runtime Cleanup : 8.045e-06 Runtime Total : 4.21237 Ops Throughput : 189932
+2024-10-29 04:13:30 4 sec: 800000 operations; [INSERT: Count=800000 Max=184.09 Min=11.02 Avg=36.86]
+Load runtime(sec): 4.21271
+Load operations(ops): 800000
+Load throughput(ops/sec): 189901
+2024-10-29 04:13:30 0 sec: 0 operations;
+Runtime Init : 1.73018e+09 Runtime Ops : 0.783763 Runtime Cleanup : 1.282e-06 Runtime Total : 0.783765 Ops Throughput : 1.02072e+06
+Runtime Init : 1.73018e+09 Runtime Ops : 0.788861 Runtime Cleanup : 1.342e-06 Runtime Total : 0.788863 Ops Throughput : 1.01412e+06
+Runtime Init : 1.73018e+09 Runtime Ops : 0.789238 Runtime Cleanup : 1.182e-06 Runtime Total : 0.78924 Ops Throughput : 1.01364e+06
+Runtime Init : 1.73018e+09 Runtime Ops : 0.790569 Runtime Cleanup : 5.41e-07 Runtime Total : 0.790571 Ops Throughput : 1.01193e+06
+Runtime Init : 1.73018e+09 Runtime Ops : 0.791933 Runtime Cleanup : 6.41e-07 Runtime Total : 0.791934 Ops Throughput : 1.01019e+06
+Runtime Init : 1.73018e+09 Runtime Ops : 0.791891 Runtime Cleanup : 1.002e-06 Runtime Total : 0.791892 Ops Throughput : 1.01024e+06
+Runtime Init : 1.73018e+09 Runtime Ops : 0.792266 Runtime Cleanup : 1.182e-06 Runtime Total : 0.792268 Ops Throughput : 1.00976e+06
+Runtime Init : 1.73018e+09 Runtime Ops : 0.793198 Runtime Cleanup : 8.41e-07 Runtime Total : 0.7932 Ops Throughput : 1.00858e+06
+Runtime Init : 1.73018e+09 Runtime Ops : 0.793561 Runtime Cleanup : 5.61e-07 Runtime Total : 0.793563 Ops Throughput : 1.00811e+06
+Runtime Init : 1.73018e+09 Runtime Ops : 0.799318 Runtime Cleanup : 1.322e-06 Runtime Total : 0.79932 Ops Throughput : 1.00085e+06
+Runtime Init : 1.73018e+09 Runtime Ops : 0.799852 Runtime Cleanup : 5.72e-07 Runtime Total : 0.799853 Ops Throughput : 1.00019e+06
+Runtime Init : 1.73018e+09 Runtime Ops : 0.802914 Runtime Cleanup : 1.062e-06 Runtime Total : 0.802916 Ops Throughput : 996370
+Runtime Init : 1.73018e+09 Runtime Ops : 0.804269 Runtime Cleanup : 6.21e-07 Runtime Total : 0.80427 Ops Throughput : 994692
+Runtime Init : 1.73018e+09 Runtime Ops : 0.806129 Runtime Cleanup : 6.51e-07 Runtime Total : 0.80613 Ops Throughput : 992397
+Runtime Init : 1.73018e+09 Runtime Ops : 0.808102 Runtime Cleanup : 1.122e-06 Runtime Total : 0.808104 Ops Throughput : 989974
+Runtime Init : 1.73018e+09 Runtime Ops : 0.813244 Runtime Cleanup : 2.87763 Runtime Total : 3.69088 Ops Throughput : 983715
+2024-10-29 04:13:33 3 sec: 800000 operations; [READ: Count=800000 Max=55.30 Min=9.30 Avg=13.62]
+Run runtime(sec): 3.69133
+Run operations(ops): 800000
+Run throughput(ops/sec): 216724
+------------------------------------------------------------------------------------------------------------------------------------------

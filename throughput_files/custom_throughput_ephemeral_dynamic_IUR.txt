@@ -1,0 +1,82 @@
+=== Benchmark Run Tue Nov 26 12:11:48 CST 2024 ===
+
+=== Running with 1 threads ===
+
+Creating reference key-value pairs...
+Starting insertion with 1 threads... for 800000 inserts.
+Insert completed : 800000
+Insertion completed in 7337ms
+Creating update indexes...
+Starting updates with 1 threads... for : 800000 updates.
+Updates completed in 1982ms
+Creating read operations with Zipfian distribution...
+Read operations created: 800000
+Starting reads with 1 threads...
+Read benchmark completed in 2725ms
+
+----------------------------------------
+
+=== Running with 2 threads ===
+
+Creating reference key-value pairs...
+Starting insertion with 2 threads... for 800000 inserts.
+Insert completed : 800000
+Insertion completed in 2904ms
+Creating update indexes...
+Starting updates with 2 threads... for : 800000 updates.
+Updates completed in 1379ms
+Creating read operations with Zipfian distribution...
+Read operations created: 800000
+Starting reads with 2 threads...
+Read benchmark completed in 1345ms
+
+----------------------------------------
+
+=== Running with 4 threads ===
+
+Creating reference key-value pairs...
+Starting insertion with 4 threads... for 800000 inserts.
+Insert completed : 800000
+Insertion completed in 1808ms
+Creating update indexes...
+Starting updates with 4 threads... for : 800000 updates.
+Updates completed in 686ms
+Creating read operations with Zipfian distribution...
+Read operations created: 800000
+Starting reads with 4 threads...
+Read benchmark completed in 677ms
+
+----------------------------------------
+
+=== Running with 8 threads ===
+
+Creating reference key-value pairs...
+Starting insertion with 8 threads... for 800000 inserts.
+Insert completed : 800000
+Insertion completed in 11864ms
+Creating update indexes...
+Starting updates with 8 threads... for : 800000 updates.
+Updates completed in 423ms
+Creating read operations with Zipfian distribution...
+Read operations created: 800000
+Starting reads with 8 threads...
+Read benchmark completed in 452ms
+
+----------------------------------------
+
+=== Running with 16 threads ===
+
+Creating reference key-value pairs...
+Starting insertion with 16 threads... for 800000 inserts.
+Insert completed : 800000
+Insertion completed in 10784ms
+Creating update indexes...
+Starting updates with 16 threads... for : 800000 updates.
+Updates completed in 295ms
+Creating read operations with Zipfian distribution...
+Read operations created: 800000
+Starting reads with 16 threads...
+Read benchmark completed in 273ms
+
+----------------------------------------
+

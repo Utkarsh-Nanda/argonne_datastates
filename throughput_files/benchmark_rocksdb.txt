@@ -1,0 +1,443 @@
+Running benchmark with 1 threads.
+Running insert Ops.
+----------------------------------
+2024-10-16 03:00:52 0 sec: 0 operations;
+2024-10-16 03:01:02 10 sec: 187958 operations; [INSERT: Count=187958 Max=17220.11 Min=6.16 Avg=8.26]
+2024-10-16 03:01:12 20 sec: 378606 operations; [INSERT: Count=378606 Max=17252.96 Min=6.16 Avg=8.07]
+2024-10-16 03:01:22 30 sec: 568449 operations; [INSERT: Count=568449 Max=17305.53 Min=6.16 Avg=8.05]
+2024-10-16 03:01:32 40 sec: 759289 operations; [INSERT: Count=759289 Max=17305.53 Min=6.15 Avg=7.99]
+Runtime Init : 1.72905e+09 Runtime Ops : 42.0878 Runtime Cleanup : 0.0152699 Runtime Total : 42.157 Ops Throughput : 19007.9
+2024-10-16 03:01:35 42 sec: 800000 operations; [INSERT: Count=800000 Max=17305.53 Min=6.15 Avg=7.99]
+Run runtime(sec): 42.1578
+Run operations(ops): 800000
+Run throughput(ops/sec): 18976.3
+Running read Ops.
+----------------------------------
+2024-10-16 03:01:35 0 sec: 0 operations;
+2024-10-16 03:01:45 10 sec: 188020 operations; [INSERT: Count=188020 Max=17420.65 Min=6.21 Avg=8.31]
+2024-10-16 03:01:55 20 sec: 379532 operations; [INSERT: Count=379532 Max=17573.95 Min=6.21 Avg=8.12]
+2024-10-16 03:02:05 30 sec: 570282 operations; [INSERT: Count=570282 Max=17573.95 Min=6.21 Avg=8.12]
+2024-10-16 03:02:15 40 sec: 762044 operations; [INSERT: Count=762044 Max=17573.95 Min=6.20 Avg=8.07]
+Runtime Init : 1.72905e+09 Runtime Ops : 41.8552 Runtime Cleanup : 7.023e-06 Runtime Total : 41.9854 Ops Throughput : 19113.5
+2024-10-16 03:02:17 41 sec: 800000 operations; [INSERT: Count=800000 Max=17573.95 Min=6.20 Avg=8.07]
+Load runtime(sec): 41.9859
+Load operations(ops): 800000
+Load throughput(ops/sec): 19054
+2024-10-16 03:02:17 0 sec: 0 operations;
+2024-10-16 03:02:27 10 sec: 375299 operations; [READ: Count=375299 Max=951.31 Min=8.92 Avg=25.03]
+2024-10-16 03:02:37 20 sec: 753633 operations; [READ: Count=753633 Max=951.31 Min=8.92 Avg=24.93]
+Runtime Init : 1.72905e+09 Runtime Ops : 21.2182 Runtime Cleanup : 0.0136134 Runtime Total : 21.2318 Ops Throughput : 37703.6
+2024-10-16 03:02:38 21 sec: 800000 operations; [READ: Count=800000 Max=951.31 Min=8.92 Avg=24.91]
+Run runtime(sec): 21.2321
+Run operations(ops): 800000
+Run throughput(ops/sec): 37678.8
+Running update Ops.
+----------------------------------
+2024-10-16 03:02:38 0 sec: 0 operations;
+2024-10-16 03:02:48 10 sec: 187912 operations; [INSERT: Count=187912 Max=17272.87 Min=6.10 Avg=8.26]
+2024-10-16 03:02:58 20 sec: 379362 operations; [INSERT: Count=379362 Max=17854.46 Min=6.10 Avg=8.08]
+2024-10-16 03:03:08 30 sec: 570855 operations; [INSERT: Count=570855 Max=17854.46 Min=6.10 Avg=8.05]
+2024-10-16 03:03:18 40 sec: 762713 operations; [INSERT: Count=762713 Max=17854.46 Min=6.10 Avg=8.01]
+Runtime Init : 1.72905e+09 Runtime Ops : 41.8269 Runtime Cleanup : 6.612e-06 Runtime Total : 41.9576 Ops Throughput : 19126.5
+2024-10-16 03:03:20 41 sec: 800000 operations; [INSERT: Count=800000 Max=17854.46 Min=6.10 Avg=8.02]
+Load runtime(sec): 41.9581
+Load operations(ops): 800000
+Load throughput(ops/sec): 19066.7
+2024-10-16 03:03:20 0 sec: 0 operations;
+2024-10-16 03:03:30 10 sec: 232325 operations; [UPDATE: Count=232325 Max=17292.07 Min=16.78 Avg=36.99]
+2024-10-16 03:03:40 20 sec: 472646 operations; [UPDATE: Count=472646 Max=17292.07 Min=16.60 Avg=36.28]
+2024-10-16 03:03:50 30 sec: 710575 operations; [UPDATE: Count=710575 Max=17387.32 Min=16.60 Avg=36.19]
+Runtime Init : 1.72905e+09 Runtime Ops : 34.1535 Runtime Cleanup : 0.0170097 Runtime Total : 34.1705 Ops Throughput : 23423.7
+2024-10-16 03:03:54 34 sec: 800000 operations; [UPDATE: Count=800000 Max=17387.32 Min=16.60 Avg=36.66]
+Run runtime(sec): 34.1708
+Run operations(ops): 800000
+Run throughput(ops/sec): 23411.8
+------------------------------------------------------------------------------------------------------------------------------------------
+Running benchmark with 2 threads.
+Running insert Ops.
+----------------------------------
+2024-10-16 03:03:54 0 sec: 0 operations;
+2024-10-16 03:04:04 10 sec: 349022 operations; [INSERT: Count=349022 Max=17685.50 Min=6.54 Avg=10.80]
+2024-10-16 03:04:14 20 sec: 707040 operations; [INSERT: Count=707040 Max=17975.02 Min=6.54 Avg=10.64]
+Runtime Init : 1.72905e+09 Runtime Ops : 22.4015 Runtime Cleanup : 7.62e-07 Runtime Total : 22.5923 Ops Throughput : 35712
+Runtime Init : 1.72905e+09 Runtime Ops : 22.4268 Runtime Cleanup : 0.0129138 Runtime Total : 22.6305 Ops Throughput : 35671.6
+2024-10-16 03:04:17 22 sec: 800000 operations; [INSERT: Count=800000 Max=17975.02 Min=6.54 Avg=10.66]
+Run runtime(sec): 22.631
+Run operations(ops): 800000
+Run throughput(ops/sec): 35349.7
+Running read Ops.
+----------------------------------
+2024-10-16 03:04:17 0 sec: 0 operations;
+2024-10-16 03:04:27 10 sec: 353272 operations; [INSERT: Count=353272 Max=17654.63 Min=6.66 Avg=10.98]
+2024-10-16 03:04:37 20 sec: 711526 operations; [INSERT: Count=711526 Max=17654.63 Min=6.54 Avg=10.94]
+Runtime Init : 1.72905e+09 Runtime Ops : 22.3197 Runtime Cleanup : 6.81e-07 Runtime Total : 22.4511 Ops Throughput : 35842.9
+Runtime Init : 1.72905e+09 Runtime Ops : 22.3303 Runtime Cleanup : 7.353e-06 Runtime Total : 22.4618 Ops Throughput : 35825.7
+2024-10-16 03:04:39 22 sec: 800000 operations; [INSERT: Count=800000 Max=17654.63 Min=6.54 Avg=10.91]
+Load runtime(sec): 22.4623
+Load operations(ops): 800000
+Load throughput(ops/sec): 35615.3
+2024-10-16 03:04:39 0 sec: 0 operations;
+2024-10-16 03:04:49 10 sec: 619473 operations; [READ: Count=619473 Max=182.54 Min=9.34 Avg=30.22]
+Runtime Init : 1.72905e+09 Runtime Ops : 12.8841 Runtime Cleanup : 6.61e-07 Runtime Total : 12.8841 Ops Throughput : 62092.1
+Runtime Init : 1.72905e+09 Runtime Ops : 12.9393 Runtime Cleanup : 0.00899285 Runtime Total : 12.9483 Ops Throughput : 61827.2
+2024-10-16 03:04:52 12 sec: 800000 operations; [READ: Count=800000 Max=182.54 Min=9.34 Avg=30.21]
+Run runtime(sec): 12.9487
+Run operations(ops): 800000
+Run throughput(ops/sec): 61782.5
+Running update Ops.
+----------------------------------
+2024-10-16 03:04:52 0 sec: 0 operations;
+2024-10-16 03:05:02 10 sec: 353116 operations; [INSERT: Count=353116 Max=17884.81 Min=6.44 Avg=11.01]
+2024-10-16 03:05:12 20 sec: 714295 operations; [INSERT: Count=714295 Max=17884.81 Min=6.41 Avg=10.78]
+Runtime Init : 1.72905e+09 Runtime Ops : 22.246 Runtime Cleanup : 5.11e-07 Runtime Total : 22.3805 Ops Throughput : 35961.5
+Runtime Init : 1.72905e+09 Runtime Ops : 22.2729 Runtime Cleanup : 7.193e-06 Runtime Total : 22.4074 Ops Throughput : 35918.1
+2024-10-16 03:05:15 22 sec: 800000 operations; [INSERT: Count=800000 Max=17884.81 Min=6.41 Avg=10.80]
+Load runtime(sec): 22.4079
+Load operations(ops): 800000
+Load throughput(ops/sec): 35701.7
+2024-10-16 03:05:15 0 sec: 0 operations;
+2024-10-16 03:05:25 10 sec: 390297 operations; [UPDATE: Count=390297 Max=17607.67 Min=17.87 Avg=44.71]
+2024-10-16 03:05:35 20 sec: 789262 operations; [UPDATE: Count=789262 Max=17694.81 Min=17.59 Avg=44.15]
+Runtime Init : 1.72905e+09 Runtime Ops : 20.2729 Runtime Cleanup : 8.42e-07 Runtime Total : 20.2729 Ops Throughput : 39461.5
+Runtime Init : 1.72905e+09 Runtime Ops : 20.3529 Runtime Cleanup : 0.0546527 Runtime Total : 20.4075 Ops Throughput : 39306.5
+2024-10-16 03:05:35 20 sec: 800000 operations; [UPDATE: Count=800000 Max=17694.81 Min=17.59 Avg=44.25]
+Run runtime(sec): 20.4079
+Run operations(ops): 800000
+Run throughput(ops/sec): 39200.5
+------------------------------------------------------------------------------------------------------------------------------------------
+Running benchmark with 4 threads.
+Running insert Ops.
+----------------------------------
+2024-10-16 03:05:35 0 sec: 0 operations;
+2024-10-16 03:05:45 10 sec: 678657 operations; [INSERT: Count=678657 Max=17600.64 Min=6.51 Avg=12.00]
+Runtime Init : 1.72905e+09 Runtime Ops : 11.517 Runtime Cleanup : 1.112e-06 Runtime Total : 11.7231 Ops Throughput : 69462.8
+Runtime Init : 1.72905e+09 Runtime Ops : 11.5243 Runtime Cleanup : 1.052e-06 Runtime Total : 11.7305 Ops Throughput : 69418.7
+Runtime Init : 1.72905e+09 Runtime Ops : 11.5308 Runtime Cleanup : 8.12e-07 Runtime Total : 11.7371 Ops Throughput : 69379.3
+Runtime Init : 1.72905e+09 Runtime Ops : 11.5325 Runtime Cleanup : 0.0103341 Runtime Total : 11.749 Ops Throughput : 69369.3
+2024-10-16 03:05:47 11 sec: 800000 operations; [INSERT: Count=800000 Max=17600.64 Min=6.51 Avg=11.90]
+Run runtime(sec): 11.7559
+Run operations(ops): 800000
+Run throughput(ops/sec): 68051.2
+Running read Ops.
+----------------------------------
+2024-10-16 03:05:47 0 sec: 0 operations;
+2024-10-16 03:05:57 10 sec: 686608 operations; [INSERT: Count=686608 Max=17850.62 Min=6.81 Avg=12.14]
+Runtime Init : 1.72905e+09 Runtime Ops : 11.4682 Runtime Cleanup : 5.21e-07 Runtime Total : 11.6018 Ops Throughput : 69758.4
+Runtime Init : 1.72905e+09 Runtime Ops : 11.4693 Runtime Cleanup : 5.51e-07 Runtime Total : 11.603 Ops Throughput : 69751.3
+Runtime Init : 1.72905e+09 Runtime Ops : 11.4695 Runtime Cleanup : 6.01e-07 Runtime Total : 11.6032 Ops Throughput : 69749.9
+Runtime Init : 1.72905e+09 Runtime Ops : 11.4799 Runtime Cleanup : 6.973e-06 Runtime Total : 11.6136 Ops Throughput : 69686.9
+2024-10-16 03:05:59 11 sec: 800000 operations; [INSERT: Count=800000 Max=17850.62 Min=6.81 Avg=12.03]
+Load runtime(sec): 11.614
+Load operations(ops): 800000
+Load throughput(ops/sec): 68882.1
+2024-10-16 03:05:59 0 sec: 0 operations;
+Runtime Init : 1.72905e+09 Runtime Ops : 7.18559 Runtime Cleanup : 7.91e-07 Runtime Total : 7.18559 Ops Throughput : 111334
+Runtime Init : 1.72905e+09 Runtime Ops : 7.30619 Runtime Cleanup : 9.82e-07 Runtime Total : 7.30619 Ops Throughput : 109496
+Runtime Init : 1.72905e+09 Runtime Ops : 7.33296 Runtime Cleanup : 8.91e-07 Runtime Total : 7.33297 Ops Throughput : 109096
+Runtime Init : 1.72905e+09 Runtime Ops : 7.47903 Runtime Cleanup : 0.0102976 Runtime Total : 7.48933 Ops Throughput : 106966
+2024-10-16 03:06:06 7 sec: 800000 operations; [READ: Count=800000 Max=190.02 Min=9.68 Avg=34.27]
+Run runtime(sec): 7.48982
+Run operations(ops): 800000
+Run throughput(ops/sec): 106812
+Running update Ops.
+----------------------------------
+2024-10-16 03:06:06 0 sec: 0 operations;
+2024-10-16 03:06:16 10 sec: 684427 operations; [INSERT: Count=684427 Max=17890.37 Min=6.82 Avg=12.26]
+Runtime Init : 1.72905e+09 Runtime Ops : 11.5011 Runtime Cleanup : 7.51e-07 Runtime Total : 11.6421 Ops Throughput : 69558.8
+Runtime Init : 1.72905e+09 Runtime Ops : 11.5048 Runtime Cleanup : 8.71e-07 Runtime Total : 11.6458 Ops Throughput : 69535.9
+Runtime Init : 1.72905e+09 Runtime Ops : 11.507 Runtime Cleanup : 6.01e-07 Runtime Total : 11.6482 Ops Throughput : 69522.8
+Runtime Init : 1.72905e+09 Runtime Ops : 11.5134 Runtime Cleanup : 6.612e-06 Runtime Total : 11.6546 Ops Throughput : 69484.1
+2024-10-16 03:06:18 11 sec: 800000 operations; [INSERT: Count=800000 Max=17890.37 Min=6.59 Avg=12.17]
+Load runtime(sec): 11.6551
+Load operations(ops): 800000
+Load throughput(ops/sec): 68639.7
+2024-10-16 03:06:18 0 sec: 0 operations;
+2024-10-16 03:06:28 10 sec: 660135 operations; [UPDATE: Count=660135 Max=17580.37 Min=18.66 Avg=53.54]
+Runtime Init : 1.72905e+09 Runtime Ops : 11.9371 Runtime Cleanup : 7.41e-07 Runtime Total : 11.9371 Ops Throughput : 67018.2
+Runtime Init : 1.72905e+09 Runtime Ops : 12.0528 Runtime Cleanup : 7.81e-07 Runtime Total : 12.0528 Ops Throughput : 66374.6
+Runtime Init : 1.72905e+09 Runtime Ops : 12.1436 Runtime Cleanup : 9.12e-07 Runtime Total : 12.1436 Ops Throughput : 65878.2
+Runtime Init : 1.72905e+09 Runtime Ops : 12.1714 Runtime Cleanup : 0.0443758 Runtime Total : 12.2158 Ops Throughput : 65727.6
+2024-10-16 03:06:30 12 sec: 800000 operations; [UPDATE: Count=800000 Max=17580.37 Min=17.69 Avg=53.33]
+Run runtime(sec): 12.2163
+Run operations(ops): 800000
+Run throughput(ops/sec): 65486.4
+------------------------------------------------------------------------------------------------------------------------------------------
+Running benchmark with 8 threads.
+Running insert Ops.
+----------------------------------
+2024-10-16 03:06:30 0 sec: 0 operations;
+Runtime Init : 1.72905e+09 Runtime Ops : 6.4385 Runtime Cleanup : 1.142e-06 Runtime Total : 6.65476 Ops Throughput : 124253
+Runtime Init : 1.72905e+09 Runtime Ops : 6.4569 Runtime Cleanup : 1.282e-06 Runtime Total : 6.67321 Ops Throughput : 123898
+Runtime Init : 1.72905e+09 Runtime Ops : 6.45797 Runtime Cleanup : 1.012e-06 Runtime Total : 6.67451 Ops Throughput : 123878
+Runtime Init : 1.72905e+09 Runtime Ops : 6.45949 Runtime Cleanup : 1.032e-06 Runtime Total : 6.67598 Ops Throughput : 123849
+Runtime Init : 1.72905e+09 Runtime Ops : 6.46683 Runtime Cleanup : 6.92e-07 Runtime Total : 6.68313 Ops Throughput : 123708
+Runtime Init : 1.72905e+09 Runtime Ops : 6.47015 Runtime Cleanup : 1.252e-06 Runtime Total : 6.68645 Ops Throughput : 123645
+Runtime Init : 1.72905e+09 Runtime Ops : 6.48636 Runtime Cleanup : 9.72e-07 Runtime Total : 6.70261 Ops Throughput : 123336
+Runtime Init : 1.72905e+09 Runtime Ops : 6.49128 Runtime Cleanup : 0.0116633 Runtime Total : 6.7195 Ops Throughput : 123242
+2024-10-16 03:06:37 6 sec: 800000 operations; [INSERT: Count=800000 Max=18305.85 Min=7.07 Avg=17.11]
+Run runtime(sec): 6.72064
+Run operations(ops): 800000
+Run throughput(ops/sec): 119036
+Running read Ops.
+----------------------------------
+2024-10-16 03:06:37 0 sec: 0 operations;
+Runtime Init : 1.72905e+09 Runtime Ops : 6.36627 Runtime Cleanup : 8.32e-07 Runtime Total : 6.49918 Ops Throughput : 125662
+Runtime Init : 1.72905e+09 Runtime Ops : 6.37272 Runtime Cleanup : 6.51e-07 Runtime Total : 6.50535 Ops Throughput : 125535
+Runtime Init : 1.72905e+09 Runtime Ops : 6.37353 Runtime Cleanup : 5.31e-07 Runtime Total : 6.50642 Ops Throughput : 125519
+Runtime Init : 1.72905e+09 Runtime Ops : 6.38785 Runtime Cleanup : 7.51e-07 Runtime Total : 6.52063 Ops Throughput : 125238
+Runtime Init : 1.72905e+09 Runtime Ops : 6.38958 Runtime Cleanup : 6.72e-07 Runtime Total : 6.52238 Ops Throughput : 125204
+Runtime Init : 1.72905e+09 Runtime Ops : 6.39383 Runtime Cleanup : 5.41e-07 Runtime Total : 6.52662 Ops Throughput : 125121
+Runtime Init : 1.72905e+09 Runtime Ops : 6.41406 Runtime Cleanup : 7.12e-07 Runtime Total : 6.54672 Ops Throughput : 124726
+Runtime Init : 1.72905e+09 Runtime Ops : 6.41602 Runtime Cleanup : 6.802e-06 Runtime Total : 6.54865 Ops Throughput : 124688
+2024-10-16 03:06:43 6 sec: 800000 operations; [INSERT: Count=800000 Max=18624.81 Min=6.96 Avg=17.08]
+Load runtime(sec): 6.54935
+Load operations(ops): 800000
+Load throughput(ops/sec): 122149
+2024-10-16 03:06:43 0 sec: 0 operations;
+Runtime Init : 1.72905e+09 Runtime Ops : 3.68867 Runtime Cleanup : 1.122e-06 Runtime Total : 3.68867 Ops Throughput : 216881
+Runtime Init : 1.72905e+09 Runtime Ops : 3.72686 Runtime Cleanup : 8.11e-07 Runtime Total : 3.72687 Ops Throughput : 214658
+Runtime Init : 1.72905e+09 Runtime Ops : 3.73449 Runtime Cleanup : 1.012e-06 Runtime Total : 3.73449 Ops Throughput : 214220
+Runtime Init : 1.72905e+09 Runtime Ops : 3.74716 Runtime Cleanup : 1.142e-06 Runtime Total : 3.74717 Ops Throughput : 213495
+Runtime Init : 1.72905e+09 Runtime Ops : 3.7668 Runtime Cleanup : 1.082e-06 Runtime Total : 3.7668 Ops Throughput : 212382
+Runtime Init : 1.72905e+09 Runtime Ops : 3.8166 Runtime Cleanup : 9.21e-07 Runtime Total : 3.8166 Ops Throughput : 209611
+Runtime Init : 1.72905e+09 Runtime Ops : 3.83635 Runtime Cleanup : 9.52e-07 Runtime Total : 3.83635 Ops Throughput : 208532
+Runtime Init : 1.72905e+09 Runtime Ops : 3.93613 Runtime Cleanup : 0.0066172 Runtime Total : 3.94275 Ops Throughput : 203245
+2024-10-16 03:06:47 3 sec: 800000 operations; [READ: Count=800000 Max=252.97 Min=9.60 Avg=35.45]
+Run runtime(sec): 3.94328
+Run operations(ops): 800000
+Run throughput(ops/sec): 202877
+Running update Ops.
+----------------------------------
+2024-10-16 03:06:47 0 sec: 0 operations;
+Runtime Init : 1.72905e+09 Runtime Ops : 6.30745 Runtime Cleanup : 6.42e-07 Runtime Total : 6.44908 Ops Throughput : 126834
+Runtime Init : 1.72905e+09 Runtime Ops : 6.31401 Runtime Cleanup : 7.72e-07 Runtime Total : 6.456 Ops Throughput : 126702
+Runtime Init : 1.72905e+09 Runtime Ops : 6.31591 Runtime Cleanup : 5.81e-07 Runtime Total : 6.45757 Ops Throughput : 126664
+Runtime Init : 1.72905e+09 Runtime Ops : 6.31715 Runtime Cleanup : 6.01e-07 Runtime Total : 6.4588 Ops Throughput : 126639
+Runtime Init : 1.72905e+09 Runtime Ops : 6.32816 Runtime Cleanup : 3.91e-07 Runtime Total : 6.47014 Ops Throughput : 126419
+Runtime Init : 1.72905e+09 Runtime Ops : 6.34138 Runtime Cleanup : 4.21e-07 Runtime Total : 6.48301 Ops Throughput : 126156
+Runtime Init : 1.72905e+09 Runtime Ops : 6.34841 Runtime Cleanup : 4.71e-07 Runtime Total : 6.49005 Ops Throughput : 126016
+Runtime Init : 1.72905e+09 Runtime Ops : 6.35518 Runtime Cleanup : 7.123e-06 Runtime Total : 6.49685 Ops Throughput : 125882
+2024-10-16 03:06:54 6 sec: 800000 operations; [INSERT: Count=800000 Max=18691.48 Min=6.61 Avg=16.62]
+Load runtime(sec): 6.49762
+Load operations(ops): 800000
+Load throughput(ops/sec): 123122
+2024-10-16 03:06:54 0 sec: 0 operations;
+Runtime Init : 1.72905e+09 Runtime Ops : 7.74896 Runtime Cleanup : 1.343e-06 Runtime Total : 7.74897 Ops Throughput : 103240
+Runtime Init : 1.72905e+09 Runtime Ops : 7.77553 Runtime Cleanup : 1.102e-06 Runtime Total : 7.77553 Ops Throughput : 102887
+Runtime Init : 1.72905e+09 Runtime Ops : 7.80876 Runtime Cleanup : 9.22e-07 Runtime Total : 7.80876 Ops Throughput : 102449
+Runtime Init : 1.72905e+09 Runtime Ops : 7.88068 Runtime Cleanup : 1.102e-06 Runtime Total : 7.88068 Ops Throughput : 101514
+Runtime Init : 1.72905e+09 Runtime Ops : 7.89713 Runtime Cleanup : 1.122e-06 Runtime Total : 7.89713 Ops Throughput : 101303
+Runtime Init : 1.72905e+09 Runtime Ops : 7.90798 Runtime Cleanup : 9.72e-07 Runtime Total : 7.90798 Ops Throughput : 101164
+Runtime Init : 1.72905e+09 Runtime Ops : 7.94214 Runtime Cleanup : 1.372e-06 Runtime Total : 7.94215 Ops Throughput : 100728
+Runtime Init : 1.72905e+09 Runtime Ops : 8.00249 Runtime Cleanup : 0.0837838 Runtime Total : 8.08627 Ops Throughput : 99968.9
+2024-10-16 03:07:02 8 sec: 800000 operations; [UPDATE: Count=800000 Max=18367.37 Min=18.86 Avg=71.32]
+Run runtime(sec): 8.08659
+Run operations(ops): 800000
+Run throughput(ops/sec): 98929.2
+------------------------------------------------------------------------------------------------------------------------------------------
+Running benchmark with 12 threads.
+Running insert Ops.
+----------------------------------
+2024-10-16 03:07:02 0 sec: 0 operations;
+Runtime Init : 1.72905e+09 Runtime Ops : 4.86536 Runtime Cleanup : 8.92e-07 Runtime Total : 5.07165 Ops Throughput : 164428
+Runtime Init : 1.72905e+09 Runtime Ops : 4.87164 Runtime Cleanup : 7.42e-07 Runtime Total : 5.07788 Ops Throughput : 164216
+Runtime Init : 1.72905e+09 Runtime Ops : 4.87355 Runtime Cleanup : 9.02e-07 Runtime Total : 5.07981 Ops Throughput : 164151
+Runtime Init : 1.72905e+09 Runtime Ops : 4.8766 Runtime Cleanup : 1.372e-06 Runtime Total : 5.08316 Ops Throughput : 164049
+Runtime Init : 1.72905e+09 Runtime Ops : 4.89255 Runtime Cleanup : 5.41e-07 Runtime Total : 5.09884 Ops Throughput : 163514
+Runtime Init : 1.72905e+09 Runtime Ops : 4.902 Runtime Cleanup : 8.02e-07 Runtime Total : 5.10856 Ops Throughput : 163199
+Runtime Init : 1.72905e+09 Runtime Ops : 4.91053 Runtime Cleanup : 8.92e-07 Runtime Total : 5.11678 Ops Throughput : 162915
+Runtime Init : 1.72905e+09 Runtime Ops : 4.91109 Runtime Cleanup : 9.62e-07 Runtime Total : 5.11764 Ops Throughput : 162897
+Runtime Init : 1.72905e+09 Runtime Ops : 4.91528 Runtime Cleanup : 5.01e-07 Runtime Total : 5.12162 Ops Throughput : 162758
+Runtime Init : 1.72905e+09 Runtime Ops : 4.91622 Runtime Cleanup : 5.91e-07 Runtime Total : 5.12275 Ops Throughput : 162727
+Runtime Init : 1.72905e+09 Runtime Ops : 4.92209 Runtime Cleanup : 5.11e-07 Runtime Total : 5.12855 Ops Throughput : 162533
+Runtime Init : 1.72905e+09 Runtime Ops : 4.93533 Runtime Cleanup : 0.0120791 Runtime Total : 5.15366 Ops Throughput : 162097
+2024-10-16 03:07:07 5 sec: 800000 operations; [INSERT: Count=800000 Max=20776.48 Min=7.08 Avg=23.60]
+Run runtime(sec): 5.15649
+Run operations(ops): 800000
+Run throughput(ops/sec): 155144
+Running read Ops.
+----------------------------------
+2024-10-16 03:07:07 0 sec: 0 operations;
+Runtime Init : 1.72905e+09 Runtime Ops : 4.71055 Runtime Cleanup : 8.32e-07 Runtime Total : 4.84597 Ops Throughput : 169832
+Runtime Init : 1.72905e+09 Runtime Ops : 4.72115 Runtime Cleanup : 7.11e-07 Runtime Total : 4.85688 Ops Throughput : 169450
+Runtime Init : 1.72905e+09 Runtime Ops : 4.72293 Runtime Cleanup : 8.21e-07 Runtime Total : 4.85863 Ops Throughput : 169387
+Runtime Init : 1.72905e+09 Runtime Ops : 4.73032 Runtime Cleanup : 6.11e-07 Runtime Total : 4.8658 Ops Throughput : 169122
+Runtime Init : 1.72905e+09 Runtime Ops : 4.73017 Runtime Cleanup : 6.61e-07 Runtime Total : 4.8659 Ops Throughput : 169127
+Runtime Init : 1.72905e+09 Runtime Ops : 4.73584 Runtime Cleanup : 4.51e-07 Runtime Total : 4.87153 Ops Throughput : 168925
+Runtime Init : 1.72905e+09 Runtime Ops : 4.75686 Runtime Cleanup : 5.21e-07 Runtime Total : 4.89258 Ops Throughput : 168178
+Runtime Init : 1.72905e+09 Runtime Ops : 4.75795 Runtime Cleanup : 7.51e-07 Runtime Total : 4.89366 Ops Throughput : 168140
+Runtime Init : 1.72905e+09 Runtime Ops : 4.76346 Runtime Cleanup : 4.61e-07 Runtime Total : 4.8989 Ops Throughput : 167945
+Runtime Init : 1.72905e+09 Runtime Ops : 4.7706 Runtime Cleanup : 5.21e-07 Runtime Total : 4.90632 Ops Throughput : 167694
+Runtime Init : 1.72905e+09 Runtime Ops : 4.77781 Runtime Cleanup : 6.71e-07 Runtime Total : 4.91352 Ops Throughput : 167441
+Runtime Init : 1.72905e+09 Runtime Ops : 4.77928 Runtime Cleanup : 6.342e-06 Runtime Total : 4.91475 Ops Throughput : 167389
+2024-10-16 03:07:12 4 sec: 800000 operations; [INSERT: Count=800000 Max=18491.77 Min=7.61 Avg=23.21]
+Load runtime(sec): 4.91552
+Load operations(ops): 800000
+Load throughput(ops/sec): 162750
+2024-10-16 03:07:12 0 sec: 0 operations;
+Runtime Init : 1.72905e+09 Runtime Ops : 2.6421 Runtime Cleanup : 1.092e-06 Runtime Total : 2.6421 Ops Throughput : 302790
+Runtime Init : 1.72905e+09 Runtime Ops : 2.65206 Runtime Cleanup : 1.042e-06 Runtime Total : 2.65207 Ops Throughput : 301652
+Runtime Init : 1.72905e+09 Runtime Ops : 2.65641 Runtime Cleanup : 8.81e-07 Runtime Total : 2.65641 Ops Throughput : 301158
+Runtime Init : 1.72905e+09 Runtime Ops : 2.65911 Runtime Cleanup : 1.041e-06 Runtime Total : 2.65911 Ops Throughput : 300853
+Runtime Init : 1.72905e+09 Runtime Ops : 2.70278 Runtime Cleanup : 9.82e-07 Runtime Total : 2.70278 Ops Throughput : 295991
+Runtime Init : 1.72905e+09 Runtime Ops : 2.71142 Runtime Cleanup : 8.22e-07 Runtime Total : 2.71142 Ops Throughput : 295048
+Runtime Init : 1.72905e+09 Runtime Ops : 2.71512 Runtime Cleanup : 1.212e-06 Runtime Total : 2.71512 Ops Throughput : 294647
+Runtime Init : 1.72905e+09 Runtime Ops : 2.72881 Runtime Cleanup : 6.91e-07 Runtime Total : 2.72882 Ops Throughput : 293168
+Runtime Init : 1.72905e+09 Runtime Ops : 2.73118 Runtime Cleanup : 1.142e-06 Runtime Total : 2.73118 Ops Throughput : 292914
+Runtime Init : 1.72905e+09 Runtime Ops : 2.73994 Runtime Cleanup : 1.102e-06 Runtime Total : 2.73995 Ops Throughput : 291977
+Runtime Init : 1.72905e+09 Runtime Ops : 2.76492 Runtime Cleanup : 9.62e-07 Runtime Total : 2.76492 Ops Throughput : 289339
+Runtime Init : 1.72905e+09 Runtime Ops : 2.79182 Runtime Cleanup : 0.00972379 Runtime Total : 2.80155 Ops Throughput : 286551
+2024-10-16 03:07:15 2 sec: 800000 operations; [READ: Count=800000 Max=201.11 Min=10.09 Avg=38.12]
+Run runtime(sec): 2.80199
+Run operations(ops): 800000
+Run throughput(ops/sec): 285511
+Running update Ops.
+----------------------------------
+2024-10-16 03:07:15 0 sec: 0 operations;
+Runtime Init : 1.72905e+09 Runtime Ops : 4.70079 Runtime Cleanup : 6.41e-07 Runtime Total : 4.83765 Ops Throughput : 170184
+Runtime Init : 1.72905e+09 Runtime Ops : 4.70664 Runtime Cleanup : 6.82e-07 Runtime Total : 4.84329 Ops Throughput : 169973
+Runtime Init : 1.72905e+09 Runtime Ops : 4.70855 Runtime Cleanup : 5.51e-07 Runtime Total : 4.84539 Ops Throughput : 169904
+Runtime Init : 1.72905e+09 Runtime Ops : 4.70997 Runtime Cleanup : 6.51e-07 Runtime Total : 4.84666 Ops Throughput : 169852
+Runtime Init : 1.72905e+09 Runtime Ops : 4.71102 Runtime Cleanup : 6.11e-07 Runtime Total : 4.84769 Ops Throughput : 169815
+Runtime Init : 1.72905e+09 Runtime Ops : 4.72995 Runtime Cleanup : 3.71e-07 Runtime Total : 4.86671 Ops Throughput : 169135
+Runtime Init : 1.72905e+09 Runtime Ops : 4.73866 Runtime Cleanup : 4e-07 Runtime Total : 4.87534 Ops Throughput : 168824
+Runtime Init : 1.72905e+09 Runtime Ops : 4.73939 Runtime Cleanup : 5.01e-07 Runtime Total : 4.87623 Ops Throughput : 168798
+Runtime Init : 1.72905e+09 Runtime Ops : 4.74212 Runtime Cleanup : 5e-07 Runtime Total : 4.87901 Ops Throughput : 168701
+Runtime Init : 1.72905e+09 Runtime Ops : 4.74367 Runtime Cleanup : 4.1e-07 Runtime Total : 4.88052 Ops Throughput : 168646
+Runtime Init : 1.72905e+09 Runtime Ops : 4.74608 Runtime Cleanup : 4.91e-07 Runtime Total : 4.88273 Ops Throughput : 168560
+Runtime Init : 1.72905e+09 Runtime Ops : 4.7676 Runtime Cleanup : 4.468e-06 Runtime Total : 4.90448 Ops Throughput : 167799
+2024-10-16 03:07:20 4 sec: 800000 operations; [INSERT: Count=800000 Max=18327.48 Min=7.42 Avg=23.02]
+Load runtime(sec): 4.90558
+Load operations(ops): 800000
+Load throughput(ops/sec): 163080
+2024-10-16 03:07:20 0 sec: 0 operations;
+Runtime Init : 1.72905e+09 Runtime Ops : 5.87318 Runtime Cleanup : 1.422e-06 Runtime Total : 5.87318 Ops Throughput : 136212
+Runtime Init : 1.72905e+09 Runtime Ops : 5.87867 Runtime Cleanup : 8.11e-07 Runtime Total : 5.87867 Ops Throughput : 136085
+Runtime Init : 1.72905e+09 Runtime Ops : 5.87912 Runtime Cleanup : 1.052e-06 Runtime Total : 5.87912 Ops Throughput : 136075
+Runtime Init : 1.72905e+09 Runtime Ops : 5.91463 Runtime Cleanup : 9.02e-07 Runtime Total : 5.91464 Ops Throughput : 135258
+Runtime Init : 1.72905e+09 Runtime Ops : 5.94604 Runtime Cleanup : 1.032e-06 Runtime Total : 5.94604 Ops Throughput : 134543
+Runtime Init : 1.72905e+09 Runtime Ops : 5.95491 Runtime Cleanup : 1.012e-06 Runtime Total : 5.95491 Ops Throughput : 134343
+Runtime Init : 1.72905e+09 Runtime Ops : 5.95681 Runtime Cleanup : 7.71e-07 Runtime Total : 5.95681 Ops Throughput : 134300
+Runtime Init : 1.72905e+09 Runtime Ops : 5.96431 Runtime Cleanup : 6.51e-07 Runtime Total : 5.96431 Ops Throughput : 134131
+Runtime Init : 1.72905e+09 Runtime Ops : 5.96511 Runtime Cleanup : 6.72e-07 Runtime Total : 5.96511 Ops Throughput : 134113
+Runtime Init : 1.72905e+09 Runtime Ops : 5.97036 Runtime Cleanup : 6.52e-07 Runtime Total : 5.97036 Ops Throughput : 133995
+Runtime Init : 1.72905e+09 Runtime Ops : 5.99991 Runtime Cleanup : 7.32e-07 Runtime Total : 5.99991 Ops Throughput : 133335
+Runtime Init : 1.72905e+09 Runtime Ops : 6.07829 Runtime Cleanup : 0.0619381 Runtime Total : 6.14023 Ops Throughput : 131616
+2024-10-16 03:07:26 6 sec: 800000 operations; [UPDATE: Count=800000 Max=18845.93 Min=19.27 Avg=81.59]
+Run runtime(sec): 6.1406
+Run operations(ops): 800000
+Run throughput(ops/sec): 130280
+------------------------------------------------------------------------------------------------------------------------------------------
+Running benchmark with 16 threads.
+Running insert Ops.
+----------------------------------
+2024-10-16 03:07:26 0 sec: 0 operations;
+Runtime Init : 1.72905e+09 Runtime Ops : 3.99416 Runtime Cleanup : 9.02e-07 Runtime Total : 4.21922 Ops Throughput : 200293
+Runtime Init : 1.72905e+09 Runtime Ops : 4.00071 Runtime Cleanup : 8.82e-07 Runtime Total : 4.22563 Ops Throughput : 199965
+Runtime Init : 1.72905e+09 Runtime Ops : 4.00695 Runtime Cleanup : 9.32e-07 Runtime Total : 4.23185 Ops Throughput : 199653
+Runtime Init : 1.72905e+09 Runtime Ops : 4.00847 Runtime Cleanup : 7.01e-07 Runtime Total : 4.23354 Ops Throughput : 199578
+Runtime Init : 1.72905e+09 Runtime Ops : 4.01021 Runtime Cleanup : 9.92e-07 Runtime Total : 4.23511 Ops Throughput : 199491
+Runtime Init : 1.72905e+09 Runtime Ops : 4.01101 Runtime Cleanup : 6.51e-07 Runtime Total : 4.2359 Ops Throughput : 199451
+Runtime Init : 1.72905e+09 Runtime Ops : 4.0148 Runtime Cleanup : 7.72e-07 Runtime Total : 4.23979 Ops Throughput : 199263
+Runtime Init : 1.72905e+09 Runtime Ops : 4.01907 Runtime Cleanup : 7.11e-07 Runtime Total : 4.24412 Ops Throughput : 199051
+Runtime Init : 1.72905e+09 Runtime Ops : 4.02011 Runtime Cleanup : 9.62e-07 Runtime Total : 4.24502 Ops Throughput : 199000
+Runtime Init : 1.72905e+09 Runtime Ops : 4.02208 Runtime Cleanup : 9.22e-07 Runtime Total : 4.24697 Ops Throughput : 198902
+Runtime Init : 1.72905e+09 Runtime Ops : 4.02909 Runtime Cleanup : 7.01e-07 Runtime Total : 4.25401 Ops Throughput : 198556
+Runtime Init : 1.72905e+09 Runtime Ops : 4.03279 Runtime Cleanup : 1.002e-06 Runtime Total : 4.25788 Ops Throughput : 198374
+Runtime Init : 1.72905e+09 Runtime Ops : 4.03595 Runtime Cleanup : 8.52e-07 Runtime Total : 4.26108 Ops Throughput : 198218
+Runtime Init : 1.72905e+09 Runtime Ops : 4.04604 Runtime Cleanup : 7.21e-07 Runtime Total : 4.27118 Ops Throughput : 197724
+Runtime Init : 1.72905e+09 Runtime Ops : 4.04931 Runtime Cleanup : 9.21e-07 Runtime Total : 4.27443 Ops Throughput : 197565
+Runtime Init : 1.72905e+09 Runtime Ops : 4.05106 Runtime Cleanup : 0.052183 Runtime Total : 4.32813 Ops Throughput : 197479
+2024-10-16 03:07:31 4 sec: 800000 operations; [INSERT: Count=800000 Max=18466.08 Min=7.46 Avg=28.68]
+Run runtime(sec): 4.32906
+Run operations(ops): 800000
+Run throughput(ops/sec): 184798
+Running read Ops.
+----------------------------------
+2024-10-16 03:07:31 0 sec: 0 operations;
+Runtime Init : 1.72905e+09 Runtime Ops : 3.84479 Runtime Cleanup : 6.41e-07 Runtime Total : 3.98245 Ops Throughput : 208074
+Runtime Init : 1.72905e+09 Runtime Ops : 3.84992 Runtime Cleanup : 7.12e-07 Runtime Total : 3.98767 Ops Throughput : 207797
+Runtime Init : 1.72905e+09 Runtime Ops : 3.85931 Runtime Cleanup : 7.11e-07 Runtime Total : 3.99692 Ops Throughput : 207291
+Runtime Init : 1.72905e+09 Runtime Ops : 3.86385 Runtime Cleanup : 4.71e-07 Runtime Total : 4.00161 Ops Throughput : 207048
+Runtime Init : 1.72905e+09 Runtime Ops : 3.8666 Runtime Cleanup : 6.61e-07 Runtime Total : 4.00419 Ops Throughput : 206900
+Runtime Init : 1.72905e+09 Runtime Ops : 3.86793 Runtime Cleanup : 4.7e-07 Runtime Total : 4.00549 Ops Throughput : 206829
+Runtime Init : 1.72905e+09 Runtime Ops : 3.87715 Runtime Cleanup : 3.9e-07 Runtime Total : 4.01487 Ops Throughput : 206337
+Runtime Init : 1.72905e+09 Runtime Ops : 3.87801 Runtime Cleanup : 4.21e-07 Runtime Total : 4.01562 Ops Throughput : 206291
+Runtime Init : 1.72905e+09 Runtime Ops : 3.87937 Runtime Cleanup : 5.71e-07 Runtime Total : 4.01694 Ops Throughput : 206219
+Runtime Init : 1.72905e+09 Runtime Ops : 3.89536 Runtime Cleanup : 4.31e-07 Runtime Total : 4.03305 Ops Throughput : 205373
+Runtime Init : 1.72905e+09 Runtime Ops : 3.89761 Runtime Cleanup : 5.51e-07 Runtime Total : 4.03518 Ops Throughput : 205254
+Runtime Init : 1.72905e+09 Runtime Ops : 3.89814 Runtime Cleanup : 4.5e-07 Runtime Total : 4.03569 Ops Throughput : 205226
+Runtime Init : 1.72905e+09 Runtime Ops : 3.90123 Runtime Cleanup : 4.41e-07 Runtime Total : 4.03897 Ops Throughput : 205064
+Runtime Init : 1.72905e+09 Runtime Ops : 3.9111 Runtime Cleanup : 6.31e-07 Runtime Total : 4.04874 Ops Throughput : 204546
+Runtime Init : 1.72905e+09 Runtime Ops : 3.91761 Runtime Cleanup : 3.3e-07 Runtime Total : 4.05538 Ops Throughput : 204206
+Runtime Init : 1.72905e+09 Runtime Ops : 3.97689 Runtime Cleanup : 6.202e-06 Runtime Total : 4.1146 Ops Throughput : 201162
+2024-10-16 03:07:35 4 sec: 800000 operations; [INSERT: Count=800000 Max=18656.42 Min=7.05 Avg=28.89]
+Load runtime(sec): 4.11558
+Load operations(ops): 800000
+Load throughput(ops/sec): 194383
+2024-10-16 03:07:35 0 sec: 0 operations;
+Runtime Init : 1.72905e+09 Runtime Ops : 2.07078 Runtime Cleanup : 1.623e-06 Runtime Total : 2.07078 Ops Throughput : 386328
+Runtime Init : 1.72905e+09 Runtime Ops : 2.11937 Runtime Cleanup : 1.082e-06 Runtime Total : 2.11937 Ops Throughput : 377470
+Runtime Init : 1.72905e+09 Runtime Ops : 2.13561 Runtime Cleanup : 9.52e-07 Runtime Total : 2.13561 Ops Throughput : 374600
+Runtime Init : 1.72905e+09 Runtime Ops : 2.13652 Runtime Cleanup : 1.313e-06 Runtime Total : 2.13653 Ops Throughput : 374440
+Runtime Init : 1.72905e+09 Runtime Ops : 2.1378 Runtime Cleanup : 1.293e-06 Runtime Total : 2.1378 Ops Throughput : 374216
+Runtime Init : 1.72905e+09 Runtime Ops : 2.14328 Runtime Cleanup : 9.22e-07 Runtime Total : 2.14328 Ops Throughput : 373260
+Runtime Init : 1.72905e+09 Runtime Ops : 2.14708 Runtime Cleanup : 1.172e-06 Runtime Total : 2.14708 Ops Throughput : 372600
+Runtime Init : 1.72905e+09 Runtime Ops : 2.15674 Runtime Cleanup : 8.02e-07 Runtime Total : 2.15674 Ops Throughput : 370930
+Runtime Init : 1.72905e+09 Runtime Ops : 2.17947 Runtime Cleanup : 1.523e-06 Runtime Total : 2.17948 Ops Throughput : 367061
+Runtime Init : 1.72905e+09 Runtime Ops : 2.18117 Runtime Cleanup : 8.02e-07 Runtime Total : 2.18118 Ops Throughput : 366775
+Runtime Init : 1.72905e+09 Runtime Ops : 2.18828 Runtime Cleanup : 7.21e-07 Runtime Total : 2.18829 Ops Throughput : 365583
+Runtime Init : 1.72905e+09 Runtime Ops : 2.20279 Runtime Cleanup : 7.41e-07 Runtime Total : 2.20279 Ops Throughput : 363176
+Runtime Init : 1.72905e+09 Runtime Ops : 2.20516 Runtime Cleanup : 7.72e-07 Runtime Total : 2.20517 Ops Throughput : 362785
+Runtime Init : 1.72905e+09 Runtime Ops : 2.20831 Runtime Cleanup : 8.82e-07 Runtime Total : 2.20831 Ops Throughput : 362269
+Runtime Init : 1.72905e+09 Runtime Ops : 2.20862 Runtime Cleanup : 8.42e-07 Runtime Total : 2.20863 Ops Throughput : 362216
+Runtime Init : 1.72905e+09 Runtime Ops : 2.21861 Runtime Cleanup : 0.051346 Runtime Total : 2.26996 Ops Throughput : 360586
+2024-10-16 03:07:37 2 sec: 800000 operations; [READ: Count=800000 Max=327.07 Min=10.24 Avg=40.63]
+Run runtime(sec): 2.2705
+Run operations(ops): 800000
+Run throughput(ops/sec): 352346
+Running update Ops.
+----------------------------------
+2024-10-16 03:07:37 0 sec: 0 operations;
+Runtime Init : 1.72905e+09 Runtime Ops : 3.81076 Runtime Cleanup : 7.12e-07 Runtime Total : 3.95291 Ops Throughput : 209932
+Runtime Init : 1.72905e+09 Runtime Ops : 3.82294 Runtime Cleanup : 3.41e-07 Runtime Total : 3.96507 Ops Throughput : 209263
+Runtime Init : 1.72905e+09 Runtime Ops : 3.8394 Runtime Cleanup : 4.41e-07 Runtime Total : 3.98154 Ops Throughput : 208366
+Runtime Init : 1.72905e+09 Runtime Ops : 3.84064 Runtime Cleanup : 4.51e-07 Runtime Total : 3.98261 Ops Throughput : 208299
+Runtime Init : 1.72905e+09 Runtime Ops : 3.84182 Runtime Cleanup : 3.41e-07 Runtime Total : 3.98406 Ops Throughput : 208235
+Runtime Init : 1.72905e+09 Runtime Ops : 3.84807 Runtime Cleanup : 4.61e-07 Runtime Total : 3.99016 Ops Throughput : 207897
+Runtime Init : 1.72905e+09 Runtime Ops : 3.84849 Runtime Cleanup : 3.41e-07 Runtime Total : 3.99056 Ops Throughput : 207874
+Runtime Init : 1.72905e+09 Runtime Ops : 3.85028 Runtime Cleanup : 5.11e-07 Runtime Total : 3.99227 Ops Throughput : 207777
+Runtime Init : 1.72905e+09 Runtime Ops : 3.86345 Runtime Cleanup : 5.81e-07 Runtime Total : 4.00544 Ops Throughput : 207069
+Runtime Init : 1.72905e+09 Runtime Ops : 3.86501 Runtime Cleanup : 4.31e-07 Runtime Total : 4.00717 Ops Throughput : 206985
+Runtime Init : 1.72905e+09 Runtime Ops : 3.86504 Runtime Cleanup : 4.01e-07 Runtime Total : 4.00716 Ops Throughput : 206983
+Runtime Init : 1.72905e+09 Runtime Ops : 3.86703 Runtime Cleanup : 4e-07 Runtime Total : 4.00919 Ops Throughput : 206877
+Runtime Init : 1.72905e+09 Runtime Ops : 3.87304 Runtime Cleanup : 3.51e-07 Runtime Total : 4.01526 Ops Throughput : 206556
+Runtime Init : 1.72905e+09 Runtime Ops : 3.87564 Runtime Cleanup : 3.61e-07 Runtime Total : 4.01774 Ops Throughput : 206418
+Runtime Init : 1.72905e+09 Runtime Ops : 3.87958 Runtime Cleanup : 4.11e-07 Runtime Total : 4.02156 Ops Throughput : 206208
+Runtime Init : 1.72905e+09 Runtime Ops : 3.88429 Runtime Cleanup : 4.959e-06 Runtime Total : 4.02634 Ops Throughput : 205958
+2024-10-16 03:07:41 4 sec: 800000 operations; [INSERT: Count=800000 Max=18883.43 Min=7.38 Avg=28.54]
+Load runtime(sec): 4.02741
+Load operations(ops): 800000
+Load throughput(ops/sec): 198639
+2024-10-16 03:07:41 0 sec: 0 operations;
+Runtime Init : 1.72905e+09 Runtime Ops : 5.00495 Runtime Cleanup : 9.72e-07 Runtime Total : 5.00495 Ops Throughput : 159842
+Runtime Init : 1.72905e+09 Runtime Ops : 5.04728 Runtime Cleanup : 9.71e-07 Runtime Total : 5.04729 Ops Throughput : 158501
+Runtime Init : 1.72905e+09 Runtime Ops : 5.05061 Runtime Cleanup : 8.92e-07 Runtime Total : 5.05061 Ops Throughput : 158397
+Runtime Init : 1.72905e+09 Runtime Ops : 5.05089 Runtime Cleanup : 9.92e-07 Runtime Total : 5.05089 Ops Throughput : 158388
+Runtime Init : 1.72905e+09 Runtime Ops : 5.06679 Runtime Cleanup : 6.82e-07 Runtime Total : 5.06679 Ops Throughput : 157891
+Runtime Init : 1.72905e+09 Runtime Ops : 5.068 Runtime Cleanup : 8.92e-07 Runtime Total : 5.068 Ops Throughput : 157853
+Runtime Init : 1.72905e+09 Runtime Ops : 5.07552 Runtime Cleanup : 7.62e-07 Runtime Total : 5.07552 Ops Throughput : 157619
+Runtime Init : 1.72905e+09 Runtime Ops : 5.07826 Runtime Cleanup : 7.91e-07 Runtime Total : 5.07826 Ops Throughput : 157534
+Runtime Init : 1.72905e+09 Runtime Ops : 5.09006 Runtime Cleanup : 8.22e-07 Runtime Total : 5.09007 Ops Throughput : 157169
+Runtime Init : 1.72905e+09 Runtime Ops : 5.09577 Runtime Cleanup : 8.82e-07 Runtime Total : 5.09577 Ops Throughput : 156993
+Runtime Init : 1.72905e+09 Runtime Ops : 5.09817 Runtime Cleanup : 8.12e-07 Runtime Total : 5.09818 Ops Throughput : 156919
+Runtime Init : 1.72905e+09 Runtime Ops : 5.10063 Runtime Cleanup : 1.142e-06 Runtime Total : 5.10063 Ops Throughput : 156843
+Runtime Init : 1.72905e+09 Runtime Ops : 5.10233 Runtime Cleanup : 8.21e-07 Runtime Total : 5.10233 Ops Throughput : 156791
+Runtime Init : 1.72905e+09 Runtime Ops : 5.10866 Runtime Cleanup : 6.21e-07 Runtime Total : 5.10866 Ops Throughput : 156597
+Runtime Init : 1.72905e+09 Runtime Ops : 5.14127 Runtime Cleanup : 6.01e-07 Runtime Total : 5.14127 Ops Throughput : 155603
+Runtime Init : 1.72905e+09 Runtime Ops : 5.14398 Runtime Cleanup : 0.0335644 Runtime Total : 5.17754 Ops Throughput : 155522
+2024-10-16 03:07:46 5 sec: 800000 operations; [UPDATE: Count=800000 Max=18130.22 Min=20.00 Avg=93.97]
+Run runtime(sec): 5.1781
+Run operations(ops): 800000
+Run throughput(ops/sec): 154497
+------------------------------------------------------------------------------------------------------------------------------------------
